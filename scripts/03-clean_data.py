@@ -56,11 +56,12 @@ for value in unique_values:
 
 # Create an id for tracking which results match
 id_columns = ["poll_id","pollster_id","pollster","state","start_date","end_date","question_id","sample_size","population","race_id"]
-df_swing['coalesced_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
-print(df_swing['coalesced_id'].nunique())
+df_swing['unique_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
+print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
 df_swing.to_csv("data/raw_data/swing_state_polls.csv")
 
+#creating data to be analysed (grouping by )
 
