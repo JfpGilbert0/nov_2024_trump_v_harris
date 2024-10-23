@@ -1,369 +1,369 @@
 ,poll_id,pollster_id,pollster,numeric_grade,pollscore,methodology,transparency_score,state,start_date,end_date,question_id,sample_size,population,population_full,race_id,party,candidate_name,pct,poll_end_date,unique_id
-81,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-10-17,88795-1528-Arizona-10/12/24-10/17/24-213382-1440.0-lv-8759
-82,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,REP,Donald Trump,49.2,2024-10-17,88795-1528-Arizona-10/12/24-10/17/24-213382-1440.0-lv-8759
-85,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213383,1440.0,lv,lv,8759,DEM,Kamala Harris,49.3,2024-10-17,88795-1528-Arizona-10/12/24-10/17/24-213383-1440.0-lv-8759
-86,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213383,1440.0,lv,lv,8759,REP,Donald Trump,49.2,2024-10-17,88795-1528-Arizona-10/12/24-10/17/24-213383-1440.0-lv-8759
-87,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213384,1411.0,lv,lv,8781,DEM,Kamala Harris,48.1,2024-10-17,88796-1528-Georgia-10/12/24-10/17/24-213384-1411.0-lv-8781
-88,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213384,1411.0,lv,lv,8781,REP,Donald Trump,49.5,2024-10-17,88796-1528-Georgia-10/12/24-10/17/24-213384-1411.0-lv-8781
-92,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213385,1411.0,lv,lv,8781,DEM,Kamala Harris,48.4,2024-10-17,88796-1528-Georgia-10/12/24-10/17/24-213385-1411.0-lv-8781
-93,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213385,1411.0,lv,lv,8781,REP,Donald Trump,50.1,2024-10-17,88796-1528-Georgia-10/12/24-10/17/24-213385-1411.0-lv-8781
-94,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213386,1529.0,lv,lv,8820,DEM,Kamala Harris,46.8,2024-10-17,88797-1528-Michigan-10/12/24-10/17/24-213386-1529.0-lv-8820
-95,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213386,1529.0,lv,lv,8820,REP,Donald Trump,49.6,2024-10-17,88797-1528-Michigan-10/12/24-10/17/24-213386-1529.0-lv-8820
-100,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213387,1529.0,lv,lv,8820,DEM,Kamala Harris,47.3,2024-10-17,88797-1528-Michigan-10/12/24-10/17/24-213387-1529.0-lv-8820
-101,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213387,1529.0,lv,lv,8820,REP,Donald Trump,50.2,2024-10-17,88797-1528-Michigan-10/12/24-10/17/24-213387-1529.0-lv-8820
-102,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213388,1171.0,lv,lv,8857,DEM,Kamala Harris,48.1,2024-10-17,88798-1528-Nevada-10/12/24-10/17/24-213388-1171.0-lv-8857
-103,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213388,1171.0,lv,lv,8857,REP,Donald Trump,48.4,2024-10-17,88798-1528-Nevada-10/12/24-10/17/24-213388-1171.0-lv-8857
-106,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213389,1171.0,lv,lv,8857,DEM,Kamala Harris,48.4,2024-10-17,88798-1528-Nevada-10/12/24-10/17/24-213389-1171.0-lv-8857
-107,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213389,1171.0,lv,lv,8857,REP,Donald Trump,48.3,2024-10-17,88798-1528-Nevada-10/12/24-10/17/24-213389-1171.0-lv-8857
-108,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213390,1674.0,lv,lv,8839,DEM,Kamala Harris,49.5,2024-10-17,88799-1528-North Carolina-10/12/24-10/17/24-213390-1674.0-lv-8839
-109,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213390,1674.0,lv,lv,8839,REP,Donald Trump,48.8,2024-10-17,88799-1528-North Carolina-10/12/24-10/17/24-213390-1674.0-lv-8839
-113,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213391,1674.0,lv,lv,8839,DEM,Kamala Harris,50.5,2024-10-17,88799-1528-North Carolina-10/12/24-10/17/24-213391-1674.0-lv-8839
-114,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213391,1674.0,lv,lv,8839,REP,Donald Trump,48.8,2024-10-17,88799-1528-North Carolina-10/12/24-10/17/24-213391-1674.0-lv-8839
-115,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213392,2048.0,lv,lv,8872,DEM,Kamala Harris,46.5,2024-10-17,88800-1528-Pennsylvania-10/12/24-10/17/24-213392-2048.0-lv-8872
-116,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213392,2048.0,lv,lv,8872,REP,Donald Trump,49.8,2024-10-17,88800-1528-Pennsylvania-10/12/24-10/17/24-213392-2048.0-lv-8872
-119,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213393,2048.0,lv,lv,8872,DEM,Kamala Harris,47.4,2024-10-17,88800-1528-Pennsylvania-10/12/24-10/17/24-213393-2048.0-lv-8872
-120,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213393,2048.0,lv,lv,8872,REP,Donald Trump,49.9,2024-10-17,88800-1528-Pennsylvania-10/12/24-10/17/24-213393-2048.0-lv-8872
-121,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213394,932.0,lv,lv,8905,DEM,Kamala Harris,48.9,2024-10-17,88801-1528-Wisconsin-10/12/24-10/17/24-213394-932.0-lv-8905
-122,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213394,932.0,lv,lv,8905,REP,Donald Trump,48.2,2024-10-17,88801-1528-Wisconsin-10/12/24-10/17/24-213394-932.0-lv-8905
-126,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213395,932.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-10-17,88801-1528-Wisconsin-10/12/24-10/17/24-213395-932.0-lv-8905
-127,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213395,932.0,lv,lv,8905,REP,Donald Trump,48.4,2024-10-17,88801-1528-Wisconsin-10/12/24-10/17/24-213395-932.0-lv-8905
-162,88762,568,YouGov,3.0,-1.1,Online Panel,9.0,Arizona,10/11/24,10/16/24,213103,1435.0,lv,lv,8759,DEM,Kamala Harris,48.0,2024-10-16,88762-568-Arizona-10/11/24-10/16/24-213103-1435.0-lv-8759
-163,88762,568,YouGov,3.0,-1.1,Online Panel,9.0,Arizona,10/11/24,10/16/24,213103,1435.0,lv,lv,8759,REP,Donald Trump,51.0,2024-10-16,88762-568-Arizona-10/11/24-10/16/24-213103-1435.0-lv-8759
-208,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213462,580.0,rv,rv,8759,DEM,Kamala Harris,44.0,2024-10-15,88809-1460-Arizona-9/30/24-10/15/24-213462-580.0-rv-8759
-209,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213462,580.0,rv,rv,8759,REP,Donald Trump,50.0,2024-10-15,88809-1460-Arizona-9/30/24-10/15/24-213462-580.0-rv-8759
-210,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213502,580.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-10-15,88809-1460-Arizona-9/30/24-10/15/24-213502-580.0-lv-8759
-211,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213502,580.0,lv,lv,8759,REP,Donald Trump,49.0,2024-10-15,88809-1460-Arizona-9/30/24-10/15/24-213502-580.0-lv-8759
-212,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213463,730.0,rv,rv,8781,DEM,Kamala Harris,50.0,2024-10-15,88810-1460-Georgia-9/30/24-10/15/24-213463-730.0-rv-8781
-213,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213463,730.0,rv,rv,8781,REP,Donald Trump,44.0,2024-10-15,88810-1460-Georgia-9/30/24-10/15/24-213463-730.0-rv-8781
-214,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213503,730.0,lv,lv,8781,DEM,Kamala Harris,51.0,2024-10-15,88810-1460-Georgia-9/30/24-10/15/24-213503-730.0-lv-8781
-215,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213503,730.0,lv,lv,8781,REP,Donald Trump,47.0,2024-10-15,88810-1460-Georgia-9/30/24-10/15/24-213503-730.0-lv-8781
-216,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213464,687.0,rv,rv,8820,DEM,Kamala Harris,46.0,2024-10-15,88811-1460-Michigan-9/30/24-10/15/24-213464-687.0-rv-8820
-217,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213464,687.0,rv,rv,8820,REP,Donald Trump,47.0,2024-10-15,88811-1460-Michigan-9/30/24-10/15/24-213464-687.0-rv-8820
-218,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213504,687.0,lv,lv,8820,DEM,Kamala Harris,49.0,2024-10-15,88811-1460-Michigan-9/30/24-10/15/24-213504-687.0-lv-8820
-219,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213504,687.0,lv,lv,8820,REP,Donald Trump,47.0,2024-10-15,88811-1460-Michigan-9/30/24-10/15/24-213504-687.0-lv-8820
-220,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213465,652.0,rv,rv,8857,DEM,Kamala Harris,47.0,2024-10-15,88812-1460-Nevada-9/30/24-10/15/24-213465-652.0-rv-8857
-221,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213465,652.0,rv,rv,8857,REP,Donald Trump,44.0,2024-10-15,88812-1460-Nevada-9/30/24-10/15/24-213465-652.0-rv-8857
-222,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213505,652.0,lv,lv,8857,DEM,Kamala Harris,48.0,2024-10-15,88812-1460-Nevada-9/30/24-10/15/24-213505-652.0-lv-8857
-223,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213505,652.0,lv,lv,8857,REP,Donald Trump,48.0,2024-10-15,88812-1460-Nevada-9/30/24-10/15/24-213505-652.0-lv-8857
-224,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213466,965.0,rv,rv,8839,DEM,Kamala Harris,45.0,2024-10-15,88813-1460-North Carolina-9/30/24-10/15/24-213466-965.0-rv-8839
-225,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213466,965.0,rv,rv,8839,REP,Donald Trump,49.0,2024-10-15,88813-1460-North Carolina-9/30/24-10/15/24-213466-965.0-rv-8839
-226,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213506,965.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-10-15,88813-1460-North Carolina-9/30/24-10/15/24-213506-965.0-lv-8839
-227,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213506,965.0,lv,lv,8839,REP,Donald Trump,50.0,2024-10-15,88813-1460-North Carolina-9/30/24-10/15/24-213506-965.0-lv-8839
-228,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213467,707.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-10-15,88814-1460-Pennsylvania-9/30/24-10/15/24-213467-707.0-rv-8872
-229,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213467,707.0,rv,rv,8872,REP,Donald Trump,46.0,2024-10-15,88814-1460-Pennsylvania-9/30/24-10/15/24-213467-707.0-rv-8872
-230,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213507,707.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-15,88814-1460-Pennsylvania-9/30/24-10/15/24-213507-707.0-lv-8872
-231,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213507,707.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-15,88814-1460-Pennsylvania-9/30/24-10/15/24-213507-707.0-lv-8872
-232,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213468,695.0,rv,rv,8905,DEM,Kamala Harris,50.0,2024-10-15,88815-1460-Wisconsin-9/30/24-10/15/24-213468-695.0-rv-8905
-233,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213468,695.0,rv,rv,8905,REP,Donald Trump,46.0,2024-10-15,88815-1460-Wisconsin-9/30/24-10/15/24-213468-695.0-rv-8905
-234,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213508,695.0,lv,lv,8905,DEM,Kamala Harris,50.0,2024-10-15,88815-1460-Wisconsin-9/30/24-10/15/24-213508-695.0-lv-8905
-235,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213508,695.0,lv,lv,8905,REP,Donald Trump,47.0,2024-10-15,88815-1460-Wisconsin-9/30/24-10/15/24-213508-695.0-lv-8905
-300,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212958,1328.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-10-14,88734-396-Georgia-10/10/24-10/14/24-212958-1328.0-lv-8781
-301,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212958,1328.0,lv,lv,8781,REP,Donald Trump,52.0,2024-10-14,88734-396-Georgia-10/10/24-10/14/24-212958-1328.0-lv-8781
-304,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212960,1328.0,lv,lv,8781,DEM,Kamala Harris,46.0,2024-10-14,88734-396-Georgia-10/10/24-10/14/24-212960-1328.0-lv-8781
-305,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212960,1328.0,lv,lv,8781,REP,Donald Trump,52.0,2024-10-14,88734-396-Georgia-10/10/24-10/14/24-212960-1328.0-lv-8781
-306,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212959,1031.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-10-14,88735-396-North Carolina-10/10/24-10/14/24-212959-1031.0-lv-8839
-307,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212959,1031.0,lv,lv,8839,REP,Donald Trump,47.0,2024-10-14,88735-396-North Carolina-10/10/24-10/14/24-212959-1031.0-lv-8839
-312,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212961,1031.0,lv,lv,8839,DEM,Kamala Harris,50.0,2024-10-14,88735-396-North Carolina-10/10/24-10/14/24-212961-1031.0-lv-8839
-313,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212961,1031.0,lv,lv,8839,REP,Donald Trump,47.0,2024-10-14,88735-396-North Carolina-10/10/24-10/14/24-212961-1031.0-lv-8839
-316,88776,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,Georgia,10/9/24,10/14/24,213298,701.0,lv,lv,8781,DEM,Kamala Harris,45.8,2024-10-14,88776-1516-Georgia-10/9/24-10/14/24-213298-701.0-lv-8781
-317,88776,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,Georgia,10/9/24,10/14/24,213298,701.0,lv,lv,8781,REP,Donald Trump,48.9,2024-10-14,88776-1516-Georgia-10/9/24-10/14/24-213298-701.0-lv-8781
-398,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212457,857.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212457-857.0-rv-8872
-399,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212457,857.0,rv,rv,8872,REP,Donald Trump,47.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212457-857.0-rv-8872
-400,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212458,857.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212458-857.0-rv-8872
-401,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212458,857.0,rv,rv,8872,REP,Donald Trump,45.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212458-857.0-rv-8872
-404,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212459,857.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212459-857.0-lv-8872
-405,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212459,857.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212459-857.0-lv-8872
-406,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212460,857.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212460-857.0-lv-8872
-407,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212460,857.0,lv,lv,8872,REP,Donald Trump,45.0,2024-10-10,88664-1424-Pennsylvania-10/7/24-10/10/24-212460-857.0-lv-8872
-410,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212461,808.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212461-808.0-lv-8759
-411,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212461,808.0,lv,lv,8759,REP,Donald Trump,51.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212461-808.0-lv-8759
-412,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212462,808.0,lv,lv,8759,DEM,Kamala Harris,45.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212462-808.0-lv-8759
-413,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212462,808.0,lv,lv,8759,REP,Donald Trump,50.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212462-808.0-lv-8759
-416,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212463,808.0,rv,rv,8759,DEM,Kamala Harris,45.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212463-808.0-rv-8759
-417,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212463,808.0,rv,rv,8759,REP,Donald Trump,51.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212463-808.0-rv-8759
-418,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212464,808.0,rv,rv,8759,DEM,Kamala Harris,44.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212464-808.0-rv-8759
-419,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212464,808.0,rv,rv,8759,REP,Donald Trump,49.0,2024-10-10,88665-1424-Arizona-10/7/24-10/10/24-212464-808.0-rv-8759
-513,88737,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,10/2/24,10/9/24,213056,800.0,lv,lv,8872,DEM,Kamala Harris,46.0,2024-10-09,88737-1847-Pennsylvania-10/2/24-10/9/24-213056-800.0-lv-8872
-514,88737,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,10/2/24,10/9/24,213056,800.0,lv,lv,8872,REP,Donald Trump,45.0,2024-10-09,88737-1847-Pennsylvania-10/2/24-10/9/24-213056-800.0-lv-8872
-534,88606,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,10/5/24,10/8/24,212185,1000.0,lv,lv,8759,DEM,Kamala Harris,48.2,2024-10-08,88606-1102-Arizona-10/5/24-10/8/24-212185-1000.0-lv-8759
-535,88606,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,10/5/24,10/8/24,212185,1000.0,lv,lv,8759,REP,Donald Trump,50.5,2024-10-08,88606-1102-Arizona-10/5/24-10/8/24-212185-1000.0-lv-8759
-536,88607,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,10/5/24,10/8/24,212186,1000.0,lv,lv,8781,DEM,Kamala Harris,49.8,2024-10-08,88607-1102-Georgia-10/5/24-10/8/24-212186-1000.0-lv-8781
-537,88607,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,10/5/24,10/8/24,212186,1000.0,lv,lv,8781,REP,Donald Trump,49.7,2024-10-08,88607-1102-Georgia-10/5/24-10/8/24-212186-1000.0-lv-8781
-538,88608,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,10/5/24,10/8/24,212187,950.0,lv,lv,8820,DEM,Kamala Harris,49.7,2024-10-08,88608-1102-Michigan-10/5/24-10/8/24-212187-950.0-lv-8820
-539,88608,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,10/5/24,10/8/24,212187,950.0,lv,lv,8820,REP,Donald Trump,49.6,2024-10-08,88608-1102-Michigan-10/5/24-10/8/24-212187-950.0-lv-8820
-540,88609,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,10/5/24,10/8/24,212188,900.0,lv,lv,8857,DEM,Kamala Harris,49.2,2024-10-08,88609-1102-Nevada-10/5/24-10/8/24-212188-900.0-lv-8857
-541,88609,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,10/5/24,10/8/24,212188,900.0,lv,lv,8857,REP,Donald Trump,48.1,2024-10-08,88609-1102-Nevada-10/5/24-10/8/24-212188-900.0-lv-8857
-542,88610,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,10/5/24,10/8/24,212189,1000.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-10-08,88610-1102-North Carolina-10/5/24-10/8/24-212189-1000.0-lv-8839
-543,88610,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,10/5/24,10/8/24,212189,1000.0,lv,lv,8839,REP,Donald Trump,49.9,2024-10-08,88610-1102-North Carolina-10/5/24-10/8/24-212189-1000.0-lv-8839
-544,88611,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,10/5/24,10/8/24,212190,1000.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-08,88611-1102-Pennsylvania-10/5/24-10/8/24-212190-1000.0-lv-8872
-545,88611,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,10/5/24,10/8/24,212190,1000.0,lv,lv,8872,REP,Donald Trump,49.7,2024-10-08,88611-1102-Pennsylvania-10/5/24-10/8/24-212190-1000.0-lv-8872
-546,88612,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,10/5/24,10/8/24,212191,1000.0,lv,lv,8905,DEM,Kamala Harris,49.2,2024-10-08,88612-1102-Wisconsin-10/5/24-10/8/24-212191-1000.0-lv-8905
-547,88612,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,10/5/24,10/8/24,212191,1000.0,lv,lv,8905,REP,Donald Trump,49.9,2024-10-08,88612-1102-Wisconsin-10/5/24-10/8/24-212191-1000.0-lv-8905
-708,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212154,1007.0,lv,lv,8820,DEM,Kamala Harris,47.0,2024-10-07,88591-396-Michigan-10/3/24-10/7/24-212154-1007.0-lv-8820
-709,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212154,1007.0,lv,lv,8820,REP,Donald Trump,50.0,2024-10-07,88591-396-Michigan-10/3/24-10/7/24-212154-1007.0-lv-8820
-714,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212157,1007.0,lv,lv,8820,DEM,Kamala Harris,47.0,2024-10-07,88591-396-Michigan-10/3/24-10/7/24-212157-1007.0-lv-8820
-715,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212157,1007.0,lv,lv,8820,REP,Donald Trump,51.0,2024-10-07,88591-396-Michigan-10/3/24-10/7/24-212157-1007.0-lv-8820
-716,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212155,1412.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-07,88592-396-Pennsylvania-10/3/24-10/7/24-212155-1412.0-lv-8872
-717,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212155,1412.0,lv,lv,8872,REP,Donald Trump,46.0,2024-10-07,88592-396-Pennsylvania-10/3/24-10/7/24-212155-1412.0-lv-8872
-720,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212158,1412.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-07,88592-396-Pennsylvania-10/3/24-10/7/24-212158-1412.0-lv-8872
-721,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212158,1412.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-07,88592-396-Pennsylvania-10/3/24-10/7/24-212158-1412.0-lv-8872
-722,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212156,1073.0,lv,lv,8905,DEM,Kamala Harris,46.0,2024-10-07,88593-396-Wisconsin-10/3/24-10/7/24-212156-1073.0-lv-8905
-723,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212156,1073.0,lv,lv,8905,REP,Donald Trump,48.0,2024-10-07,88593-396-Wisconsin-10/3/24-10/7/24-212156-1073.0-lv-8905
-729,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212159,1073.0,lv,lv,8905,DEM,Kamala Harris,47.0,2024-10-07,88593-396-Wisconsin-10/3/24-10/7/24-212159-1073.0-lv-8905
-730,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212159,1073.0,lv,lv,8905,REP,Donald Trump,49.0,2024-10-07,88593-396-Wisconsin-10/3/24-10/7/24-212159-1073.0-lv-8905
-951,88618,1901,YouGov/Center for Working Class Politics,3.0,-1.1,Online Panel,4.5,Pennsylvania,9/24/24,10/2/24,212208,1000.0,rv,rv,8872,DEM,Kamala Harris,46.8,2024-10-02,88618-1901-Pennsylvania-9/24/24-10/2/24-212208-1000.0-rv-8872
-952,88618,1901,YouGov/Center for Working Class Politics,3.0,-1.1,Online Panel,4.5,Pennsylvania,9/24/24,10/2/24,212208,1000.0,rv,rv,8872,REP,Donald Trump,44.7,2024-10-02,88618-1901-Pennsylvania-9/24/24-10/2/24-212208-1000.0-rv-8872
-1060,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211143,1001.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88431-486-North Carolina-9/25/24-9/29/24-211143-1001.0-lv-8839
-1061,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211143,1001.0,lv,lv,8839,REP,Donald Trump,50.0,2024-09-29,88431-486-North Carolina-9/25/24-9/29/24-211143-1001.0-lv-8839
-1062,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211144,1001.0,rv,rv,8839,DEM,Kamala Harris,47.0,2024-09-29,88431-486-North Carolina-9/25/24-9/29/24-211144-1001.0-rv-8839
-1063,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211144,1001.0,rv,rv,8839,REP,Donald Trump,50.0,2024-09-29,88431-486-North Carolina-9/25/24-9/29/24-211144-1001.0-rv-8839
-1064,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211301,953.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-29,88457-396-North Carolina-9/25/24-9/29/24-211301-953.0-lv-8839
-1065,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211301,953.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-29,88457-396-North Carolina-9/25/24-9/29/24-211301-953.0-lv-8839
-1070,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211303,953.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88457-396-North Carolina-9/25/24-9/29/24-211303-953.0-lv-8839
-1071,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211303,953.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-29,88457-396-North Carolina-9/25/24-9/29/24-211303-953.0-lv-8839
-1072,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211300,942.0,lv,lv,8781,DEM,Kamala Harris,44.0,2024-09-29,88458-396-Georgia-9/25/24-9/29/24-211300-942.0-lv-8781
-1073,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211300,942.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-29,88458-396-Georgia-9/25/24-9/29/24-211300-942.0-lv-8781
-1078,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211302,942.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-29,88458-396-Georgia-9/25/24-9/29/24-211302-942.0-lv-8781
-1079,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211302,942.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-29,88458-396-Georgia-9/25/24-9/29/24-211302-942.0-lv-8781
-1140,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211536,814.0,rv,rv,8839,DEM,Kamala Harris,48.0,2024-09-29,88503-217-North Carolina-9/20/24-9/29/24-211536-814.0-rv-8839
-1141,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211536,814.0,rv,rv,8839,REP,Donald Trump,46.0,2024-09-29,88503-217-North Carolina-9/20/24-9/29/24-211536-814.0-rv-8839
-1142,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211537,589.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88503-217-North Carolina-9/20/24-9/29/24-211537-589.0-lv-8839
-1143,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211537,589.0,lv,lv,8839,REP,Donald Trump,48.0,2024-09-29,88503-217-North Carolina-9/20/24-9/29/24-211537-589.0-lv-8839
-1146,88461,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Arizona,9/27/24,9/28/24,211311,920.0,lv,lv,8759,DEM,Kamala Harris,47.6,2024-09-28,88461-1102-Arizona-9/27/24-9/28/24-211311-920.0-lv-8759
-1147,88461,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Arizona,9/27/24,9/28/24,211311,920.0,lv,lv,8759,REP,Donald Trump,51.7,2024-09-28,88461-1102-Arizona-9/27/24-9/28/24-211311-920.0-lv-8759
-1148,88462,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,North Carolina,9/27/24,9/28/24,211310,850.0,lv,lv,8839,DEM,Kamala Harris,49.1,2024-09-28,88462-1102-North Carolina-9/27/24-9/28/24-211310-850.0-lv-8839
-1149,88462,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,North Carolina,9/27/24,9/28/24,211310,850.0,lv,lv,8839,REP,Donald Trump,49.9,2024-09-28,88462-1102-North Carolina-9/27/24-9/28/24-211310-850.0-lv-8839
-1150,88465,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Pennsylvania,9/27/24,9/28/24,211323,1000.0,lv,lv,8872,DEM,Kamala Harris,49.3,2024-09-28,88465-1102-Pennsylvania-9/27/24-9/28/24-211323-1000.0-lv-8872
-1151,88465,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Pennsylvania,9/27/24,9/28/24,211323,1000.0,lv,lv,8872,REP,Donald Trump,48.8,2024-09-28,88465-1102-Pennsylvania-9/27/24-9/28/24-211323-1000.0-lv-8872
-1209,88423,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,North Carolina,9/23/24,9/26/24,211109,1005.0,lv,lv,8839,DEM,Kamala Harris,47.1,2024-09-26,88423-1516-North Carolina-9/23/24-9/26/24-211109-1005.0-lv-8839
-1210,88423,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,North Carolina,9/23/24,9/26/24,211109,1005.0,lv,lv,8839,REP,Donald Trump,49.4,2024-09-26,88423-1516-North Carolina-9/23/24-9/26/24-211109-1005.0-lv-8839
-1224,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211029,688.0,rv,rv,8820,DEM,Kamala Harris,45.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211029-688.0-rv-8820
-1225,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211029,688.0,rv,rv,8820,REP,Donald Trump,47.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211029-688.0-rv-8820
-1226,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211030,688.0,rv,rv,8820,DEM,Kamala Harris,43.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211030-688.0-rv-8820
-1227,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211030,688.0,rv,rv,8820,REP,Donald Trump,46.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211030-688.0-rv-8820
-1230,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211031,688.0,lv,lv,8820,DEM,Kamala Harris,48.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211031-688.0-lv-8820
-1231,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211031,688.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211031-688.0-lv-8820
-1232,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211032,688.0,lv,lv,8820,DEM,Kamala Harris,46.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211032-688.0-lv-8820
-1233,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211032,688.0,lv,lv,8820,REP,Donald Trump,46.0,2024-09-26,88404-1424-Michigan-9/21/24-9/26/24-211032-688.0-lv-8820
-1248,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211037,680.0,rv,rv,8905,DEM,Kamala Harris,49.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211037-680.0-rv-8905
-1249,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211037,680.0,rv,rv,8905,REP,Donald Trump,47.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211037-680.0-rv-8905
-1250,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211038,680.0,rv,rv,8905,DEM,Kamala Harris,48.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211038-680.0-rv-8905
-1251,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211038,680.0,rv,rv,8905,REP,Donald Trump,45.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211038-680.0-rv-8905
-1254,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211039,680.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211039-680.0-lv-8905
-1255,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211039,680.0,lv,lv,8905,REP,Donald Trump,47.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211039-680.0-lv-8905
-1256,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211040,680.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211040-680.0-lv-8905
-1257,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211040,680.0,lv,lv,8905,REP,Donald Trump,46.0,2024-09-26,88406-1424-Wisconsin-9/21/24-9/26/24-211040-680.0-lv-8905
-1260,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211434,882.0,rv,rv,8905,DEM,Kamala Harris,52.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211434-882.0-rv-8905
-1261,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211434,882.0,rv,rv,8905,REP,Donald Trump,48.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211434-882.0-rv-8905
-1262,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211435,798.0,lv,lv,8905,DEM,Kamala Harris,52.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211435-798.0-lv-8905
-1263,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211435,798.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211435-798.0-lv-8905
-1264,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211436,882.0,rv,rv,8905,DEM,Kamala Harris,48.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211436-882.0-rv-8905
-1265,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211436,882.0,rv,rv,8905,REP,Donald Trump,44.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211436-882.0-rv-8905
-1272,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211437,798.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211437-798.0-lv-8905
-1273,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211437,798.0,lv,lv,8905,REP,Donald Trump,44.0,2024-09-26,88488-1075-Wisconsin-9/18/24-9/26/24-211437-798.0-lv-8905
-1320,88395,1866,CNN/SSRS,2.8,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,10.0,North Carolina,9/20/24,9/25/24,210986,931.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-25,88395-1866-North Carolina-9/20/24-9/25/24-210986-931.0-lv-8839
-1321,88395,1866,CNN/SSRS,2.8,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,10.0,North Carolina,9/20/24,9/25/24,210986,931.0,lv,lv,8839,REP,Donald Trump,48.0,2024-09-25,88395-1866-North Carolina-9/20/24-9/25/24-210986-931.0-lv-8839
-1330,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211063,946.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-09-25,88410-1528-Arizona-9/20/24-9/25/24-211063-946.0-lv-8759
-1331,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211063,946.0,lv,lv,8759,REP,Donald Trump,49.7,2024-09-25,88410-1528-Arizona-9/20/24-9/25/24-211063-946.0-lv-8759
-1333,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211064,946.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-09-25,88410-1528-Arizona-9/20/24-9/25/24-211064-946.0-lv-8759
-1334,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211064,946.0,lv,lv,8759,REP,Donald Trump,49.8,2024-09-25,88410-1528-Arizona-9/20/24-9/25/24-211064-946.0-lv-8759
-1335,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211067,918.0,lv,lv,8820,DEM,Kamala Harris,46.6,2024-09-25,88411-1528-Michigan-9/20/24-9/25/24-211067-918.0-lv-8820
-1336,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211067,918.0,lv,lv,8820,REP,Donald Trump,50.4,2024-09-25,88411-1528-Michigan-9/20/24-9/25/24-211067-918.0-lv-8820
-1340,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211068,918.0,lv,lv,8820,DEM,Kamala Harris,47.2,2024-09-25,88411-1528-Michigan-9/20/24-9/25/24-211068-918.0-lv-8820
-1341,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211068,918.0,lv,lv,8820,REP,Donald Trump,50.6,2024-09-25,88411-1528-Michigan-9/20/24-9/25/24-211068-918.0-lv-8820
-1342,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211069,858.0,lv,lv,8857,DEM,Kamala Harris,50.6,2024-09-25,88412-1528-Nevada-9/20/24-9/25/24-211069-858.0-lv-8857
-1343,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211069,858.0,lv,lv,8857,REP,Donald Trump,47.7,2024-09-25,88412-1528-Nevada-9/20/24-9/25/24-211069-858.0-lv-8857
-1345,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211070,858.0,lv,lv,8857,DEM,Kamala Harris,50.5,2024-09-25,88412-1528-Nevada-9/20/24-9/25/24-211070-858.0-lv-8857
-1346,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211070,858.0,lv,lv,8857,REP,Donald Trump,47.7,2024-09-25,88412-1528-Nevada-9/20/24-9/25/24-211070-858.0-lv-8857
-1347,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211073,1775.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-25,88413-1528-Pennsylvania-9/20/24-9/25/24-211073-1775.0-lv-8872
-1348,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211073,1775.0,lv,lv,8872,REP,Donald Trump,50.6,2024-09-25,88413-1528-Pennsylvania-9/20/24-9/25/24-211073-1775.0-lv-8872
-1351,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211074,1775.0,lv,lv,8872,DEM,Kamala Harris,48.1,2024-09-25,88413-1528-Pennsylvania-9/20/24-9/25/24-211074-1775.0-lv-8872
-1352,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211074,1775.0,lv,lv,8872,REP,Donald Trump,51.0,2024-09-25,88413-1528-Pennsylvania-9/20/24-9/25/24-211074-1775.0-lv-8872
-1353,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211075,1077.0,lv,lv,8905,DEM,Kamala Harris,48.2,2024-09-25,88414-1528-Wisconsin-9/20/24-9/25/24-211075-1077.0-lv-8905
-1354,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211075,1077.0,lv,lv,8905,REP,Donald Trump,49.6,2024-09-25,88414-1528-Wisconsin-9/20/24-9/25/24-211075-1077.0-lv-8905
-1359,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211076,1077.0,lv,lv,8905,DEM,Kamala Harris,48.2,2024-09-25,88414-1528-Wisconsin-9/20/24-9/25/24-211076-1077.0-lv-8905
-1360,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211076,1077.0,lv,lv,8905,REP,Donald Trump,49.7,2024-09-25,88414-1528-Wisconsin-9/20/24-9/25/24-211076-1077.0-lv-8905
-1361,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211071,1173.0,lv,lv,8839,DEM,Kamala Harris,50.8,2024-09-25,88415-1528-North Carolina-9/20/24-9/25/24-211071-1173.0-lv-8839
-1362,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211071,1173.0,lv,lv,8839,REP,Donald Trump,47.3,2024-09-25,88415-1528-North Carolina-9/20/24-9/25/24-211071-1173.0-lv-8839
-1366,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211072,1173.0,lv,lv,8839,DEM,Kamala Harris,50.5,2024-09-25,88415-1528-North Carolina-9/20/24-9/25/24-211072-1173.0-lv-8839
-1367,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211072,1173.0,lv,lv,8839,REP,Donald Trump,48.1,2024-09-25,88415-1528-North Carolina-9/20/24-9/25/24-211072-1173.0-lv-8839
-1368,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211065,1200.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-25,88416-1528-Georgia-9/20/24-9/25/24-211065-1200.0-lv-8781
-1369,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211065,1200.0,lv,lv,8781,REP,Donald Trump,49.3,2024-09-25,88416-1528-Georgia-9/20/24-9/25/24-211065-1200.0-lv-8781
-1372,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211066,1200.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-25,88416-1528-Georgia-9/20/24-9/25/24-211066-1200.0-lv-8781
-1373,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211066,1200.0,lv,lv,8781,REP,Donald Trump,49.6,2024-09-25,88416-1528-Georgia-9/20/24-9/25/24-211066-1200.0-lv-8781
-1527,88361,568,YouGov,3.0,-1.1,Online Panel,9.0,Georgia,9/20/24,9/24/24,210760,1441.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-24,88361-568-Georgia-9/20/24-9/24/24-210760-1441.0-lv-8781
-1528,88361,568,YouGov,3.0,-1.1,Online Panel,9.0,Georgia,9/20/24,9/24/24,210760,1441.0,lv,lv,8781,REP,Donald Trump,51.0,2024-09-24,88361-568-Georgia-9/20/24-9/24/24-210760-1441.0-lv-8781
-1529,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210903,1021.0,rv,rv,8759,DEM,Kamala Harris,47.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210903-1021.0-rv-8759
-1530,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210903,1021.0,rv,rv,8759,REP,Donald Trump,49.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210903-1021.0-rv-8759
-1534,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210904,764.0,lv,lv,8759,DEM,Kamala Harris,47.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210904-764.0-lv-8759
-1535,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210904,764.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210904-764.0-lv-8759
-1539,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210905,1021.0,rv,rv,8759,DEM,Kamala Harris,48.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210905-1021.0-rv-8759
-1540,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210905,1021.0,rv,rv,8759,REP,Donald Trump,50.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210905-1021.0-rv-8759
-1541,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210906,764.0,lv,lv,8759,DEM,Kamala Harris,48.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210906-764.0-lv-8759
-1542,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210906,764.0,lv,lv,8759,REP,Donald Trump,51.0,2024-09-24,88380-1597-Arizona-9/20/24-9/24/24-210906-764.0-lv-8759
-1543,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210907,1006.0,rv,rv,8781,DEM,Kamala Harris,49.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210907-1006.0-rv-8781
-1544,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210907,1006.0,rv,rv,8781,REP,Donald Trump,47.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210907-1006.0-rv-8781
-1548,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210908,707.0,lv,lv,8781,DEM,Kamala Harris,50.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210908-707.0-lv-8781
-1549,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210908,707.0,lv,lv,8781,REP,Donald Trump,48.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210908-707.0-lv-8781
-1553,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210909,1006.0,rv,rv,8781,DEM,Kamala Harris,51.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210909-1006.0-rv-8781
-1554,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210909,1006.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210909-1006.0-rv-8781
-1555,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210910,707.0,lv,lv,8781,DEM,Kamala Harris,51.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210910-707.0-lv-8781
-1556,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210910,707.0,lv,lv,8781,REP,Donald Trump,48.0,2024-09-24,88381-1597-Georgia-9/20/24-9/24/24-210910-707.0-lv-8781
-1557,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211015,787.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211015-787.0-lv-8839
-1558,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211015,787.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211015-787.0-lv-8839
-1562,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211016,991.0,rv,rv,8839,DEM,Kamala Harris,48.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211016-991.0-rv-8839
-1563,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211016,991.0,rv,rv,8839,REP,Donald Trump,47.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211016-991.0-rv-8839
-1567,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211017,787.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211017-787.0-lv-8839
-1568,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211017,787.0,lv,lv,8839,REP,Donald Trump,50.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211017-787.0-lv-8839
-1569,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211018,991.0,rv,rv,8839,DEM,Kamala Harris,50.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211018-991.0-rv-8839
-1570,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211018,991.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-24,88402-1597-North Carolina-9/20/24-9/24/24-211018-991.0-rv-8839
-1571,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211019,775.0,lv,lv,8872,DEM,Kamala Harris,47.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211019-775.0-lv-8872
-1572,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211019,775.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211019-775.0-lv-8872
-1575,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211020,1021.0,rv,rv,8872,DEM,Kamala Harris,48.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211020-1021.0-rv-8872
-1576,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211020,1021.0,rv,rv,8872,REP,Donald Trump,46.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211020-1021.0-rv-8872
-1579,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211021,775.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211021-775.0-lv-8872
-1580,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211021,775.0,lv,lv,8872,REP,Donald Trump,49.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211021-775.0-lv-8872
-1581,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211022,1021.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211022-1021.0-rv-8872
-1582,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211022,1021.0,rv,rv,8872,REP,Donald Trump,48.0,2024-09-24,88403-1597-Pennsylvania-9/20/24-9/24/24-211022-1021.0-rv-8872
-1583,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210782,1416.0,rv,rv,8759,DEM,Kamala Harris,48.0,2024-09-24,88363-1205-Arizona-9/19/24-9/24/24-210782-1416.0-rv-8759
-1584,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210782,1416.0,rv,rv,8759,REP,Donald Trump,50.0,2024-09-24,88363-1205-Arizona-9/19/24-9/24/24-210782-1416.0-rv-8759
-1585,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210783,1264.0,lv,lv,8759,DEM,Kamala Harris,49.0,2024-09-24,88363-1205-Arizona-9/19/24-9/24/24-210783-1264.0-lv-8759
-1586,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210783,1264.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-24,88363-1205-Arizona-9/19/24-9/24/24-210783-1264.0-lv-8759
-1587,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210787,1507.0,rv,rv,8839,DEM,Kamala Harris,49.0,2024-09-24,88366-1205-North Carolina-9/19/24-9/24/24-210787-1507.0-rv-8839
-1588,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210787,1507.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-24,88366-1205-North Carolina-9/19/24-9/24/24-210787-1507.0-rv-8839
-1589,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210788,1348.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-24,88366-1205-North Carolina-9/19/24-9/24/24-210788-1348.0-lv-8839
-1590,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210788,1348.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-24,88366-1205-North Carolina-9/19/24-9/24/24-210788-1348.0-lv-8839
-1591,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210785,1420.0,rv,rv,8781,DEM,Kamala Harris,49.0,2024-09-24,88368-1205-Georgia-9/19/24-9/24/24-210785-1420.0-rv-8781
-1592,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210785,1420.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-24,88368-1205-Georgia-9/19/24-9/24/24-210785-1420.0-rv-8781
-1593,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210786,1220.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-24,88368-1205-Georgia-9/19/24-9/24/24-210786-1220.0-lv-8781
-1594,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210786,1220.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-24,88368-1205-Georgia-9/19/24-9/24/24-210786-1220.0-lv-8781
-1595,88390,458,Suffolk,2.9,-1.0,Live Phone,8.0,Arizona,9/19/24,9/24/24,210964,500.0,lv,lv,8759,DEM,Kamala Harris,42.4,2024-09-24,88390-458-Arizona-9/19/24-9/24/24-210964-500.0-lv-8759
-1596,88390,458,Suffolk,2.9,-1.0,Live Phone,8.0,Arizona,9/19/24,9/24/24,210964,500.0,lv,lv,8759,REP,Donald Trump,48.4,2024-09-24,88390-458-Arizona-9/19/24-9/24/24-210964-500.0-lv-8759
-1665,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210332,713.0,rv,rv,8759,DEM,Kamala Harris,45.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210332-713.0-rv-8759
-1666,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210332,713.0,rv,rv,8759,REP,Donald Trump,49.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210332-713.0-rv-8759
-1667,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210333,713.0,lv,lv,8759,DEM,Kamala Harris,45.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210333-713.0-lv-8759
-1668,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210333,713.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210333-713.0-lv-8759
-1669,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210334,713.0,rv,rv,8759,DEM,Kamala Harris,42.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210334-713.0-rv-8759
-1670,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210334,713.0,rv,rv,8759,REP,Donald Trump,47.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210334-713.0-rv-8759
-1673,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210335,713.0,lv,lv,8759,DEM,Kamala Harris,43.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210335-713.0-lv-8759
-1674,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210335,713.0,lv,lv,8759,REP,Donald Trump,48.0,2024-09-21,88276-1424-Arizona-9/17/24-9/21/24-210335-713.0-lv-8759
-1677,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210336,682.0,rv,rv,8781,DEM,Kamala Harris,44.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210336-682.0-rv-8781
-1678,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210336,682.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210336-682.0-rv-8781
-1679,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210337,682.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210337-682.0-lv-8781
-1680,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210337,682.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210337-682.0-lv-8781
-1681,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210338,682.0,rv,rv,8781,DEM,Kamala Harris,43.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210338-682.0-rv-8781
-1682,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210338,682.0,rv,rv,8781,REP,Donald Trump,46.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210338-682.0-rv-8781
-1685,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210339,682.0,lv,lv,8781,DEM,Kamala Harris,44.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210339-682.0-lv-8781
-1686,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210339,682.0,lv,lv,8781,REP,Donald Trump,47.0,2024-09-21,88277-1424-Georgia-9/17/24-9/21/24-210339-682.0-lv-8781
-1689,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210340,682.0,rv,rv,8839,DEM,Kamala Harris,47.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210340-682.0-rv-8839
-1690,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210340,682.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210340-682.0-rv-8839
-1691,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210341,682.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210341-682.0-lv-8839
-1692,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210341,682.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210341-682.0-lv-8839
-1693,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210342,682.0,rv,rv,8839,DEM,Kamala Harris,46.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210342-682.0-rv-8839
-1694,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210342,682.0,rv,rv,8839,REP,Donald Trump,46.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210342-682.0-rv-8839
-1697,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210343,682.0,lv,lv,8839,DEM,Kamala Harris,45.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210343-682.0-lv-8839
-1698,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210343,682.0,lv,lv,8839,REP,Donald Trump,47.0,2024-09-21,88278-1424-North Carolina-9/17/24-9/21/24-210343-682.0-lv-8839
-1719,88441,1056,Remington,2.6,-0.6,,7.0,Michigan,9/16/24,9/20/24,211152,800.0,lv,lv,8820,DEM,Kamala Harris,49.0,2024-09-20,88441-1056-Michigan-9/16/24-9/20/24-211152-800.0-lv-8820
-1720,88441,1056,Remington,2.6,-0.6,,7.0,Michigan,9/16/24,9/20/24,211152,800.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-20,88441-1056-Michigan-9/16/24-9/20/24-211152-800.0-lv-8820
-1723,88442,1056,Remington,2.6,-0.6,,7.0,Nevada,9/16/24,9/20/24,211153,800.0,lv,lv,8857,DEM,Kamala Harris,48.0,2024-09-20,88442-1056-Nevada-9/16/24-9/20/24-211153-800.0-lv-8857
-1724,88442,1056,Remington,2.6,-0.6,,7.0,Nevada,9/16/24,9/20/24,211153,800.0,lv,lv,8857,REP,Donald Trump,49.0,2024-09-20,88442-1056-Nevada-9/16/24-9/20/24-211153-800.0-lv-8857
-1725,88443,1056,Remington,2.6,-0.6,,7.0,Pennsylvania,9/16/24,9/20/24,211154,800.0,lv,lv,8872,DEM,Kamala Harris,47.0,2024-09-20,88443-1056-Pennsylvania-9/16/24-9/20/24-211154-800.0-lv-8872
-1726,88443,1056,Remington,2.6,-0.6,,7.0,Pennsylvania,9/16/24,9/20/24,211154,800.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-20,88443-1056-Pennsylvania-9/16/24-9/20/24-211154-800.0-lv-8872
-1728,88444,1056,Remington,2.6,-0.6,,7.0,Wisconsin,9/16/24,9/20/24,211155,800.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-20,88444-1056-Wisconsin-9/16/24-9/20/24-211155-800.0-lv-8905
-1729,88444,1056,Remington,2.6,-0.6,,7.0,Wisconsin,9/16/24,9/20/24,211155,800.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-20,88444-1056-Wisconsin-9/16/24-9/20/24-211155-800.0-lv-8905
-1775,88339,329,Muhlenberg,2.8,-1.0,Live Phone,8.0,Pennsylvania,9/16/24,9/19/24,210621,450.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-19,88339-329-Pennsylvania-9/16/24-9/19/24-210621-450.0-lv-8872
-1776,88339,329,Muhlenberg,2.8,-1.0,Live Phone,8.0,Pennsylvania,9/16/24,9/19/24,210621,450.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-19,88339-329-Pennsylvania-9/16/24-9/19/24-210621-450.0-lv-8872
-1789,88371,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Michigan,9/11/24,9/19/24,210793,650.0,lv,lv,8820,DEM,Kamala Harris,48.0,2024-09-19,88371-1847-Michigan-9/11/24-9/19/24-210793-650.0-lv-8820
-1790,88371,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Michigan,9/11/24,9/19/24,210793,650.0,lv,lv,8820,REP,Donald Trump,43.0,2024-09-19,88371-1847-Michigan-9/11/24-9/19/24-210793-650.0-lv-8820
-1797,88372,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,9/11/24,9/19/24,210794,800.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-19,88372-1847-Pennsylvania-9/11/24-9/19/24-210794-800.0-lv-8872
-1798,88372,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,9/11/24,9/19/24,210794,800.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-19,88372-1847-Pennsylvania-9/11/24-9/19/24-210794-800.0-lv-8872
-1821,88301,458,Suffolk,2.9,-1.0,Live Phone,8.0,Michigan,9/16/24,9/18/24,210415,500.0,lv,lv,8820,DEM,Kamala Harris,47.6,2024-09-18,88301-458-Michigan-9/16/24-9/18/24-210415-500.0-lv-8820
-1822,88301,458,Suffolk,2.9,-1.0,Live Phone,8.0,Michigan,9/16/24,9/18/24,210415,500.0,lv,lv,8820,REP,Donald Trump,45.4,2024-09-18,88301-458-Michigan-9/16/24-9/18/24-210415-500.0-lv-8820
-1831,88235,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,9/15/24,9/18/24,210076,868.0,lv,lv,8759,DEM,Kamala Harris,48.7,2024-09-18,88235-1102-Arizona-9/15/24-9/18/24-210076-868.0-lv-8759
-1832,88235,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,9/15/24,9/18/24,210076,868.0,lv,lv,8759,REP,Donald Trump,49.8,2024-09-18,88235-1102-Arizona-9/15/24-9/18/24-210076-868.0-lv-8759
-1833,88236,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,9/15/24,9/18/24,210077,975.0,lv,lv,8781,DEM,Kamala Harris,48.2,2024-09-18,88236-1102-Georgia-9/15/24-9/18/24-210077-975.0-lv-8781
-1834,88236,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,9/15/24,9/18/24,210077,975.0,lv,lv,8781,REP,Donald Trump,50.3,2024-09-18,88236-1102-Georgia-9/15/24-9/18/24-210077-975.0-lv-8781
-1835,88237,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,9/15/24,9/18/24,210078,875.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-18,88237-1102-Michigan-9/15/24-9/18/24-210078-875.0-lv-8820
-1836,88237,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,9/15/24,9/18/24,210078,875.0,lv,lv,8820,REP,Donald Trump,49.1,2024-09-18,88237-1102-Michigan-9/15/24-9/18/24-210078-875.0-lv-8820
-1837,88238,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,9/15/24,9/18/24,210079,895.0,lv,lv,8857,DEM,Kamala Harris,48.8,2024-09-18,88238-1102-Nevada-9/15/24-9/18/24-210079-895.0-lv-8857
-1838,88238,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,9/15/24,9/18/24,210079,895.0,lv,lv,8857,REP,Donald Trump,49.0,2024-09-18,88238-1102-Nevada-9/15/24-9/18/24-210079-895.0-lv-8857
-1839,88239,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,9/15/24,9/18/24,210080,880.0,lv,lv,8872,DEM,Kamala Harris,49.6,2024-09-18,88239-1102-Pennsylvania-9/15/24-9/18/24-210080-880.0-lv-8872
-1840,88239,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,9/15/24,9/18/24,210080,880.0,lv,lv,8872,REP,Donald Trump,49.3,2024-09-18,88239-1102-Pennsylvania-9/15/24-9/18/24-210080-880.0-lv-8872
-1841,88240,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,9/15/24,9/18/24,210081,1000.0,lv,lv,8839,DEM,Kamala Harris,49.7,2024-09-18,88240-1102-North Carolina-9/15/24-9/18/24-210081-1000.0-lv-8839
-1842,88240,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,9/15/24,9/18/24,210081,1000.0,lv,lv,8839,REP,Donald Trump,49.3,2024-09-18,88240-1102-North Carolina-9/15/24-9/18/24-210081-1000.0-lv-8839
-1843,88241,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,9/15/24,9/18/24,210082,1000.0,lv,lv,8905,DEM,Kamala Harris,48.7,2024-09-18,88241-1102-Wisconsin-9/15/24-9/18/24-210082-1000.0-lv-8905
-1844,88241,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,9/15/24,9/18/24,210082,1000.0,lv,lv,8905,REP,Donald Trump,50.3,2024-09-18,88241-1102-Wisconsin-9/15/24-9/18/24-210082-1000.0-lv-8905
-1849,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210290,800.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-18,88267-290-Pennsylvania-9/12/24-9/18/24-210290-800.0-lv-8872
-1850,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210290,800.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-18,88267-290-Pennsylvania-9/12/24-9/18/24-210290-800.0-lv-8872
-1853,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210291,800.0,lv,lv,8872,DEM,Kamala Harris,52.0,2024-09-18,88267-290-Pennsylvania-9/12/24-9/18/24-210291-800.0-lv-8872
-1854,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210291,800.0,lv,lv,8872,REP,Donald Trump,47.0,2024-09-18,88267-290-Pennsylvania-9/12/24-9/18/24-210291-800.0-lv-8872
-1865,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210360,800.0,lv,lv,8905,DEM,Kamala Harris,51.0,2024-09-18,88286-290-Wisconsin-9/12/24-9/18/24-210360-800.0-lv-8905
-1866,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210360,800.0,lv,lv,8905,REP,Donald Trump,45.0,2024-09-18,88286-290-Wisconsin-9/12/24-9/18/24-210360-800.0-lv-8905
-1871,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210361,800.0,lv,lv,8905,DEM,Kamala Harris,53.0,2024-09-18,88286-290-Wisconsin-9/12/24-9/18/24-210361-800.0-lv-8905
-1872,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210361,800.0,lv,lv,8905,REP,Donald Trump,46.0,2024-09-18,88286-290-Wisconsin-9/12/24-9/18/24-210361-800.0-lv-8905
-1932,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210070,1663.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-09-17,88232-1205-Pennsylvania-9/12/24-9/17/24-210070-1663.0-rv-8872
-1933,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210070,1663.0,rv,rv,8872,REP,Donald Trump,48.0,2024-09-17,88232-1205-Pennsylvania-9/12/24-9/17/24-210070-1663.0-rv-8872
-1934,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210071,1476.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-17,88232-1205-Pennsylvania-9/12/24-9/17/24-210071-1476.0-lv-8872
-1935,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210071,1476.0,lv,lv,8872,REP,Donald Trump,49.0,2024-09-17,88232-1205-Pennsylvania-9/12/24-9/17/24-210071-1476.0-lv-8872
-1936,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210072,1312.0,rv,rv,8905,DEM,Kamala Harris,50.0,2024-09-17,88233-1205-Wisconsin-9/12/24-9/17/24-210072-1312.0-rv-8905
-1937,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210072,1312.0,rv,rv,8905,REP,Donald Trump,47.0,2024-09-17,88233-1205-Wisconsin-9/12/24-9/17/24-210072-1312.0-rv-8905
-1938,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210073,1194.0,lv,lv,8905,DEM,Kamala Harris,50.0,2024-09-17,88233-1205-Wisconsin-9/12/24-9/17/24-210073-1194.0-lv-8905
-1939,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210073,1194.0,lv,lv,8905,REP,Donald Trump,49.0,2024-09-17,88233-1205-Wisconsin-9/12/24-9/17/24-210073-1194.0-lv-8905
-1940,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210074,1282.0,rv,rv,8820,DEM,Kamala Harris,50.0,2024-09-17,88234-1205-Michigan-9/12/24-9/17/24-210074-1282.0-rv-8820
-1941,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210074,1282.0,rv,rv,8820,REP,Donald Trump,47.0,2024-09-17,88234-1205-Michigan-9/12/24-9/17/24-210074-1282.0-rv-8820
-1942,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210075,1138.0,lv,lv,8820,DEM,Kamala Harris,52.0,2024-09-17,88234-1205-Michigan-9/12/24-9/17/24-210075-1138.0-lv-8820
-1943,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210075,1138.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-17,88234-1205-Michigan-9/12/24-9/17/24-210075-1138.0-lv-8820
-1989,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209902,1331.0,lv,lv,8872,DEM,Kamala Harris,51.0,2024-09-16,88211-396-Pennsylvania-9/12/24-9/16/24-209902-1331.0-lv-8872
-1990,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209902,1331.0,lv,lv,8872,REP,Donald Trump,45.0,2024-09-16,88211-396-Pennsylvania-9/12/24-9/16/24-209902-1331.0-lv-8872
-1993,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209905,1331.0,lv,lv,8872,DEM,Kamala Harris,51.0,2024-09-16,88211-396-Pennsylvania-9/12/24-9/16/24-209905-1331.0-lv-8872
-1994,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209905,1331.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-16,88211-396-Pennsylvania-9/12/24-9/16/24-209905-1331.0-lv-8872
-1995,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209903,905.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-16,88212-396-Michigan-9/12/24-9/16/24-209903-905.0-lv-8820
-1996,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209903,905.0,lv,lv,8820,REP,Donald Trump,45.0,2024-09-16,88212-396-Michigan-9/12/24-9/16/24-209903-905.0-lv-8820
-2001,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209906,905.0,lv,lv,8820,DEM,Kamala Harris,51.0,2024-09-16,88212-396-Michigan-9/12/24-9/16/24-209906-905.0-lv-8820
-2002,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209906,905.0,lv,lv,8820,REP,Donald Trump,46.0,2024-09-16,88212-396-Michigan-9/12/24-9/16/24-209906-905.0-lv-8820
-2003,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209904,1075.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-16,88213-396-Wisconsin-9/12/24-9/16/24-209904-1075.0-lv-8905
-2004,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209904,1075.0,lv,lv,8905,REP,Donald Trump,47.0,2024-09-16,88213-396-Wisconsin-9/12/24-9/16/24-209904-1075.0-lv-8905
-2010,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209907,1075.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-16,88213-396-Wisconsin-9/12/24-9/16/24-209907-1075.0-lv-8905
-2011,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209907,1075.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-16,88213-396-Wisconsin-9/12/24-9/16/24-209907-1075.0-lv-8905
-2024,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210066,1003.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-16,88231-486-Pennsylvania-9/12/24-9/16/24-210066-1003.0-lv-8872
-2025,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210066,1003.0,lv,lv,8872,REP,Donald Trump,47.0,2024-09-16,88231-486-Pennsylvania-9/12/24-9/16/24-210066-1003.0-lv-8872
-2028,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210067,1003.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-16,88231-486-Pennsylvania-9/12/24-9/16/24-210067-1003.0-lv-8872
-2029,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210067,1003.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-16,88231-486-Pennsylvania-9/12/24-9/16/24-210067-1003.0-lv-8872
-2069,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210087,1082.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210087-1082.0-rv-8872
-2070,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210087,1082.0,rv,rv,8872,REP,Donald Trump,46.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210087-1082.0-rv-8872
-2071,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210088,1082.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210088-1082.0-lv-8872
-2072,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210088,1082.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210088-1082.0-lv-8872
-2073,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210089,1082.0,rv,rv,8872,DEM,Kamala Harris,48.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210089-1082.0-rv-8872
-2074,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210089,1082.0,rv,rv,8872,REP,Donald Trump,45.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210089-1082.0-rv-8872
-2077,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210090,1082.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210090-1082.0-lv-8872
-2078,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210090,1082.0,lv,lv,8872,REP,Donald Trump,45.0,2024-09-16,88242-1424-Pennsylvania-9/11/24-9/16/24-210090-1082.0-lv-8872
-2235,88184,458,Suffolk,2.9,-1.0,Live Phone,8.0,Pennsylvania,9/11/24,9/14/24,209630,500.0,lv,lv,8872,DEM,Kamala Harris,48.6,2024-09-14,88184-458-Pennsylvania-9/11/24-9/14/24-209630-500.0-lv-8872
-2236,88184,458,Suffolk,2.9,-1.0,Live Phone,8.0,Pennsylvania,9/11/24,9/14/24,209630,500.0,lv,lv,8872,REP,Donald Trump,45.6,2024-09-14,88184-458-Pennsylvania-9/11/24-9/14/24-209630-500.0-lv-8872
-2320,88302,978,Elon U.,2.5,-0.6,Online Panel,8.0,North Carolina,9/4/24,9/13/24,210420,800.0,rv,rv,8839,DEM,Kamala Harris,46.0,2024-09-13,88302-978-North Carolina-9/4/24-9/13/24-210420-800.0-rv-8839
-2321,88302,978,Elon U.,2.5,-0.6,Online Panel,8.0,North Carolina,9/4/24,9/13/24,210420,800.0,rv,rv,8839,REP,Donald Trump,45.0,2024-09-13,88302-978-North Carolina-9/4/24-9/13/24-210420-800.0-rv-8839
-2400,88203,1308,Data Orbital,2.9,-0.9,Live Phone/Text-to-Web,10.0,Arizona,9/7/24,9/9/24,209816,550.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-09-09,88203-1308-Arizona-9/7/24-9/9/24-209816-550.0-lv-8759
-2401,88203,1308,Data Orbital,2.9,-0.9,Live Phone/Text-to-Web,10.0,Arizona,9/7/24,9/9/24,209816,550.0,lv,lv,8759,REP,Donald Trump,46.2,2024-09-09,88203-1308-Arizona-9/7/24-9/9/24-209816-550.0-lv-8759
-2476,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208325,940.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-08,88095-396-North Carolina-9/4/24-9/8/24-208325-940.0-lv-8839
-2477,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208325,940.0,lv,lv,8839,REP,Donald Trump,46.0,2024-09-08,88095-396-North Carolina-9/4/24-9/8/24-208325-940.0-lv-8839
-2482,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208327,940.0,lv,lv,8839,DEM,Kamala Harris,50.0,2024-09-08,88095-396-North Carolina-9/4/24-9/8/24-208327-940.0-lv-8839
-2483,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208327,940.0,lv,lv,8839,REP,Donald Trump,47.0,2024-09-08,88095-396-North Carolina-9/4/24-9/8/24-208327-940.0-lv-8839
-2484,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208324,969.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-08,88101-396-Georgia-9/4/24-9/8/24-208324-969.0-lv-8781
-2485,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208324,969.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-08,88101-396-Georgia-9/4/24-9/8/24-208324-969.0-lv-8781
-2490,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208326,969.0,lv,lv,8781,DEM,Kamala Harris,46.0,2024-09-08,88101-396-Georgia-9/4/24-9/8/24-208326-969.0-lv-8781
-2491,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208326,969.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-08,88101-396-Georgia-9/4/24-9/8/24-208326-969.0-lv-8781
-2543,88083,460,SurveyUSA,2.8,-1.3,Online Panel,8.0,North Carolina,9/4/24,9/7/24,208275,676.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-07,88083-460-North Carolina-9/4/24-9/7/24-208275-676.0-lv-8839
-2544,88083,460,SurveyUSA,2.8,-1.3,Online Panel,8.0,North Carolina,9/4/24,9/7/24,208275,676.0,lv,lv,8839,REP,Donald Trump,46.0,2024-09-07,88083-460-North Carolina-9/4/24-9/7/24-208275-676.0-lv-8839
-2566,88070,568,YouGov,3.0,-1.1,Online Panel,9.0,Michigan,9/3/24,9/6/24,207965,1077.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-06,88070-568-Michigan-9/3/24-9/6/24-207965-1077.0-lv-8820
-2567,88070,568,YouGov,3.0,-1.1,Online Panel,9.0,Michigan,9/3/24,9/6/24,207965,1077.0,lv,lv,8820,REP,Donald Trump,49.0,2024-09-06,88070-568-Michigan-9/3/24-9/6/24-207965-1077.0-lv-8820
-2568,88071,568,YouGov,3.0,-1.1,Online Panel,9.0,Pennsylvania,9/3/24,9/6/24,207966,1078.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-06,88071-568-Pennsylvania-9/3/24-9/6/24-207966-1078.0-lv-8872
-2569,88071,568,YouGov,3.0,-1.1,Online Panel,9.0,Pennsylvania,9/3/24,9/6/24,207966,1078.0,lv,lv,8872,REP,Donald Trump,50.0,2024-09-06,88071-568-Pennsylvania-9/3/24-9/6/24-207966-1078.0-lv-8872
-2570,88072,568,YouGov,3.0,-1.1,Online Panel,9.0,Wisconsin,9/3/24,9/6/24,207967,946.0,lv,lv,8905,DEM,Kamala Harris,51.0,2024-09-06,88072-568-Wisconsin-9/3/24-9/6/24-207967-946.0-lv-8905
-2571,88072,568,YouGov,3.0,-1.1,Online Panel,9.0,Wisconsin,9/3/24,9/6/24,207967,946.0,lv,lv,8905,REP,Donald Trump,49.0,2024-09-06,88072-568-Wisconsin-9/3/24-9/6/24-207967-946.0-lv-8905
-2642,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209223,822.0,rv,rv,8905,DEM,Kamala Harris,52.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209223-822.0-rv-8905
-2643,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209223,822.0,rv,rv,8905,REP,Donald Trump,48.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209223-822.0-rv-8905
-2644,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209224,738.0,lv,lv,8905,DEM,Kamala Harris,52.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209224-738.0-lv-8905
-2645,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209224,738.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209224-738.0-lv-8905
-2646,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209225,822.0,rv,rv,8905,DEM,Kamala Harris,47.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209225-822.0-rv-8905
-2647,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209225,822.0,rv,rv,8905,REP,Donald Trump,43.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209225-822.0-rv-8905
-2653,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209226,738.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209226-738.0-lv-8905
-2654,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209226,738.0,lv,lv,8905,REP,Donald Trump,43.0,2024-09-05,88135-1075-Wisconsin-8/28/24-9/5/24-209226-738.0-lv-8905
+81,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-10-17,88795-213382
+82,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,REP,Donald Trump,49.2,2024-10-17,88795-213382
+85,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213383,1440.0,lv,lv,8759,DEM,Kamala Harris,49.3,2024-10-17,88795-213383
+86,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213383,1440.0,lv,lv,8759,REP,Donald Trump,49.2,2024-10-17,88795-213383
+87,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213384,1411.0,lv,lv,8781,DEM,Kamala Harris,48.1,2024-10-17,88796-213384
+88,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213384,1411.0,lv,lv,8781,REP,Donald Trump,49.5,2024-10-17,88796-213384
+92,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213385,1411.0,lv,lv,8781,DEM,Kamala Harris,48.4,2024-10-17,88796-213385
+93,88796,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,213385,1411.0,lv,lv,8781,REP,Donald Trump,50.1,2024-10-17,88796-213385
+94,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213386,1529.0,lv,lv,8820,DEM,Kamala Harris,46.8,2024-10-17,88797-213386
+95,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213386,1529.0,lv,lv,8820,REP,Donald Trump,49.6,2024-10-17,88797-213386
+100,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213387,1529.0,lv,lv,8820,DEM,Kamala Harris,47.3,2024-10-17,88797-213387
+101,88797,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,213387,1529.0,lv,lv,8820,REP,Donald Trump,50.2,2024-10-17,88797-213387
+102,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213388,1171.0,lv,lv,8857,DEM,Kamala Harris,48.1,2024-10-17,88798-213388
+103,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213388,1171.0,lv,lv,8857,REP,Donald Trump,48.4,2024-10-17,88798-213388
+106,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213389,1171.0,lv,lv,8857,DEM,Kamala Harris,48.4,2024-10-17,88798-213389
+107,88798,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,213389,1171.0,lv,lv,8857,REP,Donald Trump,48.3,2024-10-17,88798-213389
+108,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213390,1674.0,lv,lv,8839,DEM,Kamala Harris,49.5,2024-10-17,88799-213390
+109,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213390,1674.0,lv,lv,8839,REP,Donald Trump,48.8,2024-10-17,88799-213390
+113,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213391,1674.0,lv,lv,8839,DEM,Kamala Harris,50.5,2024-10-17,88799-213391
+114,88799,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,213391,1674.0,lv,lv,8839,REP,Donald Trump,48.8,2024-10-17,88799-213391
+115,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213392,2048.0,lv,lv,8872,DEM,Kamala Harris,46.5,2024-10-17,88800-213392
+116,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213392,2048.0,lv,lv,8872,REP,Donald Trump,49.8,2024-10-17,88800-213392
+119,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213393,2048.0,lv,lv,8872,DEM,Kamala Harris,47.4,2024-10-17,88800-213393
+120,88800,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,213393,2048.0,lv,lv,8872,REP,Donald Trump,49.9,2024-10-17,88800-213393
+121,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213394,932.0,lv,lv,8905,DEM,Kamala Harris,48.9,2024-10-17,88801-213394
+122,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213394,932.0,lv,lv,8905,REP,Donald Trump,48.2,2024-10-17,88801-213394
+126,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213395,932.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-10-17,88801-213395
+127,88801,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,213395,932.0,lv,lv,8905,REP,Donald Trump,48.4,2024-10-17,88801-213395
+162,88762,568,YouGov,3.0,-1.1,Online Panel,9.0,Arizona,10/11/24,10/16/24,213103,1435.0,lv,lv,8759,DEM,Kamala Harris,48.0,2024-10-16,88762-213103
+163,88762,568,YouGov,3.0,-1.1,Online Panel,9.0,Arizona,10/11/24,10/16/24,213103,1435.0,lv,lv,8759,REP,Donald Trump,51.0,2024-10-16,88762-213103
+208,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213462,580.0,rv,rv,8759,DEM,Kamala Harris,44.0,2024-10-15,88809-213462
+209,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213462,580.0,rv,rv,8759,REP,Donald Trump,50.0,2024-10-15,88809-213462
+210,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213502,580.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-10-15,88809-213502
+211,88809,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,213502,580.0,lv,lv,8759,REP,Donald Trump,49.0,2024-10-15,88809-213502
+212,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213463,730.0,rv,rv,8781,DEM,Kamala Harris,50.0,2024-10-15,88810-213463
+213,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213463,730.0,rv,rv,8781,REP,Donald Trump,44.0,2024-10-15,88810-213463
+214,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213503,730.0,lv,lv,8781,DEM,Kamala Harris,51.0,2024-10-15,88810-213503
+215,88810,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,213503,730.0,lv,lv,8781,REP,Donald Trump,47.0,2024-10-15,88810-213503
+216,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213464,687.0,rv,rv,8820,DEM,Kamala Harris,46.0,2024-10-15,88811-213464
+217,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213464,687.0,rv,rv,8820,REP,Donald Trump,47.0,2024-10-15,88811-213464
+218,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213504,687.0,lv,lv,8820,DEM,Kamala Harris,49.0,2024-10-15,88811-213504
+219,88811,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,213504,687.0,lv,lv,8820,REP,Donald Trump,47.0,2024-10-15,88811-213504
+220,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213465,652.0,rv,rv,8857,DEM,Kamala Harris,47.0,2024-10-15,88812-213465
+221,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213465,652.0,rv,rv,8857,REP,Donald Trump,44.0,2024-10-15,88812-213465
+222,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213505,652.0,lv,lv,8857,DEM,Kamala Harris,48.0,2024-10-15,88812-213505
+223,88812,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,213505,652.0,lv,lv,8857,REP,Donald Trump,48.0,2024-10-15,88812-213505
+224,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213466,965.0,rv,rv,8839,DEM,Kamala Harris,45.0,2024-10-15,88813-213466
+225,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213466,965.0,rv,rv,8839,REP,Donald Trump,49.0,2024-10-15,88813-213466
+226,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213506,965.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-10-15,88813-213506
+227,88813,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,213506,965.0,lv,lv,8839,REP,Donald Trump,50.0,2024-10-15,88813-213506
+228,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213467,707.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-10-15,88814-213467
+229,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213467,707.0,rv,rv,8872,REP,Donald Trump,46.0,2024-10-15,88814-213467
+230,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213507,707.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-15,88814-213507
+231,88814,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,213507,707.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-15,88814-213507
+232,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213468,695.0,rv,rv,8905,DEM,Kamala Harris,50.0,2024-10-15,88815-213468
+233,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213468,695.0,rv,rv,8905,REP,Donald Trump,46.0,2024-10-15,88815-213468
+234,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213508,695.0,lv,lv,8905,DEM,Kamala Harris,50.0,2024-10-15,88815-213508
+235,88815,1460,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,213508,695.0,lv,lv,8905,REP,Donald Trump,47.0,2024-10-15,88815-213508
+300,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212958,1328.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-10-14,88734-212958
+301,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212958,1328.0,lv,lv,8781,REP,Donald Trump,52.0,2024-10-14,88734-212958
+304,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212960,1328.0,lv,lv,8781,DEM,Kamala Harris,46.0,2024-10-14,88734-212960
+305,88734,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,212960,1328.0,lv,lv,8781,REP,Donald Trump,52.0,2024-10-14,88734-212960
+306,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212959,1031.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-10-14,88735-212959
+307,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212959,1031.0,lv,lv,8839,REP,Donald Trump,47.0,2024-10-14,88735-212959
+312,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212961,1031.0,lv,lv,8839,DEM,Kamala Harris,50.0,2024-10-14,88735-212961
+313,88735,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,212961,1031.0,lv,lv,8839,REP,Donald Trump,47.0,2024-10-14,88735-212961
+316,88776,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,Georgia,10/9/24,10/14/24,213298,701.0,lv,lv,8781,DEM,Kamala Harris,45.8,2024-10-14,88776-213298
+317,88776,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,Georgia,10/9/24,10/14/24,213298,701.0,lv,lv,8781,REP,Donald Trump,48.9,2024-10-14,88776-213298
+398,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212457,857.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-10-10,88664-212457
+399,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212457,857.0,rv,rv,8872,REP,Donald Trump,47.0,2024-10-10,88664-212457
+400,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212458,857.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-10-10,88664-212458
+401,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212458,857.0,rv,rv,8872,REP,Donald Trump,45.0,2024-10-10,88664-212458
+404,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212459,857.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-10-10,88664-212459
+405,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212459,857.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-10,88664-212459
+406,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212460,857.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-10,88664-212460
+407,88664,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,212460,857.0,lv,lv,8872,REP,Donald Trump,45.0,2024-10-10,88664-212460
+410,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212461,808.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-10-10,88665-212461
+411,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212461,808.0,lv,lv,8759,REP,Donald Trump,51.0,2024-10-10,88665-212461
+412,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212462,808.0,lv,lv,8759,DEM,Kamala Harris,45.0,2024-10-10,88665-212462
+413,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212462,808.0,lv,lv,8759,REP,Donald Trump,50.0,2024-10-10,88665-212462
+416,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212463,808.0,rv,rv,8759,DEM,Kamala Harris,45.0,2024-10-10,88665-212463
+417,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212463,808.0,rv,rv,8759,REP,Donald Trump,51.0,2024-10-10,88665-212463
+418,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212464,808.0,rv,rv,8759,DEM,Kamala Harris,44.0,2024-10-10,88665-212464
+419,88665,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,212464,808.0,rv,rv,8759,REP,Donald Trump,49.0,2024-10-10,88665-212464
+513,88737,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,10/2/24,10/9/24,213056,800.0,lv,lv,8872,DEM,Kamala Harris,46.0,2024-10-09,88737-213056
+514,88737,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,10/2/24,10/9/24,213056,800.0,lv,lv,8872,REP,Donald Trump,45.0,2024-10-09,88737-213056
+534,88606,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,10/5/24,10/8/24,212185,1000.0,lv,lv,8759,DEM,Kamala Harris,48.2,2024-10-08,88606-212185
+535,88606,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,10/5/24,10/8/24,212185,1000.0,lv,lv,8759,REP,Donald Trump,50.5,2024-10-08,88606-212185
+536,88607,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,10/5/24,10/8/24,212186,1000.0,lv,lv,8781,DEM,Kamala Harris,49.8,2024-10-08,88607-212186
+537,88607,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,10/5/24,10/8/24,212186,1000.0,lv,lv,8781,REP,Donald Trump,49.7,2024-10-08,88607-212186
+538,88608,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,10/5/24,10/8/24,212187,950.0,lv,lv,8820,DEM,Kamala Harris,49.7,2024-10-08,88608-212187
+539,88608,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,10/5/24,10/8/24,212187,950.0,lv,lv,8820,REP,Donald Trump,49.6,2024-10-08,88608-212187
+540,88609,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,10/5/24,10/8/24,212188,900.0,lv,lv,8857,DEM,Kamala Harris,49.2,2024-10-08,88609-212188
+541,88609,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,10/5/24,10/8/24,212188,900.0,lv,lv,8857,REP,Donald Trump,48.1,2024-10-08,88609-212188
+542,88610,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,10/5/24,10/8/24,212189,1000.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-10-08,88610-212189
+543,88610,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,10/5/24,10/8/24,212189,1000.0,lv,lv,8839,REP,Donald Trump,49.9,2024-10-08,88610-212189
+544,88611,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,10/5/24,10/8/24,212190,1000.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-08,88611-212190
+545,88611,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,10/5/24,10/8/24,212190,1000.0,lv,lv,8872,REP,Donald Trump,49.7,2024-10-08,88611-212190
+546,88612,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,10/5/24,10/8/24,212191,1000.0,lv,lv,8905,DEM,Kamala Harris,49.2,2024-10-08,88612-212191
+547,88612,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,10/5/24,10/8/24,212191,1000.0,lv,lv,8905,REP,Donald Trump,49.9,2024-10-08,88612-212191
+708,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212154,1007.0,lv,lv,8820,DEM,Kamala Harris,47.0,2024-10-07,88591-212154
+709,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212154,1007.0,lv,lv,8820,REP,Donald Trump,50.0,2024-10-07,88591-212154
+714,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212157,1007.0,lv,lv,8820,DEM,Kamala Harris,47.0,2024-10-07,88591-212157
+715,88591,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,212157,1007.0,lv,lv,8820,REP,Donald Trump,51.0,2024-10-07,88591-212157
+716,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212155,1412.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-07,88592-212155
+717,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212155,1412.0,lv,lv,8872,REP,Donald Trump,46.0,2024-10-07,88592-212155
+720,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212158,1412.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-10-07,88592-212158
+721,88592,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,212158,1412.0,lv,lv,8872,REP,Donald Trump,47.0,2024-10-07,88592-212158
+722,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212156,1073.0,lv,lv,8905,DEM,Kamala Harris,46.0,2024-10-07,88593-212156
+723,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212156,1073.0,lv,lv,8905,REP,Donald Trump,48.0,2024-10-07,88593-212156
+729,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212159,1073.0,lv,lv,8905,DEM,Kamala Harris,47.0,2024-10-07,88593-212159
+730,88593,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,212159,1073.0,lv,lv,8905,REP,Donald Trump,49.0,2024-10-07,88593-212159
+951,88618,1901,YouGov/Center for Working Class Politics,3.0,-1.1,Online Panel,4.5,Pennsylvania,9/24/24,10/2/24,212208,1000.0,rv,rv,8872,DEM,Kamala Harris,46.8,2024-10-02,88618-212208
+952,88618,1901,YouGov/Center for Working Class Politics,3.0,-1.1,Online Panel,4.5,Pennsylvania,9/24/24,10/2/24,212208,1000.0,rv,rv,8872,REP,Donald Trump,44.7,2024-10-02,88618-212208
+1060,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211143,1001.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88431-211143
+1061,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211143,1001.0,lv,lv,8839,REP,Donald Trump,50.0,2024-09-29,88431-211143
+1062,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211144,1001.0,rv,rv,8839,DEM,Kamala Harris,47.0,2024-09-29,88431-211144
+1063,88431,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,211144,1001.0,rv,rv,8839,REP,Donald Trump,50.0,2024-09-29,88431-211144
+1064,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211301,953.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-29,88457-211301
+1065,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211301,953.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-29,88457-211301
+1070,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211303,953.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88457-211303
+1071,88457,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,211303,953.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-29,88457-211303
+1072,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211300,942.0,lv,lv,8781,DEM,Kamala Harris,44.0,2024-09-29,88458-211300
+1073,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211300,942.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-29,88458-211300
+1078,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211302,942.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-29,88458-211302
+1079,88458,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,211302,942.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-29,88458-211302
+1140,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211536,814.0,rv,rv,8839,DEM,Kamala Harris,48.0,2024-09-29,88503-211536
+1141,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211536,814.0,rv,rv,8839,REP,Donald Trump,46.0,2024-09-29,88503-211536
+1142,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211537,589.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-29,88503-211537
+1143,88503,217,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,211537,589.0,lv,lv,8839,REP,Donald Trump,48.0,2024-09-29,88503-211537
+1146,88461,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Arizona,9/27/24,9/28/24,211311,920.0,lv,lv,8759,DEM,Kamala Harris,47.6,2024-09-28,88461-211311
+1147,88461,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Arizona,9/27/24,9/28/24,211311,920.0,lv,lv,8759,REP,Donald Trump,51.7,2024-09-28,88461-211311
+1148,88462,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,North Carolina,9/27/24,9/28/24,211310,850.0,lv,lv,8839,DEM,Kamala Harris,49.1,2024-09-28,88462-211310
+1149,88462,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,North Carolina,9/27/24,9/28/24,211310,850.0,lv,lv,8839,REP,Donald Trump,49.9,2024-09-28,88462-211310
+1150,88465,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Pennsylvania,9/27/24,9/28/24,211323,1000.0,lv,lv,8872,DEM,Kamala Harris,49.3,2024-09-28,88465-211323
+1151,88465,1102,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Pennsylvania,9/27/24,9/28/24,211323,1000.0,lv,lv,8872,REP,Donald Trump,48.8,2024-09-28,88465-211323
+1209,88423,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,North Carolina,9/23/24,9/26/24,211109,1005.0,lv,lv,8839,DEM,Kamala Harris,47.1,2024-09-26,88423-211109
+1210,88423,1516,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,North Carolina,9/23/24,9/26/24,211109,1005.0,lv,lv,8839,REP,Donald Trump,49.4,2024-09-26,88423-211109
+1224,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211029,688.0,rv,rv,8820,DEM,Kamala Harris,45.0,2024-09-26,88404-211029
+1225,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211029,688.0,rv,rv,8820,REP,Donald Trump,47.0,2024-09-26,88404-211029
+1226,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211030,688.0,rv,rv,8820,DEM,Kamala Harris,43.0,2024-09-26,88404-211030
+1227,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211030,688.0,rv,rv,8820,REP,Donald Trump,46.0,2024-09-26,88404-211030
+1230,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211031,688.0,lv,lv,8820,DEM,Kamala Harris,48.0,2024-09-26,88404-211031
+1231,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211031,688.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-26,88404-211031
+1232,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211032,688.0,lv,lv,8820,DEM,Kamala Harris,46.0,2024-09-26,88404-211032
+1233,88404,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,211032,688.0,lv,lv,8820,REP,Donald Trump,46.0,2024-09-26,88404-211032
+1248,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211037,680.0,rv,rv,8905,DEM,Kamala Harris,49.0,2024-09-26,88406-211037
+1249,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211037,680.0,rv,rv,8905,REP,Donald Trump,47.0,2024-09-26,88406-211037
+1250,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211038,680.0,rv,rv,8905,DEM,Kamala Harris,48.0,2024-09-26,88406-211038
+1251,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211038,680.0,rv,rv,8905,REP,Donald Trump,45.0,2024-09-26,88406-211038
+1254,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211039,680.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-26,88406-211039
+1255,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211039,680.0,lv,lv,8905,REP,Donald Trump,47.0,2024-09-26,88406-211039
+1256,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211040,680.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-26,88406-211040
+1257,88406,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,211040,680.0,lv,lv,8905,REP,Donald Trump,46.0,2024-09-26,88406-211040
+1260,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211434,882.0,rv,rv,8905,DEM,Kamala Harris,52.0,2024-09-26,88488-211434
+1261,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211434,882.0,rv,rv,8905,REP,Donald Trump,48.0,2024-09-26,88488-211434
+1262,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211435,798.0,lv,lv,8905,DEM,Kamala Harris,52.0,2024-09-26,88488-211435
+1263,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211435,798.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-26,88488-211435
+1264,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211436,882.0,rv,rv,8905,DEM,Kamala Harris,48.0,2024-09-26,88488-211436
+1265,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211436,882.0,rv,rv,8905,REP,Donald Trump,44.0,2024-09-26,88488-211436
+1272,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211437,798.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-26,88488-211437
+1273,88488,1075,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,211437,798.0,lv,lv,8905,REP,Donald Trump,44.0,2024-09-26,88488-211437
+1320,88395,1866,CNN/SSRS,2.8,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,10.0,North Carolina,9/20/24,9/25/24,210986,931.0,lv,lv,8839,DEM,Kamala Harris,48.0,2024-09-25,88395-210986
+1321,88395,1866,CNN/SSRS,2.8,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,10.0,North Carolina,9/20/24,9/25/24,210986,931.0,lv,lv,8839,REP,Donald Trump,48.0,2024-09-25,88395-210986
+1330,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211063,946.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-09-25,88410-211063
+1331,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211063,946.0,lv,lv,8759,REP,Donald Trump,49.7,2024-09-25,88410-211063
+1333,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211064,946.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-09-25,88410-211064
+1334,88410,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,211064,946.0,lv,lv,8759,REP,Donald Trump,49.8,2024-09-25,88410-211064
+1335,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211067,918.0,lv,lv,8820,DEM,Kamala Harris,46.6,2024-09-25,88411-211067
+1336,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211067,918.0,lv,lv,8820,REP,Donald Trump,50.4,2024-09-25,88411-211067
+1340,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211068,918.0,lv,lv,8820,DEM,Kamala Harris,47.2,2024-09-25,88411-211068
+1341,88411,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,211068,918.0,lv,lv,8820,REP,Donald Trump,50.6,2024-09-25,88411-211068
+1342,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211069,858.0,lv,lv,8857,DEM,Kamala Harris,50.6,2024-09-25,88412-211069
+1343,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211069,858.0,lv,lv,8857,REP,Donald Trump,47.7,2024-09-25,88412-211069
+1345,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211070,858.0,lv,lv,8857,DEM,Kamala Harris,50.5,2024-09-25,88412-211070
+1346,88412,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,211070,858.0,lv,lv,8857,REP,Donald Trump,47.7,2024-09-25,88412-211070
+1347,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211073,1775.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-25,88413-211073
+1348,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211073,1775.0,lv,lv,8872,REP,Donald Trump,50.6,2024-09-25,88413-211073
+1351,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211074,1775.0,lv,lv,8872,DEM,Kamala Harris,48.1,2024-09-25,88413-211074
+1352,88413,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,211074,1775.0,lv,lv,8872,REP,Donald Trump,51.0,2024-09-25,88413-211074
+1353,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211075,1077.0,lv,lv,8905,DEM,Kamala Harris,48.2,2024-09-25,88414-211075
+1354,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211075,1077.0,lv,lv,8905,REP,Donald Trump,49.6,2024-09-25,88414-211075
+1359,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211076,1077.0,lv,lv,8905,DEM,Kamala Harris,48.2,2024-09-25,88414-211076
+1360,88414,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,211076,1077.0,lv,lv,8905,REP,Donald Trump,49.7,2024-09-25,88414-211076
+1361,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211071,1173.0,lv,lv,8839,DEM,Kamala Harris,50.8,2024-09-25,88415-211071
+1362,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211071,1173.0,lv,lv,8839,REP,Donald Trump,47.3,2024-09-25,88415-211071
+1366,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211072,1173.0,lv,lv,8839,DEM,Kamala Harris,50.5,2024-09-25,88415-211072
+1367,88415,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,211072,1173.0,lv,lv,8839,REP,Donald Trump,48.1,2024-09-25,88415-211072
+1368,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211065,1200.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-25,88416-211065
+1369,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211065,1200.0,lv,lv,8781,REP,Donald Trump,49.3,2024-09-25,88416-211065
+1372,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211066,1200.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-25,88416-211066
+1373,88416,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,211066,1200.0,lv,lv,8781,REP,Donald Trump,49.6,2024-09-25,88416-211066
+1527,88361,568,YouGov,3.0,-1.1,Online Panel,9.0,Georgia,9/20/24,9/24/24,210760,1441.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-24,88361-210760
+1528,88361,568,YouGov,3.0,-1.1,Online Panel,9.0,Georgia,9/20/24,9/24/24,210760,1441.0,lv,lv,8781,REP,Donald Trump,51.0,2024-09-24,88361-210760
+1529,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210903,1021.0,rv,rv,8759,DEM,Kamala Harris,47.0,2024-09-24,88380-210903
+1530,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210903,1021.0,rv,rv,8759,REP,Donald Trump,49.0,2024-09-24,88380-210903
+1534,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210904,764.0,lv,lv,8759,DEM,Kamala Harris,47.0,2024-09-24,88380-210904
+1535,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210904,764.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-24,88380-210904
+1539,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210905,1021.0,rv,rv,8759,DEM,Kamala Harris,48.0,2024-09-24,88380-210905
+1540,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210905,1021.0,rv,rv,8759,REP,Donald Trump,50.0,2024-09-24,88380-210905
+1541,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210906,764.0,lv,lv,8759,DEM,Kamala Harris,48.0,2024-09-24,88380-210906
+1542,88380,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,210906,764.0,lv,lv,8759,REP,Donald Trump,51.0,2024-09-24,88380-210906
+1543,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210907,1006.0,rv,rv,8781,DEM,Kamala Harris,49.0,2024-09-24,88381-210907
+1544,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210907,1006.0,rv,rv,8781,REP,Donald Trump,47.0,2024-09-24,88381-210907
+1548,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210908,707.0,lv,lv,8781,DEM,Kamala Harris,50.0,2024-09-24,88381-210908
+1549,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210908,707.0,lv,lv,8781,REP,Donald Trump,48.0,2024-09-24,88381-210908
+1553,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210909,1006.0,rv,rv,8781,DEM,Kamala Harris,51.0,2024-09-24,88381-210909
+1554,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210909,1006.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-24,88381-210909
+1555,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210910,707.0,lv,lv,8781,DEM,Kamala Harris,51.0,2024-09-24,88381-210910
+1556,88381,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,210910,707.0,lv,lv,8781,REP,Donald Trump,48.0,2024-09-24,88381-210910
+1557,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211015,787.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-24,88402-211015
+1558,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211015,787.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-24,88402-211015
+1562,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211016,991.0,rv,rv,8839,DEM,Kamala Harris,48.0,2024-09-24,88402-211016
+1563,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211016,991.0,rv,rv,8839,REP,Donald Trump,47.0,2024-09-24,88402-211016
+1567,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211017,787.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-24,88402-211017
+1568,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211017,787.0,lv,lv,8839,REP,Donald Trump,50.0,2024-09-24,88402-211017
+1569,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211018,991.0,rv,rv,8839,DEM,Kamala Harris,50.0,2024-09-24,88402-211018
+1570,88402,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,211018,991.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-24,88402-211018
+1571,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211019,775.0,lv,lv,8872,DEM,Kamala Harris,47.0,2024-09-24,88403-211019
+1572,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211019,775.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-24,88403-211019
+1575,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211020,1021.0,rv,rv,8872,DEM,Kamala Harris,48.0,2024-09-24,88403-211020
+1576,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211020,1021.0,rv,rv,8872,REP,Donald Trump,46.0,2024-09-24,88403-211020
+1579,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211021,775.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-24,88403-211021
+1580,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211021,775.0,lv,lv,8872,REP,Donald Trump,49.0,2024-09-24,88403-211021
+1581,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211022,1021.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-09-24,88403-211022
+1582,88403,1597,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,211022,1021.0,rv,rv,8872,REP,Donald Trump,48.0,2024-09-24,88403-211022
+1583,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210782,1416.0,rv,rv,8759,DEM,Kamala Harris,48.0,2024-09-24,88363-210782
+1584,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210782,1416.0,rv,rv,8759,REP,Donald Trump,50.0,2024-09-24,88363-210782
+1585,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210783,1264.0,lv,lv,8759,DEM,Kamala Harris,49.0,2024-09-24,88363-210783
+1586,88363,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,210783,1264.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-24,88363-210783
+1587,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210787,1507.0,rv,rv,8839,DEM,Kamala Harris,49.0,2024-09-24,88366-210787
+1588,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210787,1507.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-24,88366-210787
+1589,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210788,1348.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-24,88366-210788
+1590,88366,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,210788,1348.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-24,88366-210788
+1591,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210785,1420.0,rv,rv,8781,DEM,Kamala Harris,49.0,2024-09-24,88368-210785
+1592,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210785,1420.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-24,88368-210785
+1593,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210786,1220.0,lv,lv,8781,DEM,Kamala Harris,49.0,2024-09-24,88368-210786
+1594,88368,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,210786,1220.0,lv,lv,8781,REP,Donald Trump,50.0,2024-09-24,88368-210786
+1595,88390,458,Suffolk,2.9,-1.0,Live Phone,8.0,Arizona,9/19/24,9/24/24,210964,500.0,lv,lv,8759,DEM,Kamala Harris,42.4,2024-09-24,88390-210964
+1596,88390,458,Suffolk,2.9,-1.0,Live Phone,8.0,Arizona,9/19/24,9/24/24,210964,500.0,lv,lv,8759,REP,Donald Trump,48.4,2024-09-24,88390-210964
+1665,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210332,713.0,rv,rv,8759,DEM,Kamala Harris,45.0,2024-09-21,88276-210332
+1666,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210332,713.0,rv,rv,8759,REP,Donald Trump,49.0,2024-09-21,88276-210332
+1667,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210333,713.0,lv,lv,8759,DEM,Kamala Harris,45.0,2024-09-21,88276-210333
+1668,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210333,713.0,lv,lv,8759,REP,Donald Trump,50.0,2024-09-21,88276-210333
+1669,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210334,713.0,rv,rv,8759,DEM,Kamala Harris,42.0,2024-09-21,88276-210334
+1670,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210334,713.0,rv,rv,8759,REP,Donald Trump,47.0,2024-09-21,88276-210334
+1673,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210335,713.0,lv,lv,8759,DEM,Kamala Harris,43.0,2024-09-21,88276-210335
+1674,88276,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,210335,713.0,lv,lv,8759,REP,Donald Trump,48.0,2024-09-21,88276-210335
+1677,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210336,682.0,rv,rv,8781,DEM,Kamala Harris,44.0,2024-09-21,88277-210336
+1678,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210336,682.0,rv,rv,8781,REP,Donald Trump,48.0,2024-09-21,88277-210336
+1679,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210337,682.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-21,88277-210337
+1680,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210337,682.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-21,88277-210337
+1681,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210338,682.0,rv,rv,8781,DEM,Kamala Harris,43.0,2024-09-21,88277-210338
+1682,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210338,682.0,rv,rv,8781,REP,Donald Trump,46.0,2024-09-21,88277-210338
+1685,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210339,682.0,lv,lv,8781,DEM,Kamala Harris,44.0,2024-09-21,88277-210339
+1686,88277,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,210339,682.0,lv,lv,8781,REP,Donald Trump,47.0,2024-09-21,88277-210339
+1689,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210340,682.0,rv,rv,8839,DEM,Kamala Harris,47.0,2024-09-21,88278-210340
+1690,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210340,682.0,rv,rv,8839,REP,Donald Trump,48.0,2024-09-21,88278-210340
+1691,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210341,682.0,lv,lv,8839,DEM,Kamala Harris,47.0,2024-09-21,88278-210341
+1692,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210341,682.0,lv,lv,8839,REP,Donald Trump,49.0,2024-09-21,88278-210341
+1693,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210342,682.0,rv,rv,8839,DEM,Kamala Harris,46.0,2024-09-21,88278-210342
+1694,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210342,682.0,rv,rv,8839,REP,Donald Trump,46.0,2024-09-21,88278-210342
+1697,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210343,682.0,lv,lv,8839,DEM,Kamala Harris,45.0,2024-09-21,88278-210343
+1698,88278,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,210343,682.0,lv,lv,8839,REP,Donald Trump,47.0,2024-09-21,88278-210343
+1719,88441,1056,Remington,2.6,-0.6,,7.0,Michigan,9/16/24,9/20/24,211152,800.0,lv,lv,8820,DEM,Kamala Harris,49.0,2024-09-20,88441-211152
+1720,88441,1056,Remington,2.6,-0.6,,7.0,Michigan,9/16/24,9/20/24,211152,800.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-20,88441-211152
+1723,88442,1056,Remington,2.6,-0.6,,7.0,Nevada,9/16/24,9/20/24,211153,800.0,lv,lv,8857,DEM,Kamala Harris,48.0,2024-09-20,88442-211153
+1724,88442,1056,Remington,2.6,-0.6,,7.0,Nevada,9/16/24,9/20/24,211153,800.0,lv,lv,8857,REP,Donald Trump,49.0,2024-09-20,88442-211153
+1725,88443,1056,Remington,2.6,-0.6,,7.0,Pennsylvania,9/16/24,9/20/24,211154,800.0,lv,lv,8872,DEM,Kamala Harris,47.0,2024-09-20,88443-211154
+1726,88443,1056,Remington,2.6,-0.6,,7.0,Pennsylvania,9/16/24,9/20/24,211154,800.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-20,88443-211154
+1728,88444,1056,Remington,2.6,-0.6,,7.0,Wisconsin,9/16/24,9/20/24,211155,800.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-20,88444-211155
+1729,88444,1056,Remington,2.6,-0.6,,7.0,Wisconsin,9/16/24,9/20/24,211155,800.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-20,88444-211155
+1775,88339,329,Muhlenberg,2.8,-1.0,Live Phone,8.0,Pennsylvania,9/16/24,9/19/24,210621,450.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-19,88339-210621
+1776,88339,329,Muhlenberg,2.8,-1.0,Live Phone,8.0,Pennsylvania,9/16/24,9/19/24,210621,450.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-19,88339-210621
+1789,88371,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Michigan,9/11/24,9/19/24,210793,650.0,lv,lv,8820,DEM,Kamala Harris,48.0,2024-09-19,88371-210793
+1790,88371,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Michigan,9/11/24,9/19/24,210793,650.0,lv,lv,8820,REP,Donald Trump,43.0,2024-09-19,88371-210793
+1797,88372,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,9/11/24,9/19/24,210794,800.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-19,88372-210794
+1798,88372,1847,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,9/11/24,9/19/24,210794,800.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-19,88372-210794
+1821,88301,458,Suffolk,2.9,-1.0,Live Phone,8.0,Michigan,9/16/24,9/18/24,210415,500.0,lv,lv,8820,DEM,Kamala Harris,47.6,2024-09-18,88301-210415
+1822,88301,458,Suffolk,2.9,-1.0,Live Phone,8.0,Michigan,9/16/24,9/18/24,210415,500.0,lv,lv,8820,REP,Donald Trump,45.4,2024-09-18,88301-210415
+1831,88235,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,9/15/24,9/18/24,210076,868.0,lv,lv,8759,DEM,Kamala Harris,48.7,2024-09-18,88235-210076
+1832,88235,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,9/15/24,9/18/24,210076,868.0,lv,lv,8759,REP,Donald Trump,49.8,2024-09-18,88235-210076
+1833,88236,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,9/15/24,9/18/24,210077,975.0,lv,lv,8781,DEM,Kamala Harris,48.2,2024-09-18,88236-210077
+1834,88236,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,9/15/24,9/18/24,210077,975.0,lv,lv,8781,REP,Donald Trump,50.3,2024-09-18,88236-210077
+1835,88237,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,9/15/24,9/18/24,210078,875.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-18,88237-210078
+1836,88237,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,9/15/24,9/18/24,210078,875.0,lv,lv,8820,REP,Donald Trump,49.1,2024-09-18,88237-210078
+1837,88238,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,9/15/24,9/18/24,210079,895.0,lv,lv,8857,DEM,Kamala Harris,48.8,2024-09-18,88238-210079
+1838,88238,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,9/15/24,9/18/24,210079,895.0,lv,lv,8857,REP,Donald Trump,49.0,2024-09-18,88238-210079
+1839,88239,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,9/15/24,9/18/24,210080,880.0,lv,lv,8872,DEM,Kamala Harris,49.6,2024-09-18,88239-210080
+1840,88239,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,9/15/24,9/18/24,210080,880.0,lv,lv,8872,REP,Donald Trump,49.3,2024-09-18,88239-210080
+1841,88240,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,9/15/24,9/18/24,210081,1000.0,lv,lv,8839,DEM,Kamala Harris,49.7,2024-09-18,88240-210081
+1842,88240,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,9/15/24,9/18/24,210081,1000.0,lv,lv,8839,REP,Donald Trump,49.3,2024-09-18,88240-210081
+1843,88241,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,9/15/24,9/18/24,210082,1000.0,lv,lv,8905,DEM,Kamala Harris,48.7,2024-09-18,88241-210082
+1844,88241,1102,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,9/15/24,9/18/24,210082,1000.0,lv,lv,8905,REP,Donald Trump,50.3,2024-09-18,88241-210082
+1849,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210290,800.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-18,88267-210290
+1850,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210290,800.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-18,88267-210290
+1853,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210291,800.0,lv,lv,8872,DEM,Kamala Harris,52.0,2024-09-18,88267-210291
+1854,88267,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,210291,800.0,lv,lv,8872,REP,Donald Trump,47.0,2024-09-18,88267-210291
+1865,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210360,800.0,lv,lv,8905,DEM,Kamala Harris,51.0,2024-09-18,88286-210360
+1866,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210360,800.0,lv,lv,8905,REP,Donald Trump,45.0,2024-09-18,88286-210360
+1871,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210361,800.0,lv,lv,8905,DEM,Kamala Harris,53.0,2024-09-18,88286-210361
+1872,88286,290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,210361,800.0,lv,lv,8905,REP,Donald Trump,46.0,2024-09-18,88286-210361
+1932,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210070,1663.0,rv,rv,8872,DEM,Kamala Harris,49.0,2024-09-17,88232-210070
+1933,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210070,1663.0,rv,rv,8872,REP,Donald Trump,48.0,2024-09-17,88232-210070
+1934,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210071,1476.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-17,88232-210071
+1935,88232,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,210071,1476.0,lv,lv,8872,REP,Donald Trump,49.0,2024-09-17,88232-210071
+1936,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210072,1312.0,rv,rv,8905,DEM,Kamala Harris,50.0,2024-09-17,88233-210072
+1937,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210072,1312.0,rv,rv,8905,REP,Donald Trump,47.0,2024-09-17,88233-210072
+1938,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210073,1194.0,lv,lv,8905,DEM,Kamala Harris,50.0,2024-09-17,88233-210073
+1939,88233,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,210073,1194.0,lv,lv,8905,REP,Donald Trump,49.0,2024-09-17,88233-210073
+1940,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210074,1282.0,rv,rv,8820,DEM,Kamala Harris,50.0,2024-09-17,88234-210074
+1941,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210074,1282.0,rv,rv,8820,REP,Donald Trump,47.0,2024-09-17,88234-210074
+1942,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210075,1138.0,lv,lv,8820,DEM,Kamala Harris,52.0,2024-09-17,88234-210075
+1943,88234,1205,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,210075,1138.0,lv,lv,8820,REP,Donald Trump,47.0,2024-09-17,88234-210075
+1989,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209902,1331.0,lv,lv,8872,DEM,Kamala Harris,51.0,2024-09-16,88211-209902
+1990,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209902,1331.0,lv,lv,8872,REP,Donald Trump,45.0,2024-09-16,88211-209902
+1993,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209905,1331.0,lv,lv,8872,DEM,Kamala Harris,51.0,2024-09-16,88211-209905
+1994,88211,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,209905,1331.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-16,88211-209905
+1995,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209903,905.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-16,88212-209903
+1996,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209903,905.0,lv,lv,8820,REP,Donald Trump,45.0,2024-09-16,88212-209903
+2001,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209906,905.0,lv,lv,8820,DEM,Kamala Harris,51.0,2024-09-16,88212-209906
+2002,88212,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,209906,905.0,lv,lv,8820,REP,Donald Trump,46.0,2024-09-16,88212-209906
+2003,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209904,1075.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-16,88213-209904
+2004,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209904,1075.0,lv,lv,8905,REP,Donald Trump,47.0,2024-09-16,88213-209904
+2010,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209907,1075.0,lv,lv,8905,DEM,Kamala Harris,49.0,2024-09-16,88213-209907
+2011,88213,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,209907,1075.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-16,88213-209907
+2024,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210066,1003.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-16,88231-210066
+2025,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210066,1003.0,lv,lv,8872,REP,Donald Trump,47.0,2024-09-16,88231-210066
+2028,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210067,1003.0,lv,lv,8872,DEM,Kamala Harris,48.0,2024-09-16,88231-210067
+2029,88231,486,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,210067,1003.0,lv,lv,8872,REP,Donald Trump,48.0,2024-09-16,88231-210067
+2069,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210087,1082.0,rv,rv,8872,DEM,Kamala Harris,50.0,2024-09-16,88242-210087
+2070,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210087,1082.0,rv,rv,8872,REP,Donald Trump,46.0,2024-09-16,88242-210087
+2071,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210088,1082.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-16,88242-210088
+2072,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210088,1082.0,lv,lv,8872,REP,Donald Trump,46.0,2024-09-16,88242-210088
+2073,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210089,1082.0,rv,rv,8872,DEM,Kamala Harris,48.0,2024-09-16,88242-210089
+2074,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210089,1082.0,rv,rv,8872,REP,Donald Trump,45.0,2024-09-16,88242-210089
+2077,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210090,1082.0,lv,lv,8872,DEM,Kamala Harris,49.0,2024-09-16,88242-210090
+2078,88242,1424,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,210090,1082.0,lv,lv,8872,REP,Donald Trump,45.0,2024-09-16,88242-210090
+2235,88184,458,Suffolk,2.9,-1.0,Live Phone,8.0,Pennsylvania,9/11/24,9/14/24,209630,500.0,lv,lv,8872,DEM,Kamala Harris,48.6,2024-09-14,88184-209630
+2236,88184,458,Suffolk,2.9,-1.0,Live Phone,8.0,Pennsylvania,9/11/24,9/14/24,209630,500.0,lv,lv,8872,REP,Donald Trump,45.6,2024-09-14,88184-209630
+2320,88302,978,Elon U.,2.5,-0.6,Online Panel,8.0,North Carolina,9/4/24,9/13/24,210420,800.0,rv,rv,8839,DEM,Kamala Harris,46.0,2024-09-13,88302-210420
+2321,88302,978,Elon U.,2.5,-0.6,Online Panel,8.0,North Carolina,9/4/24,9/13/24,210420,800.0,rv,rv,8839,REP,Donald Trump,45.0,2024-09-13,88302-210420
+2400,88203,1308,Data Orbital,2.9,-0.9,Live Phone/Text-to-Web,10.0,Arizona,9/7/24,9/9/24,209816,550.0,lv,lv,8759,DEM,Kamala Harris,46.0,2024-09-09,88203-209816
+2401,88203,1308,Data Orbital,2.9,-0.9,Live Phone/Text-to-Web,10.0,Arizona,9/7/24,9/9/24,209816,550.0,lv,lv,8759,REP,Donald Trump,46.2,2024-09-09,88203-209816
+2476,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208325,940.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-08,88095-208325
+2477,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208325,940.0,lv,lv,8839,REP,Donald Trump,46.0,2024-09-08,88095-208325
+2482,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208327,940.0,lv,lv,8839,DEM,Kamala Harris,50.0,2024-09-08,88095-208327
+2483,88095,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,208327,940.0,lv,lv,8839,REP,Donald Trump,47.0,2024-09-08,88095-208327
+2484,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208324,969.0,lv,lv,8781,DEM,Kamala Harris,45.0,2024-09-08,88101-208324
+2485,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208324,969.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-08,88101-208324
+2490,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208326,969.0,lv,lv,8781,DEM,Kamala Harris,46.0,2024-09-08,88101-208326
+2491,88101,396,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,208326,969.0,lv,lv,8781,REP,Donald Trump,49.0,2024-09-08,88101-208326
+2543,88083,460,SurveyUSA,2.8,-1.3,Online Panel,8.0,North Carolina,9/4/24,9/7/24,208275,676.0,lv,lv,8839,DEM,Kamala Harris,49.0,2024-09-07,88083-208275
+2544,88083,460,SurveyUSA,2.8,-1.3,Online Panel,8.0,North Carolina,9/4/24,9/7/24,208275,676.0,lv,lv,8839,REP,Donald Trump,46.0,2024-09-07,88083-208275
+2566,88070,568,YouGov,3.0,-1.1,Online Panel,9.0,Michigan,9/3/24,9/6/24,207965,1077.0,lv,lv,8820,DEM,Kamala Harris,50.0,2024-09-06,88070-207965
+2567,88070,568,YouGov,3.0,-1.1,Online Panel,9.0,Michigan,9/3/24,9/6/24,207965,1077.0,lv,lv,8820,REP,Donald Trump,49.0,2024-09-06,88070-207965
+2568,88071,568,YouGov,3.0,-1.1,Online Panel,9.0,Pennsylvania,9/3/24,9/6/24,207966,1078.0,lv,lv,8872,DEM,Kamala Harris,50.0,2024-09-06,88071-207966
+2569,88071,568,YouGov,3.0,-1.1,Online Panel,9.0,Pennsylvania,9/3/24,9/6/24,207966,1078.0,lv,lv,8872,REP,Donald Trump,50.0,2024-09-06,88071-207966
+2570,88072,568,YouGov,3.0,-1.1,Online Panel,9.0,Wisconsin,9/3/24,9/6/24,207967,946.0,lv,lv,8905,DEM,Kamala Harris,51.0,2024-09-06,88072-207967
+2571,88072,568,YouGov,3.0,-1.1,Online Panel,9.0,Wisconsin,9/3/24,9/6/24,207967,946.0,lv,lv,8905,REP,Donald Trump,49.0,2024-09-06,88072-207967
+2642,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209223,822.0,rv,rv,8905,DEM,Kamala Harris,52.0,2024-09-05,88135-209223
+2643,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209223,822.0,rv,rv,8905,REP,Donald Trump,48.0,2024-09-05,88135-209223
+2644,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209224,738.0,lv,lv,8905,DEM,Kamala Harris,52.0,2024-09-05,88135-209224
+2645,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209224,738.0,lv,lv,8905,REP,Donald Trump,48.0,2024-09-05,88135-209224
+2646,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209225,822.0,rv,rv,8905,DEM,Kamala Harris,47.0,2024-09-05,88135-209225
+2647,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209225,822.0,rv,rv,8905,REP,Donald Trump,43.0,2024-09-05,88135-209225
+2653,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209226,738.0,lv,lv,8905,DEM,Kamala Harris,48.0,2024-09-05,88135-209226
+2654,88135,1075,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,209226,738.0,lv,lv,8905,REP,Donald Trump,43.0,2024-09-05,88135-209226

@@ -65,8 +65,23 @@ df_swing.to_csv("data/02-analysis_data/swing_state_polls.csv")
 
 #creating data to be analysed (grouping by )
 df_trump = df_swing[df_swing['candidate_name'] == "Donald Trump"]
-df_trump.rename(columns={"pct": "trump_pct"})
 df_harris = df_swing[df_swing['candidate_name'] == "Kamala Harris"]
-df_harris.rename(columns={"pct": "harris_pct"})
-df_by_poll = pd.merge(df_trump, df_harris, on='unique_id', how='inner')
-print(df_by_poll.head())
+
+
+df_by_poll = pd.merge(df_trump[['unique_id',
+    'poll_id',
+    'question_id',
+    'pollster',
+    'numeric_grade',
+    'pollscore',
+    'methodology',
+    'transparency_score',
+    'state',
+    'start_date',
+    'end_date',
+    'sample_size',
+    'population', 'pct']],
+    df_harris[['unique_id', 'pct']], on='unique_id', how='inner')
+df_merged = df_by_poll.rename(columns={'pct_x': 'trump_pct', 'pct_y': 'harris_pct'}, inplace=True)
+
+df_by_poll.to_csv("data/02-analysis_data/merged_swing_state_data.csv")
