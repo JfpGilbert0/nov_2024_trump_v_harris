@@ -14,10 +14,115 @@ abstract: |
 ---
 
 
-
 # 1 Introduction
 
+This paper develops a predictive model for the 2024 US Presidential Election using state-level polling data to forecast the likely winner between Donald Trump and Kamala Harris. By aggregating high-quality polls that account for recency and sample size, we create a logistic regression model that estimates the probability of a Trump or Harris victory in each state. This approach allows us to analyze voter support patterns across the states and predict election outcomes more accurately.
 
+The estimand in this study is the probability that Donald Trump or Kamala Harris wins a given state, derived from aggregated state-level polling averages. The binary outcome variable in our model indicates whether Trump (1) or Harris (0) is predicted to win in each state, with predictor variables comprising the weighted average polling percentages for both candidates. We assign greater importance to more recent polls and those with larger sample sizes, enhancing the reliability of our estimates.
+
+Our model employs a logistic regression framework to predict election outcomes based on these weighted averages. The results reveal the geographic distribution of support for each candidate. We have focused our analysis on the swing states where polling percentages are closely contested and could significantly influence the final election result.
+
+Accurate election predictions provide valuable insights into voter dynamics, helping political analysts, campaigns, and the public anticipate electoral outcomes. By focusing on high-quality polling data and incorporating weights for recency and sample size, our model enhances prediction reliability and identifies key regions where voter sentiment may shift, ultimately impacting the election..
+
+The structure of the paper is as follows
+
+# Data {#sec-data}
+
+The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages...
+
+# 2.1 Measurement 
+The voter support data used in this analysis comes from raw polling information sourced from the Project 538 online database [@FiveThirtyEight]. This dataset reflects potential outcomes for the 2024 U.S. Presidential Election by aggregating various polls that capture public sentiment towards candidates Donald Trump and Kamala Harris. Each entry in the dataset corresponds to a specific poll conducted by different polling organizations, which measure the percentage of respondents expressing their support for each candidate in their respective state.
+
+It’s important to note that each pollster employs unique sampling techniques and methodologies, which influence their numeric grades and transparency scores. To ensure the integrity of our analysis, we selected only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher. This approach is used so that the data reflects a robust and credible representation of voter preferences.
+
+The polling data is collected through carefully structured survey questions, designed to elicit clear responses regarding voter preferences. By aggregating these individual responses, we are able to derive state-level averages for both candidates. This transformation of general voter sentiment into specific data points enables us to analyze the competitive landscape between Trump and Harris across swing states, providing a clearer understanding of electoral dynamics as they relate to the upcoming election.
+
+
+ # 2.1 The Dataset 
+
+
+ # 2.2 Variables of Interest
+
+ # 3 Model {#sec-model}
+
+ 
+This paper develops a logistic regression model to predict the likelihood of Donald Trump winning various states in the upcoming 2024 U.S. Presidential Election based on aggregated polling data. The model leverages polling percentages, recency of the polls, and sample sizes to provide a robust probability estimate of Trump’s chances against Kamala Harris.
+
+Model Overview
+
+The model can be expressed mathematically using the logistic function:
+
+
+P(Y=1 | X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
+
+
+Where:
+
+	•	 P(Y=1 | X)  represents the probability of Trump winning (i.e.,  Y=1 ).
+	•	 \beta_0  is the intercept term.
+	•	 \beta_1  and  \beta_2  are the coefficients for the predictor variables, which include:
+	•	 X_1 : The average polling percentage for Trump ( \text{trump\_pct} ).
+	•	 X_2 : The average polling percentage for Harris ( \text{harris\_pct} ).
+
+Data and Features
+
+The dataset used in this model is sourced from Project 538, focusing on high-quality polling data. Key features include:
+
+	•	trump_pct: The percentage of respondents supporting Trump.
+	•	harris_pct: The percentage of respondents supporting Harris.
+	•	sample_size: The size of each poll, which influences the weight of that poll in our analysis.
+	•	end_date: The date when the poll began, which is used to calculate recency.
+
+Weight Calculation
+
+To ensure that more recent and larger polls have a higher influence on the model, we calculate a weight for each poll as follows:
+
+	1.	Recency Weight:
+
+\text{recency\_weight} = \max(\text{current\_date} - \text{start\_date}) - (\text{current\_date} - \text{start\_date})
+
+This transformation ensures that more recent polls receive a larger weight.
+	2.	Total Weight:
+
+\text{weight} = \text{sample\_size} \times \text{recency\_weight}
+
+
+The weighted polling percentages for Trump and Harris are then calculated for each state, allowing for a more nuanced aggregation of voter sentiment.
+
+Logistic Regression Implementation
+
+The logistic regression model is implemented using the LogisticRegression class from the sklearn library. The predictor variables are defined as:
+
+	•	 X  = [trump_pct, harris_pct]
+
+The binary outcome variable is defined as follows:
+
+	•	 y = 1  if  \text{trump\_pct} > \text{harris\_pct}  (Trump is predicted to win).
+	•	 y = 0  otherwise.
+
+Model Validation and Assumptions
+
+The assumptions underlying this model include:
+
+	•	Linearity: The log-odds of the outcome variable are linearly related to the predictor variables.
+	•	Independence: Observations are independent of one another.
+
+Limitations
+
+	1.	Polling Bias: The model is contingent upon the quality of the polling data. Polls with lower numeric grades or transparency scores are excluded, potentially introducing bias if high-quality polls are not representative of the entire electorate.
+	2.	Dynamic Voter Sentiment: Voter preferences can change rapidly, particularly in the lead-up to the election, and the model may not fully capture these shifts if not updated frequently.
+
+Alternative Models Considered
+
+Alternative models, such as Bayesian logistic regression, were considered. While Bayesian models allow for the incorporation of prior distributions and might provide additional insights through credible intervals, they require more complex implementation and careful selection of priors. Given the nature of the data and the objective of clear interpretability, the logistic regression model was chosen for its straightforward application and interpretability.
+
+Conclusion
+
+The logistic regression model provides a structured approach to predict the likelihood of Trump winning in various states, based on recent and high-quality polling data. By focusing on key features such as polling percentages and sample sizes, the model captures the competitive dynamics between candidates and offers valuable insights into potential election outcomes. Future iterations of this model can incorporate real-time data updates to enhance predictive accuracy as the election approaches.
+ # 5 Results {#sec-results}
+ # 6 Discussion {#sec-discussion}
+
+ # Apendix {-}
 
 # References
 
