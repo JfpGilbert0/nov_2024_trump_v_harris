@@ -55,7 +55,7 @@ for value in unique_values:
     print(f"{value}: {count}")
 
 # Create an id for tracking which results match
-id_columns = ["poll_id","pollster_id", "state","start_date","end_date","question_id","sample_size","population","race_id"]
+id_columns = ["poll_id","question_id"]
 df_swing['unique_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
 print(df_swing['unique_id'].nunique())
 
