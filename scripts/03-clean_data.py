@@ -15,7 +15,7 @@ raw_df = pd.read_csv("data/raw_data/president_polls.csv")
 
 # Filter the raw data
 df = raw_df.loc[raw_df['numeric_grade'] >= 2.5]
-df = df[df['candidate_name'].isin(['Donald Trump', 'Camilla Harris'])]
+df = df[df['candidate_name'].isin(['Donald Trump', 'Kamala Harris'])]
 
 df['poll_end_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
 df = df.loc[df["poll_end_date"] > "2024-09-01"]
