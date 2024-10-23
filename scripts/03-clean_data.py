@@ -55,13 +55,18 @@ for value in unique_values:
     print(f"{value}: {count}")
 
 # Create an id for tracking which results match
-id_columns = ["poll_id","pollster_id","pollster","state","start_date","end_date","question_id","sample_size","population","race_id"]
+id_columns = ["poll_id","pollster_id", "state","start_date","end_date","question_id","sample_size","population","race_id"]
 df_swing['unique_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
 print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
-df_swing.to_csv("data/analysis_data/swing_state_polls.csv")
+df_swing.to_csv("data/02-analysis_data/swing_state_polls.csv")
 
 #creating data to be analysed (grouping by )
-
+df_trump = df_swing[df_swing['candidate_name'] == "Donald Trump"]
+df_trump.rename(columns={"pct": "trump_pct"})
+df_harris = df_swing[df_swing['candidate_name'] == "Kamala Harris"]
+df_harris.rename(columns={"pct": "harris_pct"})
+df_by_poll = pd.merge(df_trump, df_harris, on='unique_id', how='inner')
+print(df_by_poll.head())
