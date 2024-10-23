@@ -13,11 +13,15 @@ import pandas as pd
 raw_df = pd.read_csv("data/raw_data/president_polls.csv")
 
 
-# restrict to wuality polls only
+# Filter the raw data
 df = raw_df.loc[raw_df['numeric_grade'] >= 2.5]
-df['exam_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
+df = df[df['candidate_name'].isin(['Donald Trump', 'Camilla Harris'])]
+
+df['poll_end_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
+df = df.loc[df["poll_end_date"] > "2024-09-01"]
 
 df_swing = df.loc[df["state"].isin(["Arizona","Pennsylvania", "North Carolina", "Georgia", "Nevada", "Michigan", "Wisconsin"])]
+
 print(df.count())
 unique_values = df_swing['state'].unique()
 
@@ -28,7 +32,7 @@ for value in unique_values:
     print(f"{value}: {count}")
 
 print(df_swing["numeric_grade"].min())
-
+# save raw swing stat data
 df_swing.to_csv("data/raw_data/swing_state_polls.csv")
 
 
