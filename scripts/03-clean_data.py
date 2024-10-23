@@ -55,13 +55,33 @@ for value in unique_values:
     print(f"{value}: {count}")
 
 # Create an id for tracking which results match
-id_columns = ["poll_id","pollster_id","pollster","state","start_date","end_date","question_id","sample_size","population","race_id"]
+id_columns = ["poll_id","question_id"]
 df_swing['unique_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
 print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
-df_swing.to_csv("data/analysis_data/swing_state_polls.csv")
+df_swing.to_csv("data/02-analysis_data/swing_state_polls.csv")
 
 #creating data to be analysed (grouping by )
+df_trump = df_swing[df_swing['candidate_name'] == "Donald Trump"]
+df_harris = df_swing[df_swing['candidate_name'] == "Kamala Harris"]
 
+
+df_by_poll = pd.merge(df_trump[['unique_id',
+    'poll_id',
+    'question_id',
+    'pollster',
+    'numeric_grade',
+    'pollscore',
+    'methodology',
+    'transparency_score',
+    'state',
+    'start_date',
+    'end_date',
+    'sample_size',
+    'population', 'pct']],
+    df_harris[['unique_id', 'pct']], on='unique_id', how='inner')
+df_merged = df_by_poll.rename(columns={'pct_x': 'trump_pct', 'pct_y': 'harris_pct'}, inplace=True)
+
+df_by_poll.to_csv("data/02-analysis_data/merged_swing_state_data.csv")

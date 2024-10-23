@@ -1,0 +1,185 @@
+,unique_id,poll_id,question_id,pollster,numeric_grade,pollscore,methodology,transparency_score,state,start_date,end_date,sample_size,population,trump_pct,harris_pct
+0,88795-213382,88795,213382,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,1440.0,lv,49.2,48.6
+1,88795-213383,88795,213383,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,1440.0,lv,49.2,49.3
+2,88796-213384,88796,213384,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,1411.0,lv,49.5,48.1
+3,88796-213385,88796,213385,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,10/12/24,10/17/24,1411.0,lv,50.1,48.4
+4,88797-213386,88797,213386,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,1529.0,lv,49.6,46.8
+5,88797-213387,88797,213387,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,10/12/24,10/17/24,1529.0,lv,50.2,47.3
+6,88798-213388,88798,213388,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,1171.0,lv,48.4,48.1
+7,88798-213389,88798,213389,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,10/12/24,10/17/24,1171.0,lv,48.3,48.4
+8,88799-213390,88799,213390,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,1674.0,lv,48.8,49.5
+9,88799-213391,88799,213391,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,10/12/24,10/17/24,1674.0,lv,48.8,50.5
+10,88800-213392,88800,213392,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,2048.0,lv,49.8,46.5
+11,88800-213393,88800,213393,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,10/12/24,10/17/24,2048.0,lv,49.9,47.4
+12,88801-213394,88801,213394,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,932.0,lv,48.2,48.9
+13,88801-213395,88801,213395,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,10/12/24,10/17/24,932.0,lv,48.4,49.0
+14,88762-213103,88762,213103,YouGov,3.0,-1.1,Online Panel,9.0,Arizona,10/11/24,10/16/24,1435.0,lv,51.0,48.0
+15,88809-213462,88809,213462,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,580.0,rv,50.0,44.0
+16,88809-213502,88809,213502,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Arizona,9/30/24,10/15/24,580.0,lv,49.0,46.0
+17,88810-213463,88810,213463,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,730.0,rv,44.0,50.0
+18,88810-213503,88810,213503,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Georgia,9/30/24,10/15/24,730.0,lv,47.0,51.0
+19,88811-213464,88811,213464,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,687.0,rv,47.0,46.0
+20,88811-213504,88811,213504,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Michigan,9/30/24,10/15/24,687.0,lv,47.0,49.0
+21,88812-213465,88812,213465,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,652.0,rv,44.0,47.0
+22,88812-213505,88812,213505,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Nevada,9/30/24,10/15/24,652.0,lv,48.0,48.0
+23,88813-213466,88813,213466,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,965.0,rv,49.0,45.0
+24,88813-213506,88813,213506,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,9/30/24,10/15/24,965.0,lv,50.0,47.0
+25,88814-213467,88814,213467,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,707.0,rv,46.0,49.0
+26,88814-213507,88814,213507,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,9/30/24,10/15/24,707.0,lv,47.0,49.0
+27,88815-213468,88815,213468,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,695.0,rv,46.0,50.0
+28,88815-213508,88815,213508,Washington Post/George Mason University,2.7,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Wisconsin,9/30/24,10/15/24,695.0,lv,47.0,50.0
+29,88734-212958,88734,212958,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,1328.0,lv,52.0,45.0
+30,88734-212960,88734,212960,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,10/10/24,10/14/24,1328.0,lv,52.0,46.0
+31,88735-212959,88735,212959,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,1031.0,lv,47.0,49.0
+32,88735-212961,88735,212961,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,10/10/24,10/14/24,1031.0,lv,47.0,50.0
+33,88776-213298,88776,213298,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,Georgia,10/9/24,10/14/24,701.0,lv,48.9,45.8
+34,88664-212457,88664,212457,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,857.0,rv,47.0,50.0
+35,88664-212458,88664,212458,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,857.0,rv,45.0,49.0
+36,88664-212459,88664,212459,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,857.0,lv,47.0,50.0
+37,88664-212460,88664,212460,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,10/7/24,10/10/24,857.0,lv,45.0,49.0
+38,88665-212461,88665,212461,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,808.0,lv,51.0,46.0
+39,88665-212462,88665,212462,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,808.0,lv,50.0,45.0
+40,88665-212463,88665,212463,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,808.0,rv,51.0,45.0
+41,88665-212464,88665,212464,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,10/7/24,10/10/24,808.0,rv,49.0,44.0
+42,88737-213056,88737,213056,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,10/2/24,10/9/24,800.0,lv,45.0,46.0
+43,88606-212185,88606,212185,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,10/5/24,10/8/24,1000.0,lv,50.5,48.2
+44,88607-212186,88607,212186,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,10/5/24,10/8/24,1000.0,lv,49.7,49.8
+45,88608-212187,88608,212187,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,10/5/24,10/8/24,950.0,lv,49.6,49.7
+46,88609-212188,88609,212188,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,10/5/24,10/8/24,900.0,lv,48.1,49.2
+47,88610-212189,88610,212189,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,10/5/24,10/8/24,1000.0,lv,49.9,49.0
+48,88611-212190,88611,212190,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,10/5/24,10/8/24,1000.0,lv,49.7,49.0
+49,88612-212191,88612,212191,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,10/5/24,10/8/24,1000.0,lv,49.9,49.2
+50,88591-212154,88591,212154,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,1007.0,lv,50.0,47.0
+51,88591-212157,88591,212157,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,10/3/24,10/7/24,1007.0,lv,51.0,47.0
+52,88592-212155,88592,212155,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,1412.0,lv,46.0,49.0
+53,88592-212158,88592,212158,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,10/3/24,10/7/24,1412.0,lv,47.0,49.0
+54,88593-212156,88593,212156,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,1073.0,lv,48.0,46.0
+55,88593-212159,88593,212159,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,10/3/24,10/7/24,1073.0,lv,49.0,47.0
+56,88618-212208,88618,212208,YouGov/Center for Working Class Politics,3.0,-1.1,Online Panel,4.5,Pennsylvania,9/24/24,10/2/24,1000.0,rv,44.7,46.8
+57,88431-211143,88431,211143,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,1001.0,lv,50.0,48.0
+58,88431-211144,88431,211144,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,North Carolina,9/25/24,9/29/24,1001.0,rv,50.0,47.0
+59,88457-211301,88457,211301,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,953.0,lv,49.0,47.0
+60,88457-211303,88457,211303,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/25/24,9/29/24,953.0,lv,49.0,48.0
+61,88458-211300,88458,211300,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,942.0,lv,50.0,44.0
+62,88458-211302,88458,211302,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/25/24,9/29/24,942.0,lv,50.0,45.0
+63,88503-211536,88503,211536,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,814.0,rv,46.0,48.0
+64,88503-211537,88503,211537,High Point University,2.5,-0.4,Online Panel,8.0,North Carolina,9/20/24,9/29/24,589.0,lv,48.0,48.0
+65,88461-211311,88461,211311,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Arizona,9/27/24,9/28/24,920.0,lv,51.7,47.6
+66,88462-211310,88462,211310,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,North Carolina,9/27/24,9/28/24,850.0,lv,49.9,49.1
+67,88465-211323,88465,211323,Emerson,2.9,-1.1,Online Panel/Text-to-Web,7.0,Pennsylvania,9/27/24,9/28/24,1000.0,lv,48.8,49.3
+68,88423-211109,88423,211109,East Carolina University,2.6,-0.5,IVR/Text-to-Web,7.0,North Carolina,9/23/24,9/26/24,1005.0,lv,49.4,47.1
+69,88404-211029,88404,211029,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,688.0,rv,47.0,45.0
+70,88404-211030,88404,211030,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,688.0,rv,46.0,43.0
+71,88404-211031,88404,211031,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,688.0,lv,47.0,48.0
+72,88404-211032,88404,211032,Siena/NYT,3.0,-1.5,Live Phone,9.0,Michigan,9/21/24,9/26/24,688.0,lv,46.0,46.0
+73,88406-211037,88406,211037,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,680.0,rv,47.0,49.0
+74,88406-211038,88406,211038,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,680.0,rv,45.0,48.0
+75,88406-211039,88406,211039,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,680.0,lv,47.0,49.0
+76,88406-211040,88406,211040,Siena/NYT,3.0,-1.5,Live Phone,9.0,Wisconsin,9/21/24,9/26/24,680.0,lv,46.0,48.0
+77,88488-211434,88488,211434,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,882.0,rv,48.0,52.0
+78,88488-211435,88488,211435,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,798.0,lv,48.0,52.0
+79,88488-211436,88488,211436,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,882.0,rv,44.0,48.0
+80,88488-211437,88488,211437,Marquette Law School,3.0,-1.1,Probability Panel,10.0,Wisconsin,9/18/24,9/26/24,798.0,lv,44.0,49.0
+81,88395-210986,88395,210986,CNN/SSRS,2.8,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,10.0,North Carolina,9/20/24,9/25/24,931.0,lv,48.0,48.0
+82,88410-211063,88410,211063,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,946.0,lv,49.7,48.6
+83,88410-211064,88410,211064,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,9/20/24,9/25/24,946.0,lv,49.8,48.6
+84,88411-211067,88411,211067,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,918.0,lv,50.4,46.6
+85,88411-211068,88411,211068,AtlasIntel,2.7,-0.8,Online Ad,6.0,Michigan,9/20/24,9/25/24,918.0,lv,50.6,47.2
+86,88412-211069,88412,211069,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,858.0,lv,47.7,50.6
+87,88412-211070,88412,211070,AtlasIntel,2.7,-0.8,Online Ad,6.0,Nevada,9/20/24,9/25/24,858.0,lv,47.7,50.5
+88,88413-211073,88413,211073,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,1775.0,lv,50.6,48.0
+89,88413-211074,88413,211074,AtlasIntel,2.7,-0.8,Online Ad,6.0,Pennsylvania,9/20/24,9/25/24,1775.0,lv,51.0,48.1
+90,88414-211075,88414,211075,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,1077.0,lv,49.6,48.2
+91,88414-211076,88414,211076,AtlasIntel,2.7,-0.8,Online Ad,6.0,Wisconsin,9/20/24,9/25/24,1077.0,lv,49.7,48.2
+92,88415-211071,88415,211071,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,1173.0,lv,47.3,50.8
+93,88415-211072,88415,211072,AtlasIntel,2.7,-0.8,Online Ad,6.0,North Carolina,9/20/24,9/25/24,1173.0,lv,48.1,50.5
+94,88416-211065,88416,211065,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,1200.0,lv,49.3,49.0
+95,88416-211066,88416,211066,AtlasIntel,2.7,-0.8,Online Ad,6.0,Georgia,9/20/24,9/25/24,1200.0,lv,49.6,49.0
+96,88361-210760,88361,210760,YouGov,3.0,-1.1,Online Panel,9.0,Georgia,9/20/24,9/24/24,1441.0,lv,51.0,49.0
+97,88380-210903,88380,210903,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,1021.0,rv,49.0,47.0
+98,88380-210904,88380,210904,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,764.0,lv,50.0,47.0
+99,88380-210905,88380,210905,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,1021.0,rv,50.0,48.0
+100,88380-210906,88380,210906,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Arizona,9/20/24,9/24/24,764.0,lv,51.0,48.0
+101,88381-210907,88381,210907,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,1006.0,rv,47.0,49.0
+102,88381-210908,88381,210908,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,707.0,lv,48.0,50.0
+103,88381-210909,88381,210909,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,1006.0,rv,48.0,51.0
+104,88381-210910,88381,210910,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Georgia,9/20/24,9/24/24,707.0,lv,48.0,51.0
+105,88402-211015,88402,211015,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,787.0,lv,49.0,47.0
+106,88402-211016,88402,211016,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,991.0,rv,47.0,48.0
+107,88402-211017,88402,211017,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,787.0,lv,50.0,49.0
+108,88402-211018,88402,211018,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,North Carolina,9/20/24,9/24/24,991.0,rv,48.0,50.0
+109,88403-211019,88403,211019,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,775.0,lv,48.0,47.0
+110,88403-211020,88403,211020,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,1021.0,rv,46.0,48.0
+111,88403-211021,88403,211021,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,775.0,lv,49.0,49.0
+112,88403-211022,88403,211022,Beacon/Shaw,2.8,-1.1,Live Phone/Text-to-Web,9.0,Pennsylvania,9/20/24,9/24/24,1021.0,rv,48.0,50.0
+113,88363-210782,88363,210782,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,1416.0,rv,50.0,48.0
+114,88363-210783,88363,210783,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Arizona,9/19/24,9/24/24,1264.0,lv,50.0,49.0
+115,88366-210787,88366,210787,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,1507.0,rv,48.0,49.0
+116,88366-210788,88366,210788,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,North Carolina,9/19/24,9/24/24,1348.0,lv,49.0,49.0
+117,88368-210785,88368,210785,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,1420.0,rv,48.0,49.0
+118,88368-210786,88368,210786,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,9.0,Georgia,9/19/24,9/24/24,1220.0,lv,50.0,49.0
+119,88390-210964,88390,210964,Suffolk,2.9,-1.0,Live Phone,8.0,Arizona,9/19/24,9/24/24,500.0,lv,48.4,42.4
+120,88276-210332,88276,210332,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,713.0,rv,49.0,45.0
+121,88276-210333,88276,210333,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,713.0,lv,50.0,45.0
+122,88276-210334,88276,210334,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,713.0,rv,47.0,42.0
+123,88276-210335,88276,210335,Siena/NYT,3.0,-1.5,Live Phone,9.0,Arizona,9/17/24,9/21/24,713.0,lv,48.0,43.0
+124,88277-210336,88277,210336,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,682.0,rv,48.0,44.0
+125,88277-210337,88277,210337,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,682.0,lv,49.0,45.0
+126,88277-210338,88277,210338,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,682.0,rv,46.0,43.0
+127,88277-210339,88277,210339,Siena/NYT,3.0,-1.5,Live Phone,9.0,Georgia,9/17/24,9/21/24,682.0,lv,47.0,44.0
+128,88278-210340,88278,210340,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,682.0,rv,48.0,47.0
+129,88278-210341,88278,210341,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,682.0,lv,49.0,47.0
+130,88278-210342,88278,210342,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,682.0,rv,46.0,46.0
+131,88278-210343,88278,210343,Siena/NYT,3.0,-1.5,Live Phone,9.0,North Carolina,9/17/24,9/21/24,682.0,lv,47.0,45.0
+132,88441-211152,88441,211152,Remington,2.6,-0.6,,7.0,Michigan,9/16/24,9/20/24,800.0,lv,47.0,49.0
+133,88442-211153,88442,211153,Remington,2.6,-0.6,,7.0,Nevada,9/16/24,9/20/24,800.0,lv,49.0,48.0
+134,88443-211154,88443,211154,Remington,2.6,-0.6,,7.0,Pennsylvania,9/16/24,9/20/24,800.0,lv,48.0,47.0
+135,88444-211155,88444,211155,Remington,2.6,-0.6,,7.0,Wisconsin,9/16/24,9/20/24,800.0,lv,48.0,48.0
+136,88339-210621,88339,210621,Muhlenberg,2.8,-1.0,Live Phone,8.0,Pennsylvania,9/16/24,9/19/24,450.0,lv,48.0,48.0
+137,88371-210793,88371,210793,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Michigan,9/11/24,9/19/24,650.0,lv,43.0,48.0
+138,88372-210794,88372,210794,University of Massachusetts Lowell/YouGov,2.9,-1.0,Online Panel,9.0,Pennsylvania,9/11/24,9/19/24,800.0,lv,46.0,48.0
+139,88301-210415,88301,210415,Suffolk,2.9,-1.0,Live Phone,8.0,Michigan,9/16/24,9/18/24,500.0,lv,45.4,47.6
+140,88235-210076,88235,210076,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Arizona,9/15/24,9/18/24,868.0,lv,49.8,48.7
+141,88236-210077,88236,210077,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Georgia,9/15/24,9/18/24,975.0,lv,50.3,48.2
+142,88237-210078,88237,210078,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Michigan,9/15/24,9/18/24,875.0,lv,49.1,50.0
+143,88238-210079,88238,210079,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Nevada,9/15/24,9/18/24,895.0,lv,49.0,48.8
+144,88239-210080,88239,210080,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Pennsylvania,9/15/24,9/18/24,880.0,lv,49.3,49.6
+145,88240-210081,88240,210081,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,North Carolina,9/15/24,9/18/24,1000.0,lv,49.3,49.7
+146,88241-210082,88241,210082,Emerson,2.9,-1.1,IVR/Online Panel/Text-to-Web,7.0,Wisconsin,9/15/24,9/18/24,1000.0,lv,50.3,48.7
+147,88267-210290,88267,210290,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,800.0,lv,46.0,50.0
+148,88267-210291,88267,210291,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Pennsylvania,9/12/24,9/18/24,800.0,lv,47.0,52.0
+149,88286-210360,88286,210360,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,800.0,lv,45.0,51.0
+150,88286-210361,88286,210361,MassINC Polling Group,2.8,-0.8,Live Phone/Text-to-Web,7.0,Wisconsin,9/12/24,9/18/24,800.0,lv,46.0,53.0
+151,88232-210070,88232,210070,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,1663.0,rv,48.0,49.0
+152,88232-210071,88232,210071,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Pennsylvania,9/12/24,9/17/24,1476.0,lv,49.0,49.0
+153,88233-210072,88233,210072,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,1312.0,rv,47.0,50.0
+154,88233-210073,88233,210073,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Wisconsin,9/12/24,9/17/24,1194.0,lv,49.0,50.0
+155,88234-210074,88234,210074,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,1282.0,rv,47.0,50.0
+156,88234-210075,88234,210075,Marist,2.9,-0.9,Live Phone/Online Panel/Text-to-Web,7.0,Michigan,9/12/24,9/17/24,1138.0,lv,47.0,52.0
+157,88211-209902,88211,209902,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,1331.0,lv,45.0,51.0
+158,88211-209905,88211,209905,Quinnipiac,2.8,-0.5,Live Phone,9.0,Pennsylvania,9/12/24,9/16/24,1331.0,lv,46.0,51.0
+159,88212-209903,88212,209903,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,905.0,lv,45.0,50.0
+160,88212-209906,88212,209906,Quinnipiac,2.8,-0.5,Live Phone,9.0,Michigan,9/12/24,9/16/24,905.0,lv,46.0,51.0
+161,88213-209904,88213,209904,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,1075.0,lv,47.0,48.0
+162,88213-209907,88213,209907,Quinnipiac,2.8,-0.5,Live Phone,9.0,Wisconsin,9/12/24,9/16/24,1075.0,lv,48.0,49.0
+163,88231-210066,88231,210066,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,1003.0,lv,47.0,48.0
+164,88231-210067,88231,210067,The Washington Post,3.0,-1.2,Live Phone/Text-to-Web,9.0,Pennsylvania,9/12/24,9/16/24,1003.0,lv,48.0,48.0
+165,88242-210087,88242,210087,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,1082.0,rv,46.0,50.0
+166,88242-210088,88242,210088,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,1082.0,lv,46.0,50.0
+167,88242-210089,88242,210089,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,1082.0,rv,45.0,48.0
+168,88242-210090,88242,210090,Siena/NYT,3.0,-1.5,Live Phone,9.0,Pennsylvania,9/11/24,9/16/24,1082.0,lv,45.0,49.0
+169,88184-209630,88184,209630,Suffolk,2.9,-1.0,Live Phone,8.0,Pennsylvania,9/11/24,9/14/24,500.0,lv,45.6,48.6
+170,88302-210420,88302,210420,Elon U.,2.5,-0.6,Online Panel,8.0,North Carolina,9/4/24,9/13/24,800.0,rv,45.0,46.0
+171,88203-209816,88203,209816,Data Orbital,2.9,-0.9,Live Phone/Text-to-Web,10.0,Arizona,9/7/24,9/9/24,550.0,lv,46.2,46.0
+172,88095-208325,88095,208325,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,940.0,lv,46.0,49.0
+173,88095-208327,88095,208327,Quinnipiac,2.8,-0.5,Live Phone,9.0,North Carolina,9/4/24,9/8/24,940.0,lv,47.0,50.0
+174,88101-208324,88101,208324,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,969.0,lv,49.0,45.0
+175,88101-208326,88101,208326,Quinnipiac,2.8,-0.5,Live Phone,9.0,Georgia,9/4/24,9/8/24,969.0,lv,49.0,46.0
+176,88083-208275,88083,208275,SurveyUSA,2.8,-1.3,Online Panel,8.0,North Carolina,9/4/24,9/7/24,676.0,lv,46.0,49.0
+177,88070-207965,88070,207965,YouGov,3.0,-1.1,Online Panel,9.0,Michigan,9/3/24,9/6/24,1077.0,lv,49.0,50.0
+178,88071-207966,88071,207966,YouGov,3.0,-1.1,Online Panel,9.0,Pennsylvania,9/3/24,9/6/24,1078.0,lv,50.0,50.0
+179,88072-207967,88072,207967,YouGov,3.0,-1.1,Online Panel,9.0,Wisconsin,9/3/24,9/6/24,946.0,lv,49.0,51.0
+180,88135-209223,88135,209223,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,822.0,rv,48.0,52.0
+181,88135-209224,88135,209224,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,738.0,lv,48.0,52.0
+182,88135-209225,88135,209225,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,822.0,rv,43.0,47.0
+183,88135-209226,88135,209226,Marquette Law School,3.0,-1.1,Live Phone/Email,10.0,Wisconsin,8/28/24,9/5/24,738.0,lv,43.0,48.0
