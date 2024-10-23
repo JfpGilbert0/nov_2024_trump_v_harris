@@ -10,10 +10,8 @@
 #### Workspace setup ####
 import pandas as pd
 
-# Load the dataset
-df = pd.read_csv('data/raw_data/swing_state_polls.csv')
+raw_df = pd.read_csv("data/raw_data/president_polls.csv")
 
-# Select the required columns
 selected_columns = [
     'poll_id',
     'pollster_id',
@@ -36,8 +34,33 @@ selected_columns = [
 ]
 
 # Filter the DataFrame
-filtered_df = df[selected_columns]
+df = raw_df[selected_columns]
 
-# Save the filtered DataFrame to a new CSV file
-filtered_df.to_csv('data/02-analysis_data/cleaned_swing_state_polls.csv', index=False)
+# Filter the raw data
+df = df.loc[df['numeric_grade'] >= 2.5]
+df = df[df['candidate_name'].isin(['Donald Trump', 'Kamala Harris'])]
+#filter the recent 
+df['poll_end_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
+df = df.loc[df["poll_end_date"] > "2024-09-01"]
+
+df_swing = df.loc[df["state"].isin(["Arizona","Pennsylvania", "North Carolina", "Georgia", "Nevada", "Michigan", "Wisconsin"])]
+
+print(df.count())
+unique_values = df_swing['state'].unique()
+
+# Print unique values and their counts
+print("Unique values:")
+for value in unique_values:
+    count = (df_swing['state'] == value).sum()
+    print(f"{value}: {count}")
+
+# Create an id for tracking which results match
+id_columns = ["poll_id","pollster_id","pollster","state","start_date","end_date","question_id","sample_size","population","race_id"]
+df_swing['coalesced_id'] = df_swing[id_columns].astype(str).agg('-'.join, axis=1)
+print(df_swing['coalesced_id'].nunique())
+
+print(df_swing["numeric_grade"].min())
+# save raw swing stat data
+df_swing.to_csv("data/raw_data/swing_state_polls.csv")
+
 
