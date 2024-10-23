@@ -61,7 +61,7 @@ print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
-df_swing.to_csv("data/raw_data/swing_state_polls.csv")
+df_swing.to_csv("data/analysis_data/swing_state_polls.csv")
 
 #creating data to be analysed (grouping by )
 

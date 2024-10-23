@@ -1,152 +1,401 @@
-division,state,party
-Division 1,Victoria,Liberal
-Division 2,New South Wales,Liberal
-Division 3,Tasmania,Liberal
-Division 4,New South Wales,Liberal
-Division 5,Queensland,Liberal
-Division 6,New South Wales,Labor
-Division 7,Victoria,Liberal
-Division 8,Western Australia,Labor
-Division 9,Western Australia,Greens
-Division 10,Queensland,Labor
-Division 11,Queensland,Labor
-Division 12,Northern Territory,Liberal
-Division 13,New South Wales,Labor
-Division 14,Western Australia,Labor
-Division 15,Western Australia,National
-Division 16,Victoria,Liberal
-Division 17,South Australia,Liberal
-Division 18,Victoria,Liberal
-Division 19,Western Australia,Labor
-Division 20,South Australia,Labor
-Division 21,New South Wales,Liberal
-Division 22,Queensland,Greens
-Division 23,New South Wales,Liberal
-Division 24,New South Wales,Liberal
-Division 25,Queensland,Labor
-Division 26,Victoria,National
-Division 27,New South Wales,Liberal
-Division 28,Queensland,Liberal
-Division 29,Tasmania,Liberal
-Division 30,South Australia,Liberal
-Division 31,New South Wales,Liberal
-Division 32,Victoria,Labor
-Division 33,Tasmania,Liberal
-Division 34,New South Wales,Liberal
-Division 35,Western Australia,Labor
-Division 36,New South Wales,Liberal
-Division 37,Tasmania,Greens
-Division 38,Tasmania,Labor
-Division 39,Victoria,Greens
-Division 40,South Australia,Labor
-Division 41,New South Wales,Other
-Division 42,New South Wales,Other
-Division 43,Tasmania,Labor
-Division 44,Tasmania,National
-Division 45,Queensland,Liberal
-Division 46,Australian Capital Territory,Other
-Division 47,Queensland,Labor
-Division 48,Queensland,Other
-Division 49,South Australia,Liberal
-Division 50,Victoria,National
-Division 51,South Australia,Liberal
-Division 52,Victoria,Labor
-Division 53,South Australia,National
-Division 54,Queensland,Liberal
-Division 55,Queensland,Labor
-Division 56,South Australia,Liberal
-Division 57,New South Wales,Other
-Division 58,Northern Territory,Liberal
-Division 59,New South Wales,Labor
-Division 60,Western Australia,Labor
-Division 61,New South Wales,Liberal
-Division 62,South Australia,Liberal
-Division 63,Queensland,Labor
-Division 64,Tasmania,Labor
-Division 65,South Australia,Labor
-Division 66,Victoria,Labor
-Division 67,Queensland,Liberal
-Division 68,Queensland,Liberal
-Division 69,Tasmania,Labor
-Division 70,South Australia,National
-Division 71,Australian Capital Territory,Labor
-Division 72,Western Australia,Labor
-Division 73,Queensland,National
-Division 74,Victoria,Labor
-Division 75,Western Australia,Labor
-Division 76,Tasmania,Labor
-Division 77,Queensland,Liberal
-Division 78,Western Australia,Liberal
-Division 79,Queensland,Labor
-Division 80,Queensland,Liberal
-Division 81,Victoria,Labor
-Division 82,New South Wales,Liberal
-Division 83,Victoria,Liberal
-Division 84,Queensland,National
-Division 85,Western Australia,Liberal
-Division 86,New South Wales,Labor
-Division 87,Queensland,Liberal
-Division 88,New South Wales,Liberal
-Division 89,Tasmania,Liberal
-Division 90,South Australia,Labor
-Division 91,Victoria,Liberal
-Division 92,New South Wales,Labor
-Division 93,Tasmania,Labor
-Division 94,South Australia,Labor
-Division 95,Victoria,Liberal
-Division 96,Victoria,Labor
-Division 97,Western Australia,Liberal
-Division 98,Queensland,Liberal
-Division 99,South Australia,Liberal
-Division 100,New South Wales,Labor
-Division 101,South Australia,Labor
-Division 102,New South Wales,Labor
-Division 103,Victoria,Labor
-Division 104,Victoria,Labor
-Division 105,South Australia,Other
-Division 106,Western Australia,Labor
-Division 107,Tasmania,Liberal
-Division 108,Victoria,Labor
-Division 109,Queensland,Liberal
-Division 110,Victoria,Labor
-Division 111,Australian Capital Territory,Labor
-Division 112,Victoria,Liberal
-Division 113,Victoria,Liberal
-Division 114,Victoria,Liberal
-Division 115,Tasmania,Labor
-Division 116,Victoria,Labor
-Division 117,New South Wales,Labor
-Division 118,Victoria,Labor
-Division 119,Victoria,Greens
-Division 120,Northern Territory,Labor
-Division 121,South Australia,Liberal
-Division 122,New South Wales,Liberal
-Division 123,New South Wales,Labor
-Division 124,New South Wales,Liberal
-Division 125,New South Wales,National
-Division 126,New South Wales,Labor
-Division 127,Queensland,Labor
-Division 128,New South Wales,Other
-Division 129,Queensland,Labor
-Division 130,Australian Capital Territory,Liberal
-Division 131,Tasmania,Greens
-Division 132,New South Wales,National
-Division 133,New South Wales,Labor
-Division 134,Northern Territory,Labor
-Division 135,South Australia,National
-Division 136,Victoria,Labor
-Division 137,Tasmania,National
-Division 138,South Australia,Liberal
-Division 139,New South Wales,Labor
-Division 140,Victoria,Other
-Division 141,Queensland,Greens
-Division 142,Victoria,National
-Division 143,Western Australia,Labor
-Division 144,Victoria,Labor
-Division 145,Queensland,Liberal
-Division 146,Tasmania,Liberal
-Division 147,South Australia,Liberal
-Division 148,Victoria,Labor
-Division 149,New South Wales,National
-Division 150,New South Wales,Labor
-Division 151,Victoria,Liberal
+poll_id,pollster_id,pollster,numeric_grade,pollscore,methodology,transparency_score,state,start_date,end_date,question_id,sample_size,population,population_full,race_id,party,candidate_name,pct
+88795,1528,Washington Post/George Mason University,2.3,1.8,Online Ad,8.1,Pennsylvania,10/15/24,10/20/24,213382,1373,lv,lv,8759,REP,Donald Trump,58.6
+88796,1528,Washington Post/George Mason University,2.9,0.0,Online Ad,6.8,Michigan,10/07/24,10/19/24,213383,1396,lv,lv,8760,REP,Donald Trump,57.8
+88797,1528,AtlasIntel,3.0,0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,8.1,North Carolina,10/04/24,10/20/24,213384,2297,rv,rv,8761,REP,Donald Trump,55.6
+88798,1528,YouGov,2.6,1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,9.4,North Carolina,10/15/24,10/17/24,213385,1857,lv,lv,8762,DEM,Kamala Harris,45.0
+88799,1528,YouGov,3.0,0.9,Online Ad,9.7,North Carolina,10/08/24,10/16/24,213386,1188,lv,lv,8763,REP,Donald Trump,42.5
+88800,1528,AtlasIntel,3.3,-2.0,Live Phone/Text-to-Web/Email/Mail-to-Web,8.7,Pennsylvania,10/02/24,10/20/24,213387,801,rv,rv,8764,REP,Kamala Harris,46.8
+88801,1528,Washington Post/George Mason University,3.4,0.0,Online Ad,7.5,Nevada,10/07/24,10/16/24,213388,1856,rv,rv,8765,REP,Kamala Harris,58.6
+88802,1528,YouGov,3.0,1.0,Online Panel,8.4,Michigan,10/07/24,10/20/24,213389,1781,rv,rv,8766,REP,Kamala Harris,58.8
+88803,1528,AtlasIntel,3.1,0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,Pennsylvania,10/06/24,10/20/24,213390,2222,rv,rv,8767,DEM,Donald Trump,44.3
+88804,1528,AtlasIntel,3.3,-1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,6.2,Arizona,10/10/24,10/16/24,213391,1527,rv,rv,8768,REP,Kamala Harris,56.7
+88805,1528,Washington Post/George Mason University,3.0,-0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,9.7,Arizona,10/06/24,10/19/24,213392,1336,lv,lv,8769,REP,Donald Trump,54.1
+88806,1528,AtlasIntel,3.4,0.1,Online Ad,6.6,Pennsylvania,10/07/24,10/17/24,213393,867,rv,rv,8770,DEM,Donald Trump,56.5
+88807,1528,AtlasIntel,2.3,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,6.3,Wisconsin,10/11/24,10/18/24,213394,1260,lv,lv,8771,DEM,Donald Trump,44.2
+88808,1528,Washington Post/George Mason University,3.1,-1.3,Online Ad,5.2,Arizona,10/02/24,10/20/24,213395,2070,lv,lv,8772,REP,Kamala Harris,46.5
+88809,1528,Washington Post/George Mason University,2.6,0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,6.6,Wisconsin,10/02/24,10/20/24,213396,2243,rv,rv,8773,REP,Kamala Harris,56.0
+88810,1528,AtlasIntel,2.3,-1.2,Online Ad,8.2,Arizona,10/14/24,10/19/24,213397,2395,lv,lv,8774,REP,Donald Trump,55.3
+88811,1528,Washington Post/George Mason University,2.7,0.4,Online Panel,8.6,North Carolina,10/14/24,10/17/24,213398,848,lv,lv,8775,REP,Kamala Harris,45.0
+88812,1528,AtlasIntel,2.0,1.7,Live Phone/Text-to-Web/Email/Mail-to-Web,7.3,Arizona,10/06/24,10/19/24,213399,1163,rv,rv,8776,DEM,Donald Trump,52.4
+88813,1528,YouGov,2.7,-1.0,Online Panel,7.4,Georgia,10/06/24,10/17/24,213400,1285,rv,rv,8777,DEM,Kamala Harris,47.6
+88814,1528,AtlasIntel,3.5,1.9,Online Ad,6.2,Arizona,10/12/24,10/18/24,213401,1013,rv,rv,8778,DEM,Donald Trump,56.7
+88815,1528,YouGov,3.4,-0.8,Online Panel,9.1,Wisconsin,10/09/24,10/19/24,213402,972,lv,lv,8779,DEM,Donald Trump,51.2
+88816,1528,Washington Post/George Mason University,3.0,-0.2,Online Panel,9.4,North Carolina,10/03/24,10/17/24,213403,2031,rv,rv,8780,DEM,Donald Trump,55.9
+88817,1528,YouGov,2.0,-1.6,Online Panel,9.5,Michigan,10/03/24,10/19/24,213404,1511,lv,lv,8781,DEM,Kamala Harris,42.3
+88818,1528,Washington Post/George Mason University,2.8,1.1,Online Panel,9.8,Wisconsin,10/05/24,10/16/24,213405,2103,lv,lv,8782,REP,Donald Trump,42.7
+88819,1528,AtlasIntel,2.2,0.1,Online Panel,6.6,Nevada,10/09/24,10/17/24,213406,694,rv,rv,8783,DEM,Donald Trump,45.7
+88820,1528,Washington Post/George Mason University,2.9,-1.6,Online Ad,5.0,Georgia,10/09/24,10/16/24,213407,1968,lv,lv,8784,REP,Kamala Harris,53.5
+88821,1528,YouGov,3.0,-0.3,Online Ad,8.6,Nevada,10/03/24,10/16/24,213408,1585,rv,rv,8785,DEM,Donald Trump,51.7
+88822,1528,Washington Post/George Mason University,2.3,1.1,Online Ad,8.1,Georgia,10/05/24,10/18/24,213409,897,rv,rv,8786,REP,Kamala Harris,59.5
+88823,1528,AtlasIntel,2.2,1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,8.4,Nevada,10/11/24,10/19/24,213410,1386,rv,rv,8787,REP,Donald Trump,41.6
+88824,1528,AtlasIntel,3.2,-1.8,Online Panel,8.5,Arizona,10/09/24,10/19/24,213411,1905,lv,lv,8788,REP,Kamala Harris,47.3
+88825,1528,AtlasIntel,3.0,-1.4,Online Panel,9.4,Arizona,10/02/24,10/19/24,213412,708,rv,rv,8789,REP,Donald Trump,54.7
+88826,1528,AtlasIntel,2.5,1.6,Online Ad,9.7,Georgia,10/14/24,10/18/24,213413,1660,lv,lv,8790,DEM,Donald Trump,54.5
+88827,1528,Washington Post/George Mason University,3.5,-0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,8.6,Nevada,10/08/24,10/17/24,213414,740,rv,rv,8791,REP,Kamala Harris,50.2
+88828,1528,Washington Post/George Mason University,3.3,-1.0,Online Ad,6.9,Michigan,10/04/24,10/19/24,213415,1687,lv,lv,8792,DEM,Donald Trump,43.0
+88829,1528,AtlasIntel,3.2,1.7,Online Panel,6.7,Nevada,10/02/24,10/17/24,213416,1385,rv,rv,8793,DEM,Donald Trump,40.3
+88830,1528,YouGov,2.2,0.6,Live Phone/Text-to-Web/Email/Mail-to-Web,6.1,Nevada,10/08/24,10/16/24,213417,913,lv,lv,8794,DEM,Kamala Harris,46.3
+88831,1528,Washington Post/George Mason University,3.3,-1.5,Online Panel,8.9,North Carolina,10/10/24,10/20/24,213418,783,lv,lv,8795,REP,Donald Trump,45.7
+88832,1528,Washington Post/George Mason University,3.3,-0.0,Online Panel,5.9,Wisconsin,10/02/24,10/16/24,213419,1833,lv,lv,8796,DEM,Kamala Harris,50.7
+88833,1528,AtlasIntel,2.2,0.9,Online Ad,9.7,Arizona,10/01/24,10/17/24,213420,2137,lv,lv,8797,REP,Kamala Harris,43.8
+88834,1528,YouGov,2.4,0.3,Online Ad,6.5,Georgia,10/13/24,10/19/24,213421,1297,lv,lv,8798,DEM,Kamala Harris,50.9
+88835,1528,AtlasIntel,3.0,-0.5,Online Ad,8.0,Georgia,10/01/24,10/20/24,213422,1757,rv,rv,8799,DEM,Kamala Harris,45.8
+88836,1528,AtlasIntel,2.0,-0.7,Online Panel,7.8,Michigan,10/09/24,10/19/24,213423,1487,rv,rv,8800,DEM,Kamala Harris,45.2
+88837,1528,AtlasIntel,3.3,1.2,Online Panel,6.3,Wisconsin,10/08/24,10/17/24,213424,2257,lv,lv,8801,REP,Donald Trump,53.9
+88838,1528,YouGov,3.5,1.6,Live Phone/Text-to-Web/Email/Mail-to-Web,7.5,Nevada,10/02/24,10/18/24,213425,1381,rv,rv,8802,REP,Donald Trump,52.2
+88839,1528,YouGov,3.3,1.0,Online Ad,6.8,Pennsylvania,10/14/24,10/19/24,213426,2112,lv,lv,8803,REP,Donald Trump,59.0
+88840,1528,AtlasIntel,2.8,2.0,Online Panel,8.9,Nevada,10/11/24,10/17/24,213427,1009,lv,lv,8804,REP,Kamala Harris,57.2
+88841,1528,Washington Post/George Mason University,2.9,-0.2,Online Panel,7.7,Nevada,10/11/24,10/20/24,213428,989,rv,rv,8805,REP,Donald Trump,54.6
+88842,1528,Washington Post/George Mason University,2.4,2.0,Online Panel,9.9,Arizona,10/11/24,10/20/24,213429,2485,lv,lv,8806,REP,Kamala Harris,45.6
+88843,1528,YouGov,3.0,-0.6,Online Panel,9.7,Michigan,10/05/24,10/18/24,213430,957,rv,rv,8807,REP,Donald Trump,42.6
+88844,1528,YouGov,3.3,-1.5,Online Ad,8.5,Nevada,10/04/24,10/18/24,213431,1993,lv,lv,8808,DEM,Donald Trump,51.8
+88845,1528,AtlasIntel,2.4,-1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,5.2,Georgia,10/14/24,10/18/24,213432,2304,rv,rv,8809,REP,Kamala Harris,46.5
+88846,1528,YouGov,3.2,-0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,8.8,Arizona,10/06/24,10/19/24,213433,729,rv,rv,8810,DEM,Donald Trump,48.3
+88847,1528,YouGov,2.3,0.9,Online Ad,7.5,Nevada,10/11/24,10/18/24,213434,2174,rv,rv,8811,REP,Kamala Harris,45.6
+88848,1528,AtlasIntel,3.4,-0.4,Live Phone/Text-to-Web/Email/Mail-to-Web,6.8,Arizona,10/07/24,10/16/24,213435,792,rv,rv,8812,REP,Kamala Harris,42.5
+88849,1528,YouGov,3.4,1.8,Online Ad,7.8,Georgia,10/10/24,10/19/24,213436,1444,rv,rv,8813,REP,Donald Trump,44.9
+88850,1528,YouGov,2.2,0.3,Online Ad,9.6,Arizona,10/01/24,10/19/24,213437,2082,rv,rv,8814,REP,Donald Trump,50.9
+88851,1528,Washington Post/George Mason University,2.9,-0.2,Online Ad,8.3,Georgia,10/08/24,10/16/24,213438,776,rv,rv,8815,REP,Donald Trump,59.8
+88852,1528,AtlasIntel,3.0,1.1,Online Panel,9.7,Nevada,10/08/24,10/17/24,213439,1167,rv,rv,8816,REP,Kamala Harris,52.0
+88853,1528,AtlasIntel,2.1,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,7.0,Michigan,10/04/24,10/18/24,213440,1786,lv,lv,8817,REP,Donald Trump,51.1
+88854,1528,AtlasIntel,2.6,0.0,Online Ad,8.0,Nevada,10/07/24,10/20/24,213441,1474,lv,lv,8818,DEM,Kamala Harris,48.0
+88855,1528,Washington Post/George Mason University,3.4,0.7,Live Phone/Text-to-Web/Email/Mail-to-Web,8.8,Georgia,10/10/24,10/20/24,213442,1167,lv,lv,8819,DEM,Kamala Harris,52.4
+88856,1528,YouGov,2.4,1.9,Online Panel,6.2,Georgia,10/08/24,10/16/24,213443,797,rv,rv,8820,DEM,Kamala Harris,51.0
+88857,1528,Washington Post/George Mason University,2.0,0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,9.5,Michigan,10/06/24,10/18/24,213444,702,lv,lv,8821,REP,Kamala Harris,43.5
+88858,1528,AtlasIntel,2.9,-0.1,Online Panel,6.2,Georgia,10/13/24,10/16/24,213445,2258,lv,lv,8822,DEM,Donald Trump,50.1
+88859,1528,YouGov,2.6,-1.0,Online Ad,9.9,Michigan,10/07/24,10/16/24,213446,1390,lv,lv,8823,REP,Kamala Harris,48.2
+88860,1528,AtlasIntel,3.2,-0.6,Online Ad,9.5,Arizona,10/12/24,10/18/24,213447,2456,rv,rv,8824,REP,Kamala Harris,43.4
+88861,1528,AtlasIntel,3.3,1.3,Online Ad,5.0,Wisconsin,10/04/24,10/17/24,213448,621,lv,lv,8825,REP,Donald Trump,53.3
+88862,1528,YouGov,3.2,1.3,Online Ad,5.7,Wisconsin,10/04/24,10/20/24,213449,1800,rv,rv,8826,REP,Donald Trump,42.4
+88863,1528,AtlasIntel,2.6,1.5,Online Panel,8.5,Arizona,10/02/24,10/16/24,213450,1979,rv,rv,8827,REP,Donald Trump,41.8
+88864,1528,Washington Post/George Mason University,2.4,0.4,Live Phone/Text-to-Web/Email/Mail-to-Web,6.3,North Carolina,10/01/24,10/16/24,213451,931,lv,lv,8828,REP,Donald Trump,47.7
+88865,1528,Washington Post/George Mason University,2.6,-1.8,Online Panel,8.3,Arizona,10/06/24,10/19/24,213452,1730,rv,rv,8829,REP,Kamala Harris,46.8
+88866,1528,AtlasIntel,3.0,0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,7.0,Michigan,10/05/24,10/16/24,213453,1706,rv,rv,8830,DEM,Kamala Harris,54.4
+88867,1528,AtlasIntel,3.0,0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.2,North Carolina,10/10/24,10/20/24,213454,1810,rv,rv,8831,DEM,Donald Trump,46.7
+88868,1528,YouGov,3.2,1.9,Online Ad,7.6,North Carolina,10/04/24,10/17/24,213455,1954,lv,lv,8832,DEM,Kamala Harris,51.4
+88869,1528,YouGov,2.6,-1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,7.6,Nevada,10/09/24,10/18/24,213456,2473,rv,rv,8833,REP,Donald Trump,53.8
+88870,1528,Washington Post/George Mason University,3.2,0.4,Online Panel,5.3,Wisconsin,10/03/24,10/20/24,213457,2146,rv,rv,8834,DEM,Kamala Harris,58.3
+88871,1528,YouGov,2.6,0.2,Online Panel,8.5,Michigan,10/02/24,10/18/24,213458,927,rv,rv,8835,DEM,Kamala Harris,40.3
+88872,1528,YouGov,2.5,1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,6.4,Wisconsin,10/07/24,10/16/24,213459,823,rv,rv,8836,REP,Donald Trump,59.2
+88873,1528,YouGov,2.1,1.9,Online Ad,5.8,Georgia,10/04/24,10/17/24,213460,1728,lv,lv,8837,REP,Kamala Harris,57.9
+88874,1528,Washington Post/George Mason University,2.7,0.2,Online Panel,6.3,Wisconsin,10/13/24,10/17/24,213461,2238,rv,rv,8838,DEM,Donald Trump,49.6
+88875,1528,AtlasIntel,2.7,0.8,Online Panel,7.1,North Carolina,10/02/24,10/17/24,213462,1642,lv,lv,8839,DEM,Kamala Harris,48.6
+88876,1528,AtlasIntel,2.0,-0.2,Online Panel,8.8,North Carolina,10/11/24,10/19/24,213463,812,lv,lv,8840,REP,Kamala Harris,54.1
+88877,1528,AtlasIntel,2.9,1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,7.9,Michigan,10/14/24,10/20/24,213464,1782,lv,lv,8841,DEM,Kamala Harris,57.6
+88878,1528,YouGov,2.7,1.9,Online Ad,6.1,North Carolina,10/04/24,10/20/24,213465,665,lv,lv,8842,REP,Kamala Harris,53.8
+88879,1528,Washington Post/George Mason University,2.3,-0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,6.0,Arizona,10/04/24,10/20/24,213466,1070,lv,lv,8843,DEM,Donald Trump,50.3
+88880,1528,Washington Post/George Mason University,3.4,1.6,Online Panel,9.3,Wisconsin,10/12/24,10/16/24,213467,1157,rv,rv,8844,DEM,Donald Trump,59.8
+88881,1528,YouGov,2.3,0.1,Online Panel,7.0,Michigan,10/02/24,10/20/24,213468,1901,rv,rv,8845,REP,Kamala Harris,46.4
+88882,1528,AtlasIntel,3.3,-1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,8.6,Nevada,10/10/24,10/17/24,213469,1203,lv,lv,8846,REP,Kamala Harris,55.7
+88883,1528,YouGov,2.6,1.8,Online Panel,9.8,Michigan,10/09/24,10/16/24,213470,1556,rv,rv,8847,REP,Kamala Harris,42.4
+88884,1528,Washington Post/George Mason University,2.2,1.7,Online Panel,5.1,North Carolina,10/13/24,10/18/24,213471,2081,rv,rv,8848,REP,Kamala Harris,52.9
+88885,1528,YouGov,2.4,1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,Pennsylvania,10/06/24,10/19/24,213472,896,rv,rv,8849,REP,Kamala Harris,57.2
+88886,1528,Washington Post/George Mason University,3.5,-1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,7.0,Georgia,10/01/24,10/18/24,213473,756,rv,rv,8850,REP,Kamala Harris,52.2
+88887,1528,Washington Post/George Mason University,3.1,-0.1,Online Panel,9.2,Nevada,10/10/24,10/20/24,213474,1611,lv,lv,8851,REP,Donald Trump,57.1
+88888,1528,YouGov,2.7,1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.1,Wisconsin,10/12/24,10/16/24,213475,1661,lv,lv,8852,DEM,Kamala Harris,52.0
+88889,1528,AtlasIntel,2.9,-2.0,Online Panel,5.5,Arizona,10/03/24,10/16/24,213476,1971,rv,rv,8853,DEM,Kamala Harris,45.9
+88890,1528,Washington Post/George Mason University,2.7,1.1,Online Ad,8.0,Wisconsin,10/04/24,10/20/24,213477,1258,lv,lv,8854,DEM,Kamala Harris,44.3
+88891,1528,YouGov,3.0,0.9,Online Ad,9.6,North Carolina,10/01/24,10/17/24,213478,2487,rv,rv,8855,REP,Kamala Harris,56.3
+88892,1528,AtlasIntel,2.8,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,5.2,Nevada,10/14/24,10/18/24,213479,1913,rv,rv,8856,REP,Kamala Harris,47.4
+88893,1528,YouGov,2.4,0.1,Online Panel,8.1,North Carolina,10/12/24,10/18/24,213480,780,lv,lv,8857,DEM,Kamala Harris,50.1
+88894,1528,YouGov,2.1,-0.7,Online Ad,6.1,Nevada,10/08/24,10/16/24,213481,2374,rv,rv,8858,REP,Kamala Harris,41.8
+88895,1528,AtlasIntel,2.9,-0.4,Online Ad,9.7,Nevada,10/02/24,10/18/24,213482,1157,rv,rv,8759,REP,Kamala Harris,57.7
+88896,1528,AtlasIntel,2.2,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,9.4,Arizona,10/01/24,10/16/24,213483,1900,lv,lv,8760,REP,Donald Trump,56.9
+88897,1528,AtlasIntel,2.3,2.0,Online Panel,7.3,Georgia,10/01/24,10/17/24,213484,1905,lv,lv,8761,DEM,Donald Trump,51.7
+88898,1528,Washington Post/George Mason University,2.7,0.3,Online Panel,7.7,Pennsylvania,10/11/24,10/20/24,213485,2095,rv,rv,8762,REP,Kamala Harris,50.2
+88899,1528,Washington Post/George Mason University,2.1,-0.3,Online Panel,9.9,North Carolina,10/07/24,10/20/24,213486,1944,lv,lv,8763,DEM,Donald Trump,41.3
+88900,1528,Washington Post/George Mason University,2.9,-0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,8.2,Georgia,10/13/24,10/17/24,213487,1496,rv,rv,8764,DEM,Kamala Harris,41.8
+88901,1528,YouGov,2.2,0.6,Online Panel,6.5,North Carolina,10/12/24,10/17/24,213488,1655,lv,lv,8765,REP,Kamala Harris,44.5
+88902,1528,Washington Post/George Mason University,3.4,-1.5,Online Panel,8.5,Nevada,10/01/24,10/17/24,213489,2389,rv,rv,8766,REP,Kamala Harris,52.9
+88903,1528,YouGov,3.2,-0.2,Online Panel,5.0,North Carolina,10/07/24,10/19/24,213490,1693,lv,lv,8767,DEM,Kamala Harris,55.8
+88904,1528,YouGov,3.2,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,North Carolina,10/10/24,10/19/24,213491,2017,rv,rv,8768,REP,Kamala Harris,44.6
+88905,1528,YouGov,3.1,-0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,9.6,Georgia,10/09/24,10/18/24,213492,1245,lv,lv,8769,DEM,Kamala Harris,52.9
+88906,1528,AtlasIntel,2.4,1.6,Online Panel,7.4,Wisconsin,10/10/24,10/18/24,213493,1450,lv,lv,8770,DEM,Donald Trump,51.3
+88907,1528,AtlasIntel,3.1,-1.9,Online Ad,6.2,North Carolina,10/05/24,10/18/24,213494,1409,rv,rv,8771,REP,Donald Trump,56.9
+88908,1528,AtlasIntel,2.1,-0.3,Online Panel,6.8,North Carolina,10/01/24,10/20/24,213495,1169,rv,rv,8772,DEM,Donald Trump,58.4
+88909,1528,AtlasIntel,2.2,1.9,Online Ad,9.2,Nevada,10/06/24,10/18/24,213496,1986,lv,lv,8773,REP,Kamala Harris,53.4
+88910,1528,YouGov,2.5,-1.0,Online Ad,5.4,Pennsylvania,10/04/24,10/16/24,213497,811,lv,lv,8774,DEM,Kamala Harris,44.4
+88911,1528,AtlasIntel,2.8,-0.5,Online Ad,8.6,Michigan,10/08/24,10/19/24,213498,997,lv,lv,8775,REP,Kamala Harris,49.8
+88912,1528,Washington Post/George Mason University,2.9,-1.1,Online Panel,8.1,Wisconsin,10/10/24,10/18/24,213499,1855,lv,lv,8776,DEM,Kamala Harris,51.3
+88913,1528,YouGov,3.3,-1.1,Online Ad,6.7,North Carolina,10/15/24,10/19/24,213500,1954,rv,rv,8777,REP,Donald Trump,51.2
+88914,1528,Washington Post/George Mason University,3.0,-0.6,Online Ad,7.8,Michigan,10/06/24,10/16/24,213501,974,rv,rv,8778,DEM,Donald Trump,50.3
+88915,1528,AtlasIntel,2.3,0.1,Online Ad,5.3,Nevada,10/04/24,10/16/24,213502,710,rv,rv,8779,REP,Kamala Harris,51.3
+88916,1528,AtlasIntel,3.2,-0.5,Online Ad,8.9,Georgia,10/05/24,10/18/24,213503,1487,rv,rv,8780,REP,Donald Trump,50.3
+88917,1528,AtlasIntel,3.5,-1.1,Online Ad,8.6,North Carolina,10/11/24,10/16/24,213504,2072,rv,rv,8781,DEM,Donald Trump,48.7
+88918,1528,YouGov,2.9,-1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,5.5,Arizona,10/04/24,10/16/24,213505,1028,lv,lv,8782,DEM,Kamala Harris,44.1
+88919,1528,AtlasIntel,2.7,-0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,8.2,Nevada,10/15/24,10/17/24,213506,1251,rv,rv,8783,DEM,Donald Trump,51.7
+88920,1528,YouGov,3.4,1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,8.7,Pennsylvania,10/03/24,10/18/24,213507,1193,lv,lv,8784,REP,Donald Trump,43.5
+88921,1528,AtlasIntel,2.3,-0.7,Online Ad,6.1,North Carolina,10/03/24,10/17/24,213508,2341,rv,rv,8785,DEM,Donald Trump,54.3
+88922,1528,YouGov,2.9,0.4,Online Ad,5.1,Michigan,10/03/24,10/18/24,213509,877,rv,rv,8786,DEM,Donald Trump,46.4
+88923,1528,YouGov,2.0,0.2,Online Panel,7.1,Georgia,10/03/24,10/17/24,213510,993,lv,lv,8787,REP,Donald Trump,59.9
+88924,1528,Washington Post/George Mason University,2.4,1.8,Online Panel,5.8,Michigan,10/04/24,10/20/24,213511,1718,lv,lv,8788,REP,Kamala Harris,59.8
+88925,1528,YouGov,3.0,-0.1,Online Panel,8.3,North Carolina,10/03/24,10/17/24,213512,627,rv,rv,8789,REP,Kamala Harris,59.6
+88926,1528,AtlasIntel,3.3,1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,5.9,Michigan,10/03/24,10/17/24,213513,1304,rv,rv,8790,DEM,Kamala Harris,45.1
+88927,1528,AtlasIntel,3.5,-0.4,Online Panel,9.8,Georgia,10/14/24,10/20/24,213514,802,lv,lv,8791,DEM,Donald Trump,41.9
+88928,1528,AtlasIntel,2.9,0.6,Online Ad,5.9,North Carolina,10/07/24,10/18/24,213515,1884,rv,rv,8792,DEM,Donald Trump,43.8
+88929,1528,Washington Post/George Mason University,2.6,0.6,Online Ad,7.7,North Carolina,10/14/24,10/16/24,213516,1844,lv,lv,8793,REP,Donald Trump,43.4
+88930,1528,Washington Post/George Mason University,2.8,-0.4,Online Panel,8.3,Pennsylvania,10/09/24,10/17/24,213517,1559,rv,rv,8794,REP,Kamala Harris,57.7
+88931,1528,AtlasIntel,3.4,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,Michigan,10/03/24,10/16/24,213518,879,rv,rv,8795,DEM,Kamala Harris,59.2
+88932,1528,YouGov,2.4,1.8,Online Panel,6.1,Michigan,10/09/24,10/16/24,213519,601,rv,rv,8796,REP,Donald Trump,58.5
+88933,1528,YouGov,3.0,0.7,Online Panel,7.0,Pennsylvania,10/06/24,10/18/24,213520,2095,rv,rv,8797,REP,Kamala Harris,42.1
+88934,1528,Washington Post/George Mason University,3.1,0.1,Online Panel,7.6,Georgia,10/12/24,10/17/24,213521,2253,lv,lv,8798,REP,Kamala Harris,55.6
+88935,1528,AtlasIntel,2.1,0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,6.9,Wisconsin,10/02/24,10/18/24,213522,817,rv,rv,8799,REP,Kamala Harris,53.6
+88936,1528,AtlasIntel,3.1,-0.0,Online Ad,9.4,Michigan,10/08/24,10/19/24,213523,610,rv,rv,8800,REP,Kamala Harris,52.5
+88937,1528,AtlasIntel,2.7,-1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,5.7,Nevada,10/04/24,10/18/24,213524,2006,rv,rv,8801,DEM,Kamala Harris,45.9
+88938,1528,YouGov,3.4,1.8,Online Panel,5.4,Nevada,10/07/24,10/17/24,213525,901,rv,rv,8802,DEM,Donald Trump,47.2
+88939,1528,AtlasIntel,2.1,-1.9,Online Ad,8.3,Georgia,10/05/24,10/16/24,213526,2301,lv,lv,8803,REP,Kamala Harris,48.0
+88940,1528,YouGov,2.6,0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,North Carolina,10/14/24,10/18/24,213527,1531,rv,rv,8804,DEM,Kamala Harris,48.5
+88941,1528,YouGov,2.2,-1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,9.7,Georgia,10/09/24,10/18/24,213528,1623,rv,rv,8805,REP,Kamala Harris,47.1
+88942,1528,Washington Post/George Mason University,2.4,1.9,Online Panel,7.6,Wisconsin,10/09/24,10/16/24,213529,2055,rv,rv,8806,REP,Kamala Harris,55.9
+88943,1528,AtlasIntel,2.4,-0.5,Online Ad,7.5,North Carolina,10/15/24,10/19/24,213530,2039,lv,lv,8807,DEM,Kamala Harris,49.6
+88944,1528,YouGov,2.7,-1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,6.9,Arizona,10/07/24,10/18/24,213531,1853,rv,rv,8808,DEM,Donald Trump,55.1
+88945,1528,YouGov,3.4,1.0,Online Ad,9.6,Georgia,10/12/24,10/18/24,213532,2260,rv,rv,8809,REP,Kamala Harris,52.3
+88946,1528,YouGov,2.1,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,7.2,North Carolina,10/15/24,10/19/24,213533,2383,lv,lv,8810,REP,Kamala Harris,59.6
+88947,1528,AtlasIntel,3.0,0.9,Online Panel,6.2,North Carolina,10/09/24,10/16/24,213534,1160,lv,lv,8811,DEM,Donald Trump,42.8
+88948,1528,AtlasIntel,3.5,-1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,Georgia,10/13/24,10/17/24,213535,2332,lv,lv,8812,REP,Donald Trump,51.1
+88949,1528,YouGov,2.5,0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,7.3,Pennsylvania,10/15/24,10/19/24,213536,1513,lv,lv,8813,DEM,Kamala Harris,55.4
+88950,1528,AtlasIntel,3.0,1.4,Online Ad,8.9,Michigan,10/03/24,10/17/24,213537,1860,rv,rv,8814,DEM,Donald Trump,41.4
+88951,1528,Washington Post/George Mason University,2.9,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,8.0,Pennsylvania,10/15/24,10/16/24,213538,2265,rv,rv,8815,REP,Donald Trump,46.9
+88952,1528,AtlasIntel,2.2,-1.4,Online Panel,5.8,Nevada,10/04/24,10/18/24,213539,1630,rv,rv,8816,REP,Kamala Harris,52.9
+88953,1528,Washington Post/George Mason University,3.1,0.7,Online Ad,9.8,North Carolina,10/15/24,10/18/24,213540,1132,lv,lv,8817,REP,Donald Trump,57.4
+88954,1528,AtlasIntel,2.3,1.0,Online Ad,8.4,Michigan,10/15/24,10/16/24,213541,2067,rv,rv,8818,REP,Kamala Harris,54.2
+88955,1528,YouGov,2.9,1.6,Online Ad,5.2,Nevada,10/11/24,10/19/24,213542,998,rv,rv,8819,REP,Kamala Harris,59.6
+88956,1528,YouGov,2.9,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web,8.2,Arizona,10/11/24,10/19/24,213543,857,rv,rv,8820,REP,Kamala Harris,43.0
+88957,1528,AtlasIntel,3.5,0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.3,North Carolina,10/12/24,10/16/24,213544,1509,lv,lv,8821,REP,Donald Trump,45.8
+88958,1528,YouGov,3.3,1.4,Online Ad,5.7,Pennsylvania,10/01/24,10/18/24,213545,655,lv,lv,8822,DEM,Donald Trump,43.2
+88959,1528,Washington Post/George Mason University,2.8,1.0,Online Panel,7.8,Michigan,10/08/24,10/19/24,213546,2148,lv,lv,8823,DEM,Kamala Harris,48.2
+88960,1528,AtlasIntel,3.3,-0.3,Online Ad,6.7,North Carolina,10/06/24,10/17/24,213547,1026,rv,rv,8824,DEM,Kamala Harris,43.5
+88961,1528,Washington Post/George Mason University,3.5,-0.9,Online Panel,7.5,Nevada,10/13/24,10/18/24,213548,2191,lv,lv,8825,DEM,Kamala Harris,41.7
+88962,1528,YouGov,2.1,1.4,Online Ad,7.1,North Carolina,10/10/24,10/17/24,213549,1384,lv,lv,8826,REP,Kamala Harris,53.3
+88963,1528,AtlasIntel,2.9,1.2,Online Ad,7.0,Arizona,10/01/24,10/16/24,213550,2424,rv,rv,8827,REP,Donald Trump,54.1
+88964,1528,AtlasIntel,2.4,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,7.0,Nevada,10/10/24,10/20/24,213551,1415,rv,rv,8828,REP,Kamala Harris,47.0
+88965,1528,AtlasIntel,2.4,1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,8.6,Wisconsin,10/01/24,10/18/24,213552,709,lv,lv,8829,DEM,Kamala Harris,55.1
+88966,1528,Washington Post/George Mason University,3.3,-0.1,Online Panel,5.3,Pennsylvania,10/15/24,10/17/24,213553,1047,rv,rv,8830,REP,Kamala Harris,50.8
+88967,1528,AtlasIntel,2.3,-0.4,Online Ad,9.3,Wisconsin,10/07/24,10/17/24,213554,877,rv,rv,8831,REP,Donald Trump,55.2
+88968,1528,YouGov,3.4,-1.4,Online Ad,9.7,Michigan,10/14/24,10/19/24,213555,1389,rv,rv,8832,DEM,Kamala Harris,40.7
+88969,1528,Washington Post/George Mason University,3.3,-1.9,Online Panel,9.2,Wisconsin,10/14/24,10/17/24,213556,1119,lv,lv,8833,DEM,Donald Trump,56.2
+88970,1528,YouGov,2.1,-1.1,Online Ad,7.4,Georgia,10/11/24,10/18/24,213557,2144,lv,lv,8834,DEM,Kamala Harris,51.5
+88971,1528,AtlasIntel,3.2,1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,Michigan,10/09/24,10/20/24,213558,1916,lv,lv,8835,REP,Donald Trump,54.4
+88972,1528,Washington Post/George Mason University,3.4,1.5,Online Ad,6.3,North Carolina,10/06/24,10/18/24,213559,1757,rv,rv,8836,DEM,Kamala Harris,43.6
+88973,1528,Washington Post/George Mason University,2.7,-0.7,Online Panel,6.7,Nevada,10/10/24,10/18/24,213560,1562,lv,lv,8837,DEM,Kamala Harris,47.1
+88974,1528,Washington Post/George Mason University,2.9,-0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,9.7,North Carolina,10/15/24,10/19/24,213561,695,rv,rv,8838,REP,Donald Trump,45.2
+88975,1528,Washington Post/George Mason University,3.0,0.5,Online Panel,8.4,Arizona,10/12/24,10/18/24,213562,1573,lv,lv,8839,REP,Donald Trump,42.5
+88976,1528,AtlasIntel,2.0,1.3,Online Ad,5.2,Arizona,10/15/24,10/20/24,213563,1599,lv,lv,8840,DEM,Donald Trump,51.9
+88977,1528,YouGov,3.2,1.1,Online Ad,6.7,Georgia,10/01/24,10/20/24,213564,1336,lv,lv,8841,REP,Kamala Harris,46.1
+88978,1528,YouGov,2.3,1.6,Live Phone/Text-to-Web/Email/Mail-to-Web,5.9,North Carolina,10/02/24,10/16/24,213565,948,rv,rv,8842,DEM,Kamala Harris,56.6
+88979,1528,YouGov,2.5,-0.3,Online Ad,8.4,Michigan,10/01/24,10/17/24,213566,1779,rv,rv,8843,REP,Donald Trump,51.4
+88980,1528,Washington Post/George Mason University,2.0,0.2,Online Ad,7.0,Wisconsin,10/04/24,10/16/24,213567,619,lv,lv,8844,REP,Donald Trump,46.7
+88981,1528,Washington Post/George Mason University,3.3,0.0,Online Ad,5.4,Georgia,10/15/24,10/18/24,213568,2105,lv,lv,8845,REP,Donald Trump,56.9
+88982,1528,Washington Post/George Mason University,2.1,-0.1,Online Panel,9.1,Georgia,10/08/24,10/16/24,213569,1005,rv,rv,8846,REP,Donald Trump,56.9
+88983,1528,AtlasIntel,2.0,1.3,Online Ad,5.6,Georgia,10/05/24,10/18/24,213570,1751,lv,lv,8847,DEM,Donald Trump,45.4
+88984,1528,AtlasIntel,2.5,-1.4,Online Panel,8.7,Arizona,10/13/24,10/19/24,213571,904,rv,rv,8848,REP,Donald Trump,55.4
+88985,1528,Washington Post/George Mason University,2.7,1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,8.6,Arizona,10/06/24,10/20/24,213572,788,lv,lv,8849,DEM,Donald Trump,40.5
+88986,1528,YouGov,2.3,-1.5,Online Panel,7.1,Nevada,10/15/24,10/20/24,213573,2229,lv,lv,8850,REP,Kamala Harris,52.5
+88987,1528,YouGov,3.2,-2.0,Live Phone/Text-to-Web/Email/Mail-to-Web,6.0,Michigan,10/09/24,10/16/24,213574,2334,lv,lv,8851,DEM,Kamala Harris,49.1
+88988,1528,AtlasIntel,2.2,0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,6.5,Michigan,10/07/24,10/18/24,213575,2341,rv,rv,8852,DEM,Donald Trump,49.6
+88989,1528,YouGov,2.9,0.3,Online Panel,9.2,Nevada,10/06/24,10/16/24,213576,1695,rv,rv,8853,DEM,Kamala Harris,58.7
+88990,1528,Washington Post/George Mason University,2.7,0.1,Online Panel,8.0,North Carolina,10/05/24,10/18/24,213577,1037,rv,rv,8854,DEM,Kamala Harris,40.3
+88991,1528,Washington Post/George Mason University,3.2,0.6,Online Panel,6.6,Georgia,10/08/24,10/19/24,213578,787,rv,rv,8855,REP,Donald Trump,44.2
+88992,1528,Washington Post/George Mason University,3.1,-0.2,Online Ad,8.0,Pennsylvania,10/09/24,10/20/24,213579,1141,lv,lv,8856,DEM,Donald Trump,52.6
+88993,1528,AtlasIntel,2.8,0.9,Online Ad,8.5,Pennsylvania,10/09/24,10/16/24,213580,1755,lv,lv,8857,REP,Donald Trump,48.3
+88994,1528,AtlasIntel,2.2,0.8,Online Ad,5.5,Arizona,10/03/24,10/20/24,213581,1971,lv,lv,8858,DEM,Donald Trump,50.5
+88995,1528,AtlasIntel,3.5,0.4,Live Phone/Text-to-Web/Email/Mail-to-Web,7.8,Michigan,10/15/24,10/20/24,213582,1046,lv,lv,8759,DEM,Kamala Harris,42.1
+88996,1528,Washington Post/George Mason University,2.7,-1.3,Online Ad,9.6,Michigan,10/14/24,10/18/24,213583,1945,rv,rv,8760,REP,Kamala Harris,58.6
+88997,1528,YouGov,2.8,1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,6.7,North Carolina,10/08/24,10/16/24,213584,1883,lv,lv,8761,REP,Kamala Harris,47.0
+88998,1528,Washington Post/George Mason University,2.9,1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,8.5,Georgia,10/12/24,10/17/24,213585,1402,rv,rv,8762,DEM,Donald Trump,48.1
+88999,1528,AtlasIntel,2.5,2.0,Online Ad,5.1,Nevada,10/14/24,10/19/24,213586,1105,lv,lv,8763,DEM,Donald Trump,58.8
+89000,1528,Washington Post/George Mason University,2.2,0.3,Online Panel,8.0,North Carolina,10/13/24,10/19/24,213587,2220,rv,rv,8764,DEM,Donald Trump,46.0
+89001,1528,Washington Post/George Mason University,2.2,1.6,Online Panel,6.6,Georgia,10/04/24,10/17/24,213588,724,lv,lv,8765,REP,Donald Trump,51.1
+89002,1528,YouGov,3.1,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.6,Wisconsin,10/10/24,10/19/24,213589,1575,lv,lv,8766,REP,Kamala Harris,52.9
+89003,1528,YouGov,2.0,0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,7.1,Arizona,10/01/24,10/16/24,213590,764,rv,rv,8767,DEM,Kamala Harris,59.9
+89004,1528,Washington Post/George Mason University,2.9,-1.1,Online Panel,7.5,Georgia,10/04/24,10/16/24,213591,2423,lv,lv,8768,DEM,Kamala Harris,54.6
+89005,1528,YouGov,3.0,0.7,Online Panel,8.2,Arizona,10/08/24,10/17/24,213592,2466,rv,rv,8769,DEM,Kamala Harris,54.1
+89006,1528,YouGov,3.3,0.6,Online Panel,9.8,Nevada,10/01/24,10/20/24,213593,1381,rv,rv,8770,REP,Kamala Harris,56.5
+89007,1528,AtlasIntel,2.6,-0.6,Online Panel,5.7,Pennsylvania,10/14/24,10/19/24,213594,1130,lv,lv,8771,REP,Donald Trump,42.7
+89008,1528,Washington Post/George Mason University,2.1,1.6,Online Ad,8.7,Pennsylvania,10/05/24,10/16/24,213595,1195,lv,lv,8772,REP,Donald Trump,56.0
+89009,1528,AtlasIntel,2.4,1.5,Online Panel,7.3,Wisconsin,10/02/24,10/17/24,213596,1388,rv,rv,8773,DEM,Donald Trump,47.2
+89010,1528,Washington Post/George Mason University,2.4,-1.8,Online Ad,9.3,Wisconsin,10/08/24,10/17/24,213597,1534,rv,rv,8774,DEM,Donald Trump,44.8
+89011,1528,AtlasIntel,2.3,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,7.6,Wisconsin,10/02/24,10/18/24,213598,991,lv,lv,8775,REP,Kamala Harris,52.6
+89012,1528,Washington Post/George Mason University,2.9,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,7.4,Pennsylvania,10/03/24,10/17/24,213599,1328,rv,rv,8776,DEM,Kamala Harris,49.2
+89013,1528,AtlasIntel,3.2,-1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,8.0,Nevada,10/03/24,10/19/24,213600,1506,lv,lv,8777,DEM,Kamala Harris,54.6
+89014,1528,Washington Post/George Mason University,2.3,-1.3,Online Ad,6.4,North Carolina,10/12/24,10/20/24,213601,2051,lv,lv,8778,DEM,Donald Trump,42.0
+89015,1528,AtlasIntel,2.0,-0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,7.8,Arizona,10/14/24,10/16/24,213602,1610,rv,rv,8779,DEM,Donald Trump,42.3
+89016,1528,AtlasIntel,3.3,-0.6,Online Panel,8.0,Pennsylvania,10/10/24,10/20/24,213603,1923,rv,rv,8780,REP,Donald Trump,44.9
+89017,1528,AtlasIntel,3.0,1.9,Online Ad,8.4,Arizona,10/05/24,10/18/24,213604,1339,rv,rv,8781,REP,Kamala Harris,48.8
+89018,1528,Washington Post/George Mason University,2.5,-0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,Pennsylvania,10/14/24,10/16/24,213605,1437,lv,lv,8782,DEM,Kamala Harris,42.2
+89019,1528,AtlasIntel,2.1,0.5,Online Panel,8.0,Arizona,10/03/24,10/17/24,213606,2125,rv,rv,8783,REP,Kamala Harris,44.0
+89020,1528,AtlasIntel,2.2,1.8,Online Panel,8.2,Michigan,10/08/24,10/20/24,213607,1038,lv,lv,8784,REP,Kamala Harris,55.4
+89021,1528,AtlasIntel,2.4,-1.1,Online Ad,5.2,Arizona,10/13/24,10/19/24,213608,1220,lv,lv,8785,REP,Kamala Harris,49.3
+89022,1528,AtlasIntel,2.7,1.9,Online Panel,5.4,Wisconsin,10/15/24,10/20/24,213609,1186,rv,rv,8786,REP,Donald Trump,51.1
+89023,1528,YouGov,3.3,0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,7.0,Wisconsin,10/14/24,10/20/24,213610,1430,lv,lv,8787,DEM,Donald Trump,43.7
+89024,1528,YouGov,2.7,0.7,Online Ad,8.5,Georgia,10/12/24,10/19/24,213611,1186,lv,lv,8788,REP,Donald Trump,44.1
+89025,1528,YouGov,2.8,0.5,Online Ad,7.6,Nevada,10/09/24,10/16/24,213612,638,lv,lv,8789,DEM,Donald Trump,43.9
+89026,1528,AtlasIntel,3.0,-1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,9.6,Arizona,10/06/24,10/17/24,213613,1735,rv,rv,8790,DEM,Donald Trump,43.3
+89027,1528,YouGov,3.0,0.7,Live Phone/Text-to-Web/Email/Mail-to-Web,6.9,Nevada,10/01/24,10/20/24,213614,1681,rv,rv,8791,DEM,Donald Trump,45.0
+89028,1528,AtlasIntel,3.5,-0.8,Online Ad,9.4,Arizona,10/12/24,10/19/24,213615,2332,rv,rv,8792,DEM,Kamala Harris,56.1
+89029,1528,AtlasIntel,2.7,0.3,Online Ad,5.9,Pennsylvania,10/10/24,10/18/24,213616,1624,rv,rv,8793,DEM,Donald Trump,44.1
+89030,1528,Washington Post/George Mason University,3.1,1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,6.5,Georgia,10/01/24,10/19/24,213617,643,lv,lv,8794,DEM,Donald Trump,57.3
+89031,1528,Washington Post/George Mason University,3.0,-1.7,Online Ad,8.6,Georgia,10/15/24,10/19/24,213618,1629,rv,rv,8795,REP,Kamala Harris,43.1
+89032,1528,Washington Post/George Mason University,2.8,0.3,Online Ad,6.1,North Carolina,10/15/24,10/16/24,213619,1611,lv,lv,8796,REP,Donald Trump,55.2
+89033,1528,YouGov,3.0,0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,5.5,North Carolina,10/06/24,10/16/24,213620,1070,lv,lv,8797,REP,Kamala Harris,41.7
+89034,1528,AtlasIntel,2.2,-0.4,Online Panel,9.7,Arizona,10/05/24,10/19/24,213621,675,lv,lv,8798,REP,Kamala Harris,54.3
+89035,1528,YouGov,2.2,0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,9.7,Arizona,10/10/24,10/18/24,213622,1777,rv,rv,8799,REP,Donald Trump,46.1
+89036,1528,AtlasIntel,2.8,1.4,Online Ad,9.1,Georgia,10/15/24,10/19/24,213623,1331,lv,lv,8800,DEM,Kamala Harris,54.3
+89037,1528,YouGov,2.4,1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,6.4,Pennsylvania,10/15/24,10/16/24,213624,2447,rv,rv,8801,DEM,Kamala Harris,46.1
+89038,1528,YouGov,2.6,-1.1,Online Ad,8.7,Wisconsin,10/01/24,10/20/24,213625,2168,rv,rv,8802,REP,Kamala Harris,40.4
+89039,1528,AtlasIntel,3.0,-1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,8.0,Michigan,10/13/24,10/20/24,213626,1626,rv,rv,8803,DEM,Kamala Harris,57.0
+89040,1528,Washington Post/George Mason University,3.1,1.9,Online Ad,7.0,Pennsylvania,10/01/24,10/16/24,213627,1623,rv,rv,8804,REP,Kamala Harris,40.8
+89041,1528,YouGov,2.1,0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.6,Michigan,10/07/24,10/16/24,213628,1240,lv,lv,8805,DEM,Kamala Harris,47.9
+89042,1528,Washington Post/George Mason University,2.4,1.8,Online Ad,7.1,Pennsylvania,10/05/24,10/17/24,213629,1354,lv,lv,8806,REP,Donald Trump,51.4
+89043,1528,Washington Post/George Mason University,2.6,-0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,7.3,Pennsylvania,10/11/24,10/16/24,213630,1001,lv,lv,8807,REP,Kamala Harris,59.2
+89044,1528,AtlasIntel,3.4,1.6,Online Panel,6.5,Pennsylvania,10/12/24,10/20/24,213631,2047,rv,rv,8808,REP,Kamala Harris,54.5
+89045,1528,AtlasIntel,2.3,-0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,9.2,Nevada,10/09/24,10/19/24,213632,1477,rv,rv,8809,DEM,Donald Trump,49.1
+89046,1528,YouGov,2.5,0.3,Online Panel,7.0,North Carolina,10/02/24,10/20/24,213633,2068,rv,rv,8810,REP,Donald Trump,54.4
+89047,1528,YouGov,3.2,0.7,Online Panel,5.4,Pennsylvania,10/05/24,10/17/24,213634,839,lv,lv,8811,REP,Kamala Harris,55.1
+89048,1528,YouGov,2.1,1.7,Live Phone/Text-to-Web/Email/Mail-to-Web,9.9,North Carolina,10/15/24,10/19/24,213635,1386,lv,lv,8812,DEM,Kamala Harris,51.7
+89049,1528,YouGov,2.9,0.1,Online Panel,6.0,Arizona,10/05/24,10/18/24,213636,1595,rv,rv,8813,DEM,Donald Trump,56.1
+89050,1528,YouGov,2.1,0.0,Online Panel,9.2,Pennsylvania,10/04/24,10/16/24,213637,1569,rv,rv,8814,REP,Donald Trump,53.0
+89051,1528,YouGov,2.5,-0.2,Online Panel,7.6,Wisconsin,10/09/24,10/18/24,213638,1492,lv,lv,8815,REP,Kamala Harris,41.5
+89052,1528,Washington Post/George Mason University,2.7,1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,7.5,North Carolina,10/07/24,10/19/24,213639,2153,rv,rv,8816,DEM,Donald Trump,59.9
+89053,1528,Washington Post/George Mason University,3.3,-1.1,Online Panel,8.7,Pennsylvania,10/03/24,10/20/24,213640,833,rv,rv,8817,REP,Kamala Harris,43.0
+89054,1528,YouGov,2.3,0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,7.6,Wisconsin,10/03/24,10/16/24,213641,2125,rv,rv,8818,REP,Kamala Harris,56.8
+89055,1528,YouGov,3.5,-0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,5.2,Georgia,10/03/24,10/18/24,213642,1258,rv,rv,8819,DEM,Kamala Harris,53.9
+89056,1528,AtlasIntel,2.7,0.7,Online Ad,5.7,Wisconsin,10/01/24,10/18/24,213643,1114,rv,rv,8820,DEM,Kamala Harris,57.0
+89057,1528,YouGov,2.1,-2.0,Online Panel,9.5,Nevada,10/01/24,10/16/24,213644,1396,rv,rv,8821,DEM,Kamala Harris,47.3
+89058,1528,AtlasIntel,3.3,0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,7.5,Pennsylvania,10/15/24,10/19/24,213645,1532,lv,lv,8822,REP,Donald Trump,52.0
+89059,1528,YouGov,3.4,0.7,Live Phone/Text-to-Web/Email/Mail-to-Web,6.3,North Carolina,10/15/24,10/17/24,213646,790,rv,rv,8823,DEM,Kamala Harris,46.9
+89060,1528,Washington Post/George Mason University,2.8,1.9,Online Panel,6.1,Michigan,10/07/24,10/18/24,213647,1312,lv,lv,8824,REP,Donald Trump,46.3
+89061,1528,Washington Post/George Mason University,2.1,-0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,9.6,Georgia,10/02/24,10/19/24,213648,1569,rv,rv,8825,REP,Kamala Harris,53.0
+89062,1528,AtlasIntel,2.8,1.5,Online Panel,5.9,Georgia,10/09/24,10/20/24,213649,2289,lv,lv,8826,DEM,Donald Trump,43.3
+89063,1528,AtlasIntel,3.4,0.4,Online Panel,9.1,Pennsylvania,10/06/24,10/18/24,213650,812,rv,rv,8827,DEM,Donald Trump,51.6
+89064,1528,AtlasIntel,2.2,-0.7,Online Panel,8.6,Wisconsin,10/13/24,10/18/24,213651,1067,rv,rv,8828,REP,Kamala Harris,47.1
+89065,1528,Washington Post/George Mason University,3.4,-1.2,Online Ad,9.9,Michigan,10/04/24,10/20/24,213652,2027,lv,lv,8829,REP,Donald Trump,44.4
+89066,1528,AtlasIntel,2.9,0.2,Live Phone/Text-to-Web/Email/Mail-to-Web,9.9,Pennsylvania,10/12/24,10/18/24,213653,869,lv,lv,8830,DEM,Donald Trump,44.0
+89067,1528,AtlasIntel,2.3,1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,5.6,Arizona,10/13/24,10/17/24,213654,1800,lv,lv,8831,DEM,Kamala Harris,48.9
+89068,1528,AtlasIntel,3.0,1.2,Online Panel,8.7,Wisconsin,10/07/24,10/17/24,213655,1866,lv,lv,8832,DEM,Donald Trump,51.2
+89069,1528,AtlasIntel,3.2,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,8.9,North Carolina,10/06/24,10/17/24,213656,2077,lv,lv,8833,DEM,Donald Trump,48.1
+89070,1528,AtlasIntel,3.3,-1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,5.4,Georgia,10/09/24,10/16/24,213657,2188,rv,rv,8834,DEM,Kamala Harris,43.3
+89071,1528,AtlasIntel,3.4,0.2,Online Panel,7.1,Wisconsin,10/06/24,10/19/24,213658,1282,lv,lv,8835,DEM,Donald Trump,58.8
+89072,1528,YouGov,2.8,-1.5,Online Panel,10.0,Georgia,10/02/24,10/17/24,213659,1062,lv,lv,8836,DEM,Donald Trump,50.8
+89073,1528,YouGov,3.2,-1.6,Live Phone/Text-to-Web/Email/Mail-to-Web,5.2,Georgia,10/09/24,10/18/24,213660,2479,rv,rv,8837,REP,Kamala Harris,53.3
+89074,1528,AtlasIntel,2.7,1.3,Online Panel,6.7,Pennsylvania,10/10/24,10/16/24,213661,2335,lv,lv,8838,DEM,Donald Trump,59.4
+89075,1528,AtlasIntel,2.2,0.5,Online Panel,7.6,Georgia,10/09/24,10/19/24,213662,1652,lv,lv,8839,REP,Kamala Harris,55.3
+89076,1528,YouGov,2.5,-1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,6.1,Wisconsin,10/15/24,10/17/24,213663,2500,lv,lv,8840,DEM,Kamala Harris,55.0
+89077,1528,YouGov,3.0,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,North Carolina,10/02/24,10/20/24,213664,742,rv,rv,8841,DEM,Donald Trump,45.0
+89078,1528,AtlasIntel,2.1,-1.9,Online Panel,9.3,Michigan,10/01/24,10/17/24,213665,1802,rv,rv,8842,REP,Kamala Harris,56.7
+89079,1528,YouGov,2.1,0.6,Live Phone/Text-to-Web/Email/Mail-to-Web,8.4,Arizona,10/09/24,10/18/24,213666,1726,lv,lv,8843,REP,Kamala Harris,59.6
+89080,1528,AtlasIntel,2.9,1.1,Online Ad,6.5,Arizona,10/10/24,10/17/24,213667,1225,lv,lv,8844,DEM,Donald Trump,56.6
+89081,1528,YouGov,2.3,-0.2,Online Panel,6.6,Georgia,10/06/24,10/18/24,213668,1270,rv,rv,8845,DEM,Donald Trump,49.0
+89082,1528,AtlasIntel,2.1,0.7,Live Phone/Text-to-Web/Email/Mail-to-Web,8.2,Nevada,10/01/24,10/20/24,213669,1921,lv,lv,8846,DEM,Donald Trump,55.5
+89083,1528,AtlasIntel,3.0,0.5,Online Ad,7.7,Nevada,10/12/24,10/17/24,213670,1142,rv,rv,8847,DEM,Donald Trump,59.7
+89084,1528,AtlasIntel,3.3,-0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,5.0,Michigan,10/10/24,10/19/24,213671,2303,lv,lv,8848,REP,Kamala Harris,49.5
+89085,1528,YouGov,2.2,0.5,Online Ad,7.7,North Carolina,10/03/24,10/19/24,213672,1034,lv,lv,8849,REP,Donald Trump,44.9
+89086,1528,YouGov,2.5,0.6,Online Ad,8.7,Arizona,10/01/24,10/19/24,213673,713,lv,lv,8850,DEM,Donald Trump,53.5
+89087,1528,AtlasIntel,2.4,-0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,North Carolina,10/03/24,10/16/24,213674,1957,rv,rv,8851,DEM,Kamala Harris,59.9
+89088,1528,Washington Post/George Mason University,3.1,-1.0,Online Panel,6.0,North Carolina,10/10/24,10/18/24,213675,1546,rv,rv,8852,DEM,Kamala Harris,46.3
+89089,1528,Washington Post/George Mason University,2.5,0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,9.2,Georgia,10/01/24,10/18/24,213676,781,lv,lv,8853,REP,Kamala Harris,52.3
+89090,1528,YouGov,3.5,0.1,Online Panel,9.2,Wisconsin,10/01/24,10/18/24,213677,2288,rv,rv,8854,REP,Kamala Harris,40.1
+89091,1528,AtlasIntel,3.4,-0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,7.5,Arizona,10/05/24,10/16/24,213678,1581,lv,lv,8855,REP,Donald Trump,42.1
+89092,1528,AtlasIntel,2.2,1.2,Online Ad,9.2,Michigan,10/08/24,10/19/24,213679,884,lv,lv,8856,DEM,Donald Trump,59.6
+89093,1528,Washington Post/George Mason University,3.3,-1.8,Online Panel,7.0,Pennsylvania,10/05/24,10/20/24,213680,2332,lv,lv,8857,DEM,Kamala Harris,55.3
+89094,1528,YouGov,2.6,0.6,Online Panel,9.9,Pennsylvania,10/09/24,10/16/24,213681,1009,rv,rv,8858,DEM,Donald Trump,50.3
+89095,1528,YouGov,2.9,1.7,Online Ad,7.0,North Carolina,10/11/24,10/17/24,213682,1676,lv,lv,8759,DEM,Kamala Harris,47.6
+89096,1528,AtlasIntel,3.1,1.0,Online Ad,7.5,Pennsylvania,10/07/24,10/20/24,213683,1264,lv,lv,8760,DEM,Donald Trump,51.4
+89097,1528,AtlasIntel,3.3,1.9,Live Phone/Text-to-Web/Email/Mail-to-Web,6.6,Michigan,10/06/24,10/19/24,213684,1558,lv,lv,8761,REP,Kamala Harris,57.8
+89098,1528,AtlasIntel,3.3,-1.2,Online Panel,6.3,Arizona,10/14/24,10/20/24,213685,661,rv,rv,8762,REP,Kamala Harris,44.1
+89099,1528,YouGov,3.2,-0.4,Online Panel,5.1,North Carolina,10/07/24,10/19/24,213686,971,lv,lv,8763,DEM,Kamala Harris,59.1
+89100,1528,AtlasIntel,2.9,0.5,Online Panel,8.3,Georgia,10/13/24,10/20/24,213687,1620,lv,lv,8764,DEM,Donald Trump,44.5
+89101,1528,AtlasIntel,2.2,-0.5,Online Panel,7.3,Pennsylvania,10/04/24,10/19/24,213688,1624,lv,lv,8765,DEM,Donald Trump,44.9
+89102,1528,YouGov,2.8,0.0,Online Panel,8.3,Wisconsin,10/08/24,10/20/24,213689,996,rv,rv,8766,DEM,Kamala Harris,55.2
+89103,1528,AtlasIntel,2.6,1.1,Online Ad,8.8,Michigan,10/07/24,10/17/24,213690,1110,lv,lv,8767,REP,Kamala Harris,55.7
+89104,1528,YouGov,3.0,1.7,Live Phone/Text-to-Web/Email/Mail-to-Web,8.7,Georgia,10/01/24,10/17/24,213691,655,rv,rv,8768,DEM,Donald Trump,51.2
+89105,1528,YouGov,2.4,0.6,Online Panel,9.0,Nevada,10/08/24,10/20/24,213692,875,rv,rv,8769,REP,Donald Trump,52.6
+89106,1528,YouGov,3.1,0.8,Live Phone/Text-to-Web/Email/Mail-to-Web,5.5,Pennsylvania,10/07/24,10/19/24,213693,727,lv,lv,8770,DEM,Donald Trump,58.3
+89107,1528,AtlasIntel,2.6,0.2,Online Ad,9.3,North Carolina,10/11/24,10/17/24,213694,2013,lv,lv,8771,DEM,Kamala Harris,41.4
+89108,1528,AtlasIntel,2.9,-0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,5.6,Arizona,10/07/24,10/17/24,213695,1064,lv,lv,8772,REP,Kamala Harris,41.8
+89109,1528,YouGov,2.1,1.1,Live Phone/Text-to-Web/Email/Mail-to-Web,6.6,Michigan,10/01/24,10/20/24,213696,1372,lv,lv,8773,REP,Kamala Harris,53.1
+89110,1528,YouGov,2.9,0.9,Online Panel,6.2,Pennsylvania,10/04/24,10/18/24,213697,1084,rv,rv,8774,REP,Kamala Harris,40.3
+89111,1528,AtlasIntel,2.8,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,6.1,Georgia,10/15/24,10/17/24,213698,1323,rv,rv,8775,REP,Kamala Harris,55.2
+89112,1528,Washington Post/George Mason University,2.9,0.1,Online Ad,8.8,Arizona,10/13/24,10/19/24,213699,742,lv,lv,8776,DEM,Donald Trump,57.4
+89113,1528,AtlasIntel,2.9,1.5,Online Ad,6.8,Georgia,10/12/24,10/16/24,213700,1796,lv,lv,8777,DEM,Donald Trump,54.8
+89114,1528,AtlasIntel,3.0,1.1,Online Panel,6.2,Pennsylvania,10/01/24,10/20/24,213701,1425,rv,rv,8778,REP,Kamala Harris,44.1
+89115,1528,AtlasIntel,3.2,1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,9.1,Pennsylvania,10/03/24,10/20/24,213702,2054,lv,lv,8779,DEM,Kamala Harris,43.6
+89116,1528,Washington Post/George Mason University,3.1,-1.7,Online Panel,7.8,Nevada,10/06/24,10/18/24,213703,1604,lv,lv,8780,DEM,Kamala Harris,43.3
+89117,1528,YouGov,2.8,1.5,Online Panel,8.2,Arizona,10/04/24,10/16/24,213704,1797,lv,lv,8781,DEM,Donald Trump,56.9
+89118,1528,AtlasIntel,2.9,-0.4,Online Ad,6.4,Wisconsin,10/09/24,10/17/24,213705,2104,lv,lv,8782,REP,Kamala Harris,51.0
+89119,1528,Washington Post/George Mason University,2.9,-0.0,Online Ad,5.1,Arizona,10/01/24,10/17/24,213706,939,lv,lv,8783,DEM,Donald Trump,40.7
+89120,1528,YouGov,3.3,-1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,6.6,Wisconsin,10/08/24,10/18/24,213707,1068,rv,rv,8784,DEM,Kamala Harris,48.4
+89121,1528,AtlasIntel,2.2,1.2,Online Ad,8.2,Georgia,10/11/24,10/19/24,213708,898,rv,rv,8785,REP,Donald Trump,50.2
+89122,1528,YouGov,3.4,-1.2,Online Ad,9.0,Nevada,10/07/24,10/16/24,213709,1308,rv,rv,8786,DEM,Kamala Harris,47.7
+89123,1528,Washington Post/George Mason University,3.4,-1.6,Online Panel,5.3,Georgia,10/08/24,10/16/24,213710,959,rv,rv,8787,DEM,Donald Trump,47.3
+89124,1528,Washington Post/George Mason University,3.1,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,7.4,Arizona,10/12/24,10/16/24,213711,1105,rv,rv,8788,DEM,Donald Trump,47.8
+89125,1528,AtlasIntel,2.8,-0.1,Online Ad,8.3,Michigan,10/14/24,10/19/24,213712,1966,lv,lv,8789,DEM,Donald Trump,56.6
+89126,1528,Washington Post/George Mason University,2.2,0.4,Online Panel,8.6,Georgia,10/12/24,10/17/24,213713,1248,rv,rv,8790,DEM,Kamala Harris,44.7
+89127,1528,Washington Post/George Mason University,3.1,-0.6,Live Phone/Text-to-Web/Email/Mail-to-Web,6.5,Pennsylvania,10/10/24,10/17/24,213714,1474,rv,rv,8791,REP,Donald Trump,56.2
+89128,1528,Washington Post/George Mason University,2.2,-0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,5.7,Wisconsin,10/02/24,10/16/24,213715,2407,rv,rv,8792,REP,Donald Trump,40.5
+89129,1528,Washington Post/George Mason University,2.7,0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,6.5,Wisconsin,10/03/24,10/19/24,213716,868,rv,rv,8793,REP,Donald Trump,41.8
+89130,1528,Washington Post/George Mason University,2.3,-1.3,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,Michigan,10/03/24,10/16/24,213717,1565,rv,rv,8794,DEM,Kamala Harris,47.2
+89131,1528,AtlasIntel,2.2,0.5,Online Ad,7.2,Arizona,10/08/24,10/19/24,213718,778,lv,lv,8795,DEM,Kamala Harris,50.9
+89132,1528,YouGov,2.9,0.3,Online Panel,6.9,North Carolina,10/04/24,10/18/24,213719,883,lv,lv,8796,REP,Donald Trump,40.8
+89133,1528,YouGov,2.6,0.2,Online Ad,8.2,Pennsylvania,10/07/24,10/19/24,213720,1052,lv,lv,8797,DEM,Donald Trump,46.3
+89134,1528,AtlasIntel,3.2,0.5,Online Panel,8.4,Pennsylvania,10/04/24,10/19/24,213721,2395,lv,lv,8798,REP,Donald Trump,56.0
+89135,1528,YouGov,3.2,1.5,Online Panel,5.4,Georgia,10/07/24,10/19/24,213722,2061,lv,lv,8799,DEM,Donald Trump,53.4
+89136,1528,AtlasIntel,2.6,-0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,7.7,Arizona,10/13/24,10/18/24,213723,2211,lv,lv,8800,REP,Donald Trump,43.8
+89137,1528,YouGov,2.3,0.5,Live Phone/Text-to-Web/Email/Mail-to-Web,9.3,Georgia,10/06/24,10/18/24,213724,2433,lv,lv,8801,DEM,Kamala Harris,49.8
+89138,1528,YouGov,2.4,1.6,Online Ad,7.8,Pennsylvania,10/02/24,10/18/24,213725,854,lv,lv,8802,REP,Donald Trump,50.6
+89139,1528,YouGov,3.3,0.4,Online Panel,5.7,Nevada,10/13/24,10/20/24,213726,1003,lv,lv,8803,DEM,Kamala Harris,45.8
+89140,1528,AtlasIntel,2.8,1.6,Live Phone/Text-to-Web/Email/Mail-to-Web,7.2,Arizona,10/15/24,10/16/24,213727,1918,rv,rv,8804,DEM,Donald Trump,49.3
+89141,1528,YouGov,2.8,-0.9,Online Ad,7.5,Arizona,10/06/24,10/19/24,213728,1875,rv,rv,8805,DEM,Donald Trump,42.9
+89142,1528,YouGov,2.7,0.3,Online Ad,7.6,Nevada,10/03/24,10/20/24,213729,1234,lv,lv,8806,REP,Donald Trump,43.4
+89143,1528,YouGov,2.8,-1.9,Online Panel,5.1,Michigan,10/10/24,10/19/24,213730,2475,lv,lv,8807,DEM,Donald Trump,47.4
+89144,1528,Washington Post/George Mason University,3.3,-1.1,Online Ad,5.9,North Carolina,10/10/24,10/17/24,213731,1759,lv,lv,8808,DEM,Kamala Harris,57.2
+89145,1528,AtlasIntel,2.8,1.7,Live Phone/Text-to-Web/Email/Mail-to-Web,7.2,Michigan,10/07/24,10/18/24,213732,2222,rv,rv,8809,REP,Kamala Harris,45.5
+89146,1528,Washington Post/George Mason University,2.8,-1.2,Online Ad,6.4,Wisconsin,10/13/24,10/16/24,213733,1448,rv,rv,8810,DEM,Kamala Harris,56.7
+89147,1528,AtlasIntel,3.4,1.6,Live Phone/Text-to-Web/Email/Mail-to-Web,5.2,Arizona,10/05/24,10/16/24,213734,748,lv,lv,8811,REP,Donald Trump,45.1
+89148,1528,Washington Post/George Mason University,2.3,-1.2,Online Ad,10.0,Georgia,10/09/24,10/17/24,213735,1468,lv,lv,8812,DEM,Kamala Harris,40.6
+89149,1528,Washington Post/George Mason University,2.7,-0.3,Online Ad,6.9,Georgia,10/13/24,10/19/24,213736,2245,lv,lv,8813,DEM,Donald Trump,45.0
+89150,1528,Washington Post/George Mason University,2.2,1.5,Online Ad,6.2,Pennsylvania,10/01/24,10/19/24,213737,1306,lv,lv,8814,DEM,Kamala Harris,53.6
+89151,1528,YouGov,2.2,0.1,Online Ad,7.4,Pennsylvania,10/14/24,10/18/24,213738,941,lv,lv,8815,REP,Donald Trump,56.9
+89152,1528,Washington Post/George Mason University,3.2,0.7,Online Panel,6.2,Nevada,10/02/24,10/19/24,213739,1539,rv,rv,8816,REP,Donald Trump,51.7
+89153,1528,YouGov,2.8,-1.3,Online Panel,8.3,Georgia,10/04/24,10/19/24,213740,2428,lv,lv,8817,REP,Donald Trump,48.1
+89154,1528,YouGov,3.0,-0.2,Online Panel,8.4,Nevada,10/13/24,10/17/24,213741,1045,lv,lv,8818,REP,Kamala Harris,50.7
+89155,1528,AtlasIntel,2.3,-0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,9.3,Wisconsin,10/08/24,10/17/24,213742,608,lv,lv,8819,DEM,Kamala Harris,43.3
+89156,1528,YouGov,3.1,-0.5,Online Panel,8.4,Wisconsin,10/07/24,10/18/24,213743,1380,lv,lv,8820,REP,Kamala Harris,59.4
+89157,1528,Washington Post/George Mason University,2.1,-2.0,Online Ad,7.0,Arizona,10/08/24,10/17/24,213744,1691,lv,lv,8821,REP,Kamala Harris,47.0
+89158,1528,AtlasIntel,2.9,0.9,Online Panel,8.0,Pennsylvania,10/03/24,10/17/24,213745,1443,rv,rv,8822,DEM,Donald Trump,45.9
+89159,1528,AtlasIntel,2.2,1.1,Online Ad,5.9,Nevada,10/08/24,10/16/24,213746,1144,rv,rv,8823,REP,Kamala Harris,57.0
+89160,1528,Washington Post/George Mason University,2.8,-1.8,Live Phone/Text-to-Web/Email/Mail-to-Web,5.7,Georgia,10/13/24,10/20/24,213747,1408,rv,rv,8824,DEM,Donald Trump,55.9
+89161,1528,AtlasIntel,3.1,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,5.6,Georgia,10/02/24,10/17/24,213748,1462,lv,lv,8825,REP,Donald Trump,41.5
+89162,1528,AtlasIntel,2.0,1.8,Online Panel,9.5,Arizona,10/09/24,10/19/24,213749,1026,rv,rv,8826,DEM,Kamala Harris,53.7
+89163,1528,AtlasIntel,2.1,-0.3,Live Phone/Text-to-Web/Email/Mail-to-Web,7.9,Georgia,10/08/24,10/16/24,213750,1663,rv,rv,8827,DEM,Kamala Harris,52.3
+89164,1528,AtlasIntel,3.1,1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,8.4,Georgia,10/06/24,10/20/24,213751,1057,rv,rv,8828,DEM,Donald Trump,43.9
+89165,1528,Washington Post/George Mason University,2.1,-1.8,Online Panel,5.5,North Carolina,10/09/24,10/18/24,213752,2081,rv,rv,8829,REP,Kamala Harris,57.9
+89166,1528,YouGov,3.3,-1.9,Online Panel,8.7,Arizona,10/12/24,10/19/24,213753,781,rv,rv,8830,REP,Kamala Harris,41.0
+89167,1528,Washington Post/George Mason University,2.8,1.1,Online Ad,7.5,Georgia,10/09/24,10/19/24,213754,1319,lv,lv,8831,REP,Kamala Harris,45.9
+89168,1528,AtlasIntel,2.2,1.4,Online Panel,8.5,Pennsylvania,10/08/24,10/17/24,213755,1417,lv,lv,8832,REP,Donald Trump,46.0
+89169,1528,YouGov,3.5,1.4,Online Ad,9.1,Michigan,10/12/24,10/19/24,213756,793,rv,rv,8833,DEM,Kamala Harris,55.9
+89170,1528,AtlasIntel,2.3,-0.8,Online Panel,8.4,Pennsylvania,10/02/24,10/18/24,213757,1342,rv,rv,8834,DEM,Kamala Harris,54.0
+89171,1528,AtlasIntel,2.7,1.7,Online Panel,8.1,Nevada,10/13/24,10/18/24,213758,2100,rv,rv,8835,DEM,Donald Trump,45.5
+89172,1528,Washington Post/George Mason University,3.0,1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,7.7,Nevada,10/02/24,10/18/24,213759,1246,rv,rv,8836,DEM,Donald Trump,52.2
+89173,1528,Washington Post/George Mason University,3.0,-0.4,Live Phone/Text-to-Web/Email/Mail-to-Web,5.1,Pennsylvania,10/08/24,10/16/24,213760,1598,rv,rv,8837,REP,Donald Trump,41.4
+89174,1528,Washington Post/George Mason University,3.0,1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,9.0,North Carolina,10/09/24,10/17/24,213761,637,rv,rv,8838,REP,Donald Trump,51.5
+89175,1528,YouGov,2.0,-0.5,Online Ad,7.4,Wisconsin,10/03/24,10/19/24,213762,1806,lv,lv,8839,REP,Kamala Harris,57.3
+89176,1528,Washington Post/George Mason University,2.6,-1.3,Online Ad,7.1,Nevada,10/14/24,10/16/24,213763,2125,lv,lv,8840,REP,Donald Trump,51.0
+89177,1528,YouGov,3.1,-0.8,Online Panel,5.9,North Carolina,10/11/24,10/19/24,213764,1146,lv,lv,8841,DEM,Donald Trump,53.8
+89178,1528,AtlasIntel,2.7,1.2,Live Phone/Text-to-Web/Email/Mail-to-Web,6.4,Wisconsin,10/10/24,10/18/24,213765,1339,lv,lv,8842,DEM,Kamala Harris,52.5
+89179,1528,AtlasIntel,2.9,0.3,Online Panel,5.6,Michigan,10/06/24,10/20/24,213766,1000,rv,rv,8843,DEM,Donald Trump,52.2
+89180,1528,AtlasIntel,2.7,1.4,Live Phone/Text-to-Web/Email/Mail-to-Web,5.8,Wisconsin,10/08/24,10/19/24,213767,2436,rv,rv,8844,DEM,Kamala Harris,50.9
+89181,1528,Washington Post/George Mason University,3.0,-0.1,Live Phone/Text-to-Web/Email/Mail-to-Web,7.7,Arizona,10/14/24,10/18/24,213768,1684,rv,rv,8845,REP,Kamala Harris,48.5
+89182,1528,Washington Post/George Mason University,2.6,0.9,Live Phone/Text-to-Web/Email/Mail-to-Web,6.3,Arizona,10/14/24,10/19/24,213769,2462,lv,lv,8846,REP,Kamala Harris,47.9
+89183,1528,YouGov,3.4,1.4,Online Ad,8.5,Nevada,10/05/24,10/20/24,213770,2432,lv,lv,8847,REP,Donald Trump,52.2
+89184,1528,Washington Post/George Mason University,2.3,0.0,Live Phone/Text-to-Web/Email/Mail-to-Web,5.7,North Carolina,10/10/24,10/19/24,213771,829,lv,lv,8848,REP,Kamala Harris,53.6
+89185,1528,Washington Post/George Mason University,3.3,-1.0,Live Phone/Text-to-Web/Email/Mail-to-Web,6.7,Wisconsin,10/08/24,10/17/24,213772,2480,lv,lv,8849,DEM,Kamala Harris,46.7
+89186,1528,AtlasIntel,2.6,1.3,Online Ad,8.2,Nevada,10/05/24,10/16/24,213773,1955,lv,lv,8850,REP,Kamala Harris,56.8
+89187,1528,AtlasIntel,3.4,-0.5,Online Panel,5.6,Georgia,10/04/24,10/18/24,213774,2242,rv,rv,8851,REP,Kamala Harris,54.0
+89188,1528,YouGov,2.1,-1.7,Online Ad,8.7,Wisconsin,10/08/24,10/18/24,213775,1549,rv,rv,8852,REP,Kamala Harris,40.0
+89189,1528,Washington Post/George Mason University,3.4,1.7,Online Ad,9.4,Nevada,10/10/24,10/18/24,213776,1160,rv,rv,8853,DEM,Donald Trump,56.1
+89190,1528,Washington Post/George Mason University,3.2,0.5,Online Ad,7.1,Nevada,10/15/24,10/19/24,213777,2399,rv,rv,8854,DEM,Kamala Harris,48.8
+89191,1528,Washington Post/George Mason University,2.8,0.3,Online Ad,9.9,Pennsylvania,10/08/24,10/20/24,213778,677,lv,lv,8855,REP,Kamala Harris,42.6
+89192,1528,Washington Post/George Mason University,3.2,0.8,Online Panel,5.0,Georgia,10/10/24,10/18/24,213779,2073,rv,rv,8856,DEM,Donald Trump,54.6
+89193,1528,Washington Post/George Mason University,2.4,1.5,Live Phone/Text-to-Web/Email/Mail-to-Web,9.7,Pennsylvania,10/14/24,10/16/24,213780,1615,lv,lv,8857,DEM,Kamala Harris,50.1
+89194,1528,AtlasIntel,3.4,1.4,Online Panel,10.0,North Carolina,10/08/24,10/18/24,213781,2068,lv,lv,8858,DEM,Donald Trump,49.8

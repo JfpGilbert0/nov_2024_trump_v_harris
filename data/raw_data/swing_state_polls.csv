@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ,poll_id,pollster_id,pollster,numeric_grade,pollscore,methodology,transparency_score,state,start_date,end_date,question_id,sample_size,population,population_full,race_id,party,candidate_name,pct,poll_end_date,unique_id
+=======
+,poll_id,pollster_id,pollster,numeric_grade,pollscore,methodology,transparency_score,state,start_date,end_date,question_id,sample_size,population,population_full,race_id,party,candidate_name,pct,poll_end_date,coalesced_id
+>>>>>>> 915c507 (simulate data for analysis)
 81,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,DEM,Kamala Harris,48.6,2024-10-17,88795-1528-AtlasIntel-Arizona-10/12/24-10/17/24-213382-1440.0-lv-8759
 82,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213382,1440.0,lv,lv,8759,REP,Donald Trump,49.2,2024-10-17,88795-1528-AtlasIntel-Arizona-10/12/24-10/17/24-213382-1440.0-lv-8759
 85,88795,1528,AtlasIntel,2.7,-0.8,Online Ad,6.0,Arizona,10/12/24,10/17/24,213383,1440.0,lv,lv,8759,DEM,Kamala Harris,49.3,2024-10-17,88795-1528-AtlasIntel-Arizona-10/12/24-10/17/24-213383-1440.0-lv-8759
