@@ -1,11 +1,12 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Cleans the real US election polling data used in this analysis
+# Author: Alexander Guarasci & Jacob Gilbert
+# Date: November 4, 2024
+# Contact: alexander.guarasci@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: 
+  # - `pandas` must be installed (pip install polars)
+
 
 #### Workspace setup ####
 import pandas as pd
