@@ -1,3 +1,13 @@
+#### Preamble ####
+# Purpose: Tests the simulated US election polling data
+# Author: Alexander Guarasci & Jacob Gilbert
+# Date: November 4, 2024
+# Contact: alexander.guarasci@mail.utoronto.ca
+# License: MIT
+# Pre-requisites: 
+  # - `pandas` must be installed (pip install polars)
+  # - `unittest` must be installed (pip install unittest)
+
 import pandas as pd
 import unittest
 

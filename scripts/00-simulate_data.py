@@ -1,25 +1,15 @@
 #### Preamble ####
-# Purpose: Simulates a dataset of Australian electoral divisions, including the 
-  # state and party that won each division.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Purpose: Simulates US presidential election polling data
+# Author: Alexander Guarasci & Jacob Gilbert
+# Date: November 4, 2024
+# Contact: alexander.guarasci@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 
-  # - `polars` must be installed (pip install polars)
+  # - `pandas` must be installed (pip install polars)
   # - `numpy` must be installed (pip install numpy)
 
 
-#### Workspace setup ####
-#### Preamble ####
-# Purpose: Simulates a dataset of Australian electoral divisions, including the 
-  #state and party that won each division.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
-# License: MIT
-# Pre-requisites: The `tidyverse` package must be installed
-# Any other information needed? Make sure you are in the `starter_folder` rproj
+
 
 
 import pandas as pd
