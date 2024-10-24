@@ -30,15 +30,24 @@ The structure of the paper is as follows
 
 The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages...
 
-# 2.1 Measurement 
-The voter support data used in this analysis comes from raw polling information sourced from the Project 538 online database [@FiveThirtyEight]. This dataset reflects potential outcomes for the 2024 U.S. Presidential Election by aggregating various polls that capture public sentiment towards candidates Donald Trump and Kamala Harris. Each entry in the dataset corresponds to a specific poll conducted by different polling organizations, which measure the percentage of respondents expressing their support for each candidate in their respective state.
-
-It’s important to note that each pollster employs unique sampling techniques and methodologies, which influence their numeric grades and transparency scores. To ensure the integrity of our analysis, we selected only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher. This approach is used so that the data reflects a robust and credible representation of voter preferences.
-
-The polling data is collected through carefully structured survey questions, designed to elicit clear responses regarding voter preferences. By aggregating these individual responses, we are able to derive state-level averages for both candidates. This transformation of general voter sentiment into specific data points enables us to analyze the competitive landscape between Trump and Harris across swing states, providing a clearer understanding of electoral dynamics as they relate to the upcoming election.
+# 2.1 Measurement
 
 
- # 2.1 The Dataset 
+The voter support data used in this analysis comes from raw polling information sourced from the Project 538 online database [@FiveThirtyEight]. This dataset provides predictions for candidate support for the 2024 U.S. Presidential Election by aggregating various polls that capture public sentiment towards candidates Donald Trump and Kamala Harris. Each entry in the dataset corresponds to a specific question around voting preference in a poll conducted by different polling organisations, which measure the percentage of respondents expressing their support for each candidate in their respective state.
+ 
+The polling data is collected through carefully structured survey questions, designed to elicit clear responses regarding voter preferences. By aggregating these individual responses, we are able to derive state-level sentiment for both candidates. This transformation of general voter sentiment into specific data points enables us to analyse the competitive landscape between Trump and Harris across swing states, providing a clearer understanding of electoral dynamics as they relate to the upcoming election.
+
+
+# 2.1 The Dataset
+
+
+A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @538].
+It’s important to note that each pollster employs unique sampling techniques and methodologies that influence their Pollscore and Transparency Score. Pollscore is a measure of a pollster's historical accuracy, reflecting the quality of their sampling methods and data collection. a good score reflecting low propensity to be impacted by errors and biases that can occur in survey sampling. It also accounts for impacts that might bias a survey's score, such as adjustmenting for the differing difficulty of polling certain political races or elements of luck in samples by resampling polls. Transparency Score, on the other hand, measures how openly a pollster shares methodological details like question wording, sampling methods, and weighting procedures. By combining these two metrics into a single star rating, we achieve an excellent overall assessment of a pollster's quality, capturing both their empirical accuracy and their commitment to methodological transparency.
+We use this single measurement out of 3 to ensure the integrity of our analysis. Selecting only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher.  This approach is used so that the data reflects a robust and credible representation of voter preferences.
+
+
+In keeping with this aim, we focused our analysis on polls conducted after September. Early in the election cycle, polls can be significantly influenced by initial campaign events, such as the shocks from the first debates or unexpected changes in the candidate lineup, for example Biden dropping out as a candidate on July 21st. These factors can introduce biases and fluctuations that do not necessarily reflect the enduring preferences of the electorate. By selecting polls from after September, we capture data from a period when voter opinions are more stable and better represent the current state of the race.
+
 
 
  # 2.2 Variables of Interest
