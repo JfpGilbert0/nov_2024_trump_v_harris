@@ -53,16 +53,16 @@ Model Overview
 The model can be expressed mathematically using the logistic function:
 
 
-P(Y=1 | X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
+$P(Y=1 | X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}$
 
 
 Where:
 
-	•	 P(Y=1 | X)  represents the probability of Trump winning (i.e.,  Y=1 ).
-	•	 \beta_0  is the intercept term.
-	•	 \beta_1  and  \beta_2  are the coefficients for the predictor variables, which include:
-	•	 X_1 : The average polling percentage for Trump ( \text{trump\_pct} ).
-	•	 X_2 : The average polling percentage for Harris ( \text{harris\_pct} ).
+•	 $P(Y=1 | X)$  represents the probability of Trump winning (i.e.,  Y=1 ).
+•	 $\beta_0$  is the intercept term.
+•	 $\beta_1$  and  $\beta_2$  are the coefficients for the predictor variables, which include:
+•	 X_1 : The average polling percentage for Trump ( \text{trump\_pct} ).
+•	 X_2 : The average polling percentage for Harris ( \text{harris\_pct} ).
 
 Data and Features
 
@@ -77,14 +77,15 @@ Weight Calculation
 
 To ensure that more recent and larger polls have a higher influence on the model, we calculate a weight for each poll as follows:
 
-	1.	Recency Weight:
+Recency Weight:
 
-\text{recency\_weight} = \max(\text{current\_date} - \text{start\_date}) - (\text{current\_date} - \text{start\_date})
+$\text{recency\_weight} = \max(\text{current\_date} - \text{start\_date}) - (\text{current\_date} - \text{start\_date})$
 
 This transformation ensures that more recent polls receive a larger weight.
-	2.	Total Weight:
 
-\text{weight} = \text{sample\_size} \times \text{recency\_weight}
+Total Weight:
+
+$\text{weight} = \text{sample\_size} \times \text{recency\_weight}$
 
 
 The weighted polling percentages for Trump and Harris are then calculated for each state, allowing for a more nuanced aggregation of voter sentiment.
@@ -97,8 +98,8 @@ The logistic regression model is implemented using the LogisticRegression class 
 
 The binary outcome variable is defined as follows:
 
-	•	 y = 1  if  \text{trump\_pct} > \text{harris\_pct}  (Trump is predicted to win).
-	•	 y = 0  otherwise.
+$y = 1$  if  $\text{trump\_pct} > \text{harris\_pct}$  (Trump is predicted to win)
+y = 0  otherwise.
 
 Model Validation and Assumptions
 
@@ -154,8 +155,89 @@ It would also be valuable to study the interaction between polling data and bett
 
 Ultimately, while our model offers a strong foundation for predicting the 2024 U.S. Presidential Election, there is still much to learn. By refining the model and incorporating additional data, we can move closer to producing predictions that more accurately reflect voter behavior and election outcomes.
 
- # Apendix {-}
+# Apendix
 
+
+
+Appendix: Idealized Methodology and Survey for Forecasting the US Presidential Election with Incentivized Betting
+
+In this revised approach, we will allocate the $100,000 budget not only for data collection and survey methods but also to incentivize participants to bet on the outcome of the election. This adds a monetary incentive for respondents to make accurate predictions, aligning their responses with their genuine expectations and potentially enhancing the predictive value of the data. Below is an outline of the methodology that integrates incentivized betting, sampling, recruitment, data validation, poll aggregation, and other features.
+
+1. Sampling Approach
+
+We will use stratified random sampling to capture a representative sample of the electorate across key demographics and regions. This ensures that our poll and betting pool reflects the diversity of the voting population, with emphasis on:
+
+Demographic groups: Stratified by race, age, gender, education, and income.
+Geographic regions: Oversampling key battleground states (e.g., Pennsylvania, Michigan, Wisconsin, Florida) to ensure robust state-level data while maintaining a representative national sample.
+Voter history: Stratified by past voter turnout, targeting likely voters, less frequent voters, and even non-voters to capture a full spectrum of voter engagement.
+
+The goal is to survey 5,000 respondents, with a significant proportion from battleground states. By incentivizing respondents with the betting opportunity, the aim is to foster thoughtful responses, as they will have a monetary stake in their predictions.
+
+2. Recruitment of Respondents
+
+We will use a mixed-mode recruitment strategy, relying on both online and telephone methods to reach a broad audience:
+
+Online recruitment: Participants will be recruited via digital platforms such as social media, news websites, and online political forums. Advertisements will emphasize the chance to bet on election outcomes and win money based on the accuracy of their predictions.
+Telephone recruitment: For older demographics and those less reachable online, telephone interviews will be conducted using voter registration rolls and commercial databases.
+
+Incentives: The primary incentive is the betting pool, with $50,000 of the budget allocated to a reward fund for accurate predictions. Respondents will have the opportunity to place a bet (e.g., $10) on the candidate they believe will win, and those who predict correctly will share in the prize pool. This financial incentive should increase engagement and encourage respondents to think carefully about their answers.
+
+3. Survey and Betting Design
+
+The survey will gather standard polling data, but with the addition of a betting component:
+
+Candidate preference: “If the 2024 U.S. Presidential Election were held today, would you vote for?”
+•	Kamala Harris (D)
+•	Donald Trump (R)
+•	Other/Third-party candidate
+•	Undecided
+Betting decision: After stating their candidate preference, respondents will be asked: “As a part of this survey you have been allotted $10 to bet on who you believe is most likely to win the election given the current odds. If the candidate of your choosing wins you will recieve a payout equal to the live odds. Which candidate would you like to place a bet on?” They will be given $10 to place on the candidate they believe is most likely to win.
+
+Voter behavior and demographics: Questions about voter intention, past voting behavior, and demographic details will follow, ensuring the data can be properly stratified and analyzed.
+
+Betting market engagement: “Have you participated in any betting markets (e.g., Polymarket, PredictIt) related to the election?” This will help analyze how participants in betting markets differ from typical poll respondents.
+
+Election forecasting confidence: “On a scale of 1-10, how confident are you in your prediction of who will win the election?”
+
+4. Data Validation
+
+To ensure the quality of the data, several validation measures will be implemented:
+
+•	Consistency checks: Responses will be monitored for inconsistencies 
+•	Verification: Voter registration data will be cross-referenced to verify the eligibility of respondents.
+•	Weighting: Data will be weighted to reflect the broader electorate using Census data on demographics and voting patterns.
+
+5. Poll Aggregation and Modeling
+
+After collecting the data, we will aggregate our polling results alongside other reliable polls and incorporate betting market data. This will allow us to adjust for discrepancies between public opinion polling and market-based predictions.
+
+•	Poll aggregation: Our results will be integrated with other national and state-level polls from reputable sources, such as Gallup and YouGov. Polls will be weighted based on sample size, recency, and historical accuracy.
+•	Betting market integration: We will compare the betting behaviors within our sample to existing market data from platforms like PredictIt and Polymarket. This comparison will help adjust for potential biases in polling, as betting markets can reveal hidden preferences or voter reluctance to openly state their choices.
+•	Modeling: We will use Bayesian hierarchical models to predict the election outcome at both the national and state levels. The model will integrate polling data, betting odds, and historical election trends. By comparing how betting and polling data align or diverge, we will refine the forecast, accounting for last-minute voter shifts or surprise outcomes.
+
+6. Poll-Betting Market Discrepancy
+
+A major component of this methodology is addressing the discrepancies between polling and betting markets. Our hypothesis is that participants are more likely to provide accurate predictions when they have a financial stake in the outcome.
+
+•	Betting behavior analysis: We will analyze how betting behavior correlates with stated voter preferences, identifying whether betting markets capture sentiment that traditional polling does not.
+•	Incentive impact: By comparing the results of those who opted to bet versus those who did not, we can determine whether financial incentives lead to more accurate election predictions.
+
+7. Budget Breakdown
+
+The $100,000 budget will be allocated as follows:
+
+•	Respondent recruitment: $10,000
+•	Survey administration (online and telephone): $20,000
+•	Betting pool incentives: $50,000 (for those who accurately predict the election outcome)
+•	Data validation and analysis: $10,000
+•	Poll aggregation and modeling: $10,000
+
+Conclusion
+
+This methodology uses a novel approach to incentivize accurate predictions by allowing respondents to bet on the election outcome. By combining traditional polling techniques with betting incentives, we aim to close the gap between polling data and betting market predictions, potentially uncovering hidden voter behaviors or biases that standard polling methods may miss.
+
+The survey can be found here:
+https://docs.google.com/forms/d/e/1FAIpQLSc5LYCAd0OmiIc-LHRFUVgVGuSMKzayVWZB7VOrsrDOe5742w/viewform?vc=0&c=0&w=1&flr=0
 # References
 
 
