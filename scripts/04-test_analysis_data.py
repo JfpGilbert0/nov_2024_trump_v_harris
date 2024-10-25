@@ -12,7 +12,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('data/02-analysis_data/merged_swing_state_data.csv')
+df = pd.read_csv('data/02-analysis_data/merged_swing_state_data.parquet')
 
 def test_trump_harris_pct_sum():
     """

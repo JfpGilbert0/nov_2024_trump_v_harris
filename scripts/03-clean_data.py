@@ -11,6 +11,7 @@
 #### Workspace setup ####
 import pandas as pd
 
+
 raw_df = pd.read_csv("data/raw_data/president_polls.csv")
 
 selected_columns = [
@@ -41,8 +42,8 @@ df = raw_df[selected_columns]
 df = df.loc[df['numeric_grade'] >= 2.5]
 df = df[df['candidate_name'].isin(['Donald Trump', 'Kamala Harris'])]
 #filter the recent 
-df['poll_end_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
-df = df.loc[df["poll_end_date"] > "2024-09-01"]
+df['end_date'] = pd.to_datetime(df['end_date'], format='%m/%d/%y')
+df = df.loc[df["end_date"] > "2024-09-01"]
 
 df_swing = df.loc[df["state"].isin(["Arizona","Pennsylvania", "North Carolina", "Georgia", "Nevada", "Michigan", "Wisconsin"])]
 
@@ -62,7 +63,7 @@ print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
-df_swing.to_csv("data/02-analysis_data/swing_state_polls.csv")
+df_swing.to_parquet("data/02-analysis_data/swing_state_polls.csv")
 
 #creating data to be analysed (grouping by )
 df_trump = df_swing[df_swing['candidate_name'] == "Donald Trump"]
@@ -85,4 +86,4 @@ df_by_poll = pd.merge(df_trump[['unique_id',
     df_harris[['unique_id', 'pct']], on='unique_id', how='inner')
 df_merged = df_by_poll.rename(columns={'pct_x': 'trump_pct', 'pct_y': 'harris_pct'}, inplace=True)
 
-df_by_poll.to_csv("data/02-analysis_data/merged_swing_state_data.csv")
+df_by_poll.to_parquet("data/02-analysis_data/merged_swing_state_data.parquet")
