@@ -2,17 +2,27 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Step 1: Define the Electoral Votes for Each State
-states = ['California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Hawaii', 'Illinois', 
-          'Maryland', 'Massachusetts', 'Minnesota', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York',  
-          'Oregon', 'Washington', 'Arizona', 'Pennsylvania', 'North Carolina', 'Georgia', 'Nevada', 'Michigan', 
-          'Wisconsin', 'Washington', 'Alabama', 'Alaska', 'Arkansas', 'Florida', 'Idaho', 'Indiana', 'Iowa', 
-          'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 
-          'North Dakota', 'Ohio', 'Oklahoma', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 
-          'West Virginia', 'Wyoming']
+states = ["California", "Connecticut", "Delaware", "Hawaii", "Illinois",
+"Maine", "Maryland", "Massachusetts", "Minnesota", "New Jersey",
+"New York", "Oregon", "Rhode Island", "Vermon", "Washington",
+"District of Columbia", "New Mexico", "New Hampshire", "Colorado", "Virginia",
+"Arizona",
+"Georgia",
+"Michigan",
+"Nevada",
+"North Carolina",
+"Pennsylvania",
+"Wisconsin",
+"Alabama", "Alaska", "Arkansas", "Florida", "Idaho",
+"Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
+"Mississippi", "Missouri", "Montana", "Nebraska", "North Dakota",
+"Ohio", "Oklahoma", "South Carolina", "South Dakota", "Tennessee",
+"Texas", "Utah", "West Virginia", "Wyoming"]
 print(len(states))
-votes = [54, 10, 7, 3, 3, 4, 19, 10, 11, 10, 4, 14, 5, 28, 8, 11, 19, 16, 16, 6, 15, 10, 
-         12, 9, 3, 6, 30, 4, 11, 6, 6, 8, 8, 4, 6, 10, 4, 5, 3, 17, 7, 9, 3, 11, 40, 6, 
-         3, 10, 3]
+votes = [54, 7 , 2, 4, 19, 4, 10, 11, 10, 14, 28, 8, 4, 3, 12, 3, 5, 4, 10, 13,
+         11,16,15,6,16,19,10,
+         9,3,6,30,4,11,6,6,8,8,6,10,4,5,3,17,7,9,3,11,40,6,4,3]
+
 print(len(votes))
 # Step 2: Compute the Cumulative Electoral Votes
 cumulative_votes = np.cumsum(votes)
@@ -36,12 +46,13 @@ plt.xticks(range(len(states)), states, rotation=90, fontsize=8)
 plt.yticks(np.arange(0, 550, 50))
 
 # Fill the area under the curve with blue for Democrats (left to right)
-threshold_index = np.argmax(cumulative_votes >= 226)  # First point where cumulative votes reach 270
+threshold_index = np.argmax(cumulative_votes >= 227)  # First point where cumulative votes reach 270
 plt.fill_between(x[:threshold_index + 1], cumulative_votes[:threshold_index + 1], 
                  step='post', color='blue', alpha=0.4)
 
 # Fill the area under the curve with red for Republicans (right to left)
-plt.fill_between(x_reversed, cumulative_votes_reversed, step='post', color='red', alpha=0.4)
+threshold_index = np.argmax(cumulative_votes >= 219)
+plt.fill_between(x_reversed[:threshold_index + 5], cumulative_votes_reversed[:threshold_index + 5], step='post', color='red', alpha=0.4)
 
 # Add a horizontal line at 270 votes (threshold to win)
 plt.axhline(270, color='purple', linestyle='--', linewidth=2)

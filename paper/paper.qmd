@@ -48,7 +48,91 @@ The polling data is collected through carefully structured survey questions, des
 # 2.1 The Dataset
 
 
-A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @538].
+A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @538]. In figure 3 we see the ammount that each party hold according to those sources, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump recieve over 270th electoral votes.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Step 1: Define the Electoral Votes for Each State
+states = ["California", "Connecticut", "Delaware", "Hawaii", "Illinois",
+"Maine", "Maryland", "Massachusetts", "Minnesota", "New Jersey",
+"New York", "Oregon", "Rhode Island", "Vermon", "Washington",
+"District of Columbia", "New Mexico", "New Hampshire", "Colorado", "Virginia",
+"Arizona",
+"Georgia",
+"Michigan",
+"Nevada",
+"North Carolina",
+"Pennsylvania",
+"Wisconsin",
+"Alabama", "Alaska", "Arkansas", "Florida", "Idaho",
+"Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
+"Mississippi", "Missouri", "Montana", "Nebraska", "North Dakota",
+"Ohio", "Oklahoma", "South Carolina", "South Dakota", "Tennessee",
+"Texas", "Utah", "West Virginia", "Wyoming"]
+print(len(states))
+votes = [54, 7 , 2, 4, 19, 4, 10, 11, 10, 14, 28, 8, 4, 3, 12, 3, 5, 4, 10, 13,
+         11,16,15,6,16,19,10,
+         9,3,6,30,4,11,6,6,8,8,6,10,4,5,3,17,7,9,3,11,40,6,4,3]
+
+print(len(votes))
+# Step 2: Compute the Cumulative Electoral Votes
+cumulative_votes = np.cumsum(votes)
+
+# Compute Cumulative Votes in Reverse Order for Republicans
+cumulative_votes_reversed = np.cumsum(votes[::-1])
+
+# X-axis values (state index)
+x = np.arange(len(cumulative_votes))
+
+# Step 3: Plot the Step Function for Democrats (left to right)
+plt.figure(figsize=(18, 8))
+plt.step(x, cumulative_votes, where='post', color='navy', linewidth=2, marker='o')
+
+# Reverse the x-axis for the Republican step function (right to left)
+x_reversed = np.flip(x)
+plt.step(x_reversed, cumulative_votes_reversed, where='post', color='red', linewidth=2, marker='o')
+
+# Step 4: Customize the Plot
+plt.xticks(range(len(states)), states, rotation=90, fontsize=8)
+plt.yticks(np.arange(0, 550, 50))
+
+# Fill the area under the curve with blue for Democrats (left to right)
+threshold_index = np.argmax(cumulative_votes >= 227)  # First point where cumulative votes reach 270
+plt.fill_between(x[:threshold_index + 1], cumulative_votes[:threshold_index + 1], 
+                 step='post', color='blue', alpha=0.4)
+
+# Fill the area under the curve with red for Republicans (right to left)
+threshold_index = np.argmax(cumulative_votes >= 219)
+plt.fill_between(x_reversed[:threshold_index + 5], cumulative_votes_reversed[:threshold_index + 5], step='post', color='red', alpha=0.4)
+
+# Add a horizontal line at 270 votes (threshold to win)
+plt.axhline(270, color='purple', linestyle='--', linewidth=2)
+plt.text(len(states) / 2, 275, '270 votes to win', horizontalalignment='center', color='purple', fontsize=12)
+
+# Add lines for current Democratic and Republican thresholds
+plt.axhline(225, color='blue', linestyle='--', linewidth=1.5)
+plt.text(210, 220, '225 votes', horizontalalignment='center', color='blue', fontsize=12)
+
+# Add Labels and Title
+plt.xlabel('Electoral College Markets (electoral votes)', fontsize=12)
+plt.ylabel('Total Electoral Votes', fontsize=12)
+plt.title('Step Function of Total Electoral Votes\nwith States Ordered by Vote Share', fontsize=15)
+
+# Add Grid for Better Visibility
+plt.grid(True, linestyle='--', alpha=0.5)
+
+# Adjust Layout for Better Fit
+plt.tight_layout()
+
+# Step 5: Show the Plot
+plt.show()
+
+
+```
+
+
 It’s important to note that each pollster employs unique sampling techniques and methodologies that influence their Pollscore and Transparency Score. Pollscore is a measure of a pollster's historical accuracy, reflecting the quality of their sampling methods and data collection. a good score reflecting low propensity to be impacted by errors and biases that can occur in survey sampling. It also accounts for impacts that might bias a survey's score, such as adjustmenting for the differing difficulty of polling certain political races or elements of luck in samples by resampling polls. Transparency Score, on the other hand, measures how openly a pollster shares methodological details like question wording, sampling methods, and weighting procedures. By combining these two metrics into a single star rating, we achieve an excellent overall assessment of a pollster's quality, capturing both their empirical accuracy and their commitment to methodological transparency.
 We use this single measurement out of 3 to ensure the integrity of our analysis. Selecting only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher.  This approach is used so that the data reflects a robust and credible representation of voter preferences.
 
