@@ -13,6 +13,13 @@ abstract: |
  This paper is about the election
 ---
 
+```{python}
+#| echo: false
+import pandas as pd
+import matplotlib.pyplot as plt
+import jupyter
+from tabulate import tabulate
+```
 
 # 1 Introduction
 
@@ -45,12 +52,109 @@ A swing state in the context of a US election is defined as "a state where the n
 It’s important to note that each pollster employs unique sampling techniques and methodologies that influence their Pollscore and Transparency Score. Pollscore is a measure of a pollster's historical accuracy, reflecting the quality of their sampling methods and data collection. a good score reflecting low propensity to be impacted by errors and biases that can occur in survey sampling. It also accounts for impacts that might bias a survey's score, such as adjustmenting for the differing difficulty of polling certain political races or elements of luck in samples by resampling polls. Transparency Score, on the other hand, measures how openly a pollster shares methodological details like question wording, sampling methods, and weighting procedures. By combining these two metrics into a single star rating, we achieve an excellent overall assessment of a pollster's quality, capturing both their empirical accuracy and their commitment to methodological transparency.
 We use this single measurement out of 3 to ensure the integrity of our analysis. Selecting only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher.  This approach is used so that the data reflects a robust and credible representation of voter preferences.
 
-
 In keeping with this aim, we focused our analysis on polls conducted after September. Early in the election cycle, polls can be significantly influenced by initial campaign events, such as the shocks from the first debates or unexpected changes in the candidate lineup, for example Biden dropping out as a candidate on July 21st. These factors can introduce biases and fluctuations that do not necessarily reflect the enduring preferences of the electorate. By selecting polls from after September, we capture data from a period when voter opinions are more stable and better represent the current state of the race.
 
+```{python}
+#| echo: false
+
+# Load the data (replace with your CSV file path)
+df = pd.read_csv('../data/02-analysis_data/merged_swing_state_data.csv')
+
+# Group by state and calculate summary statistics
+summary_stats = df.groupby('state').agg(
+    numeric_grade_mean=('numeric_grade', 'mean'),
+    numeric_grade_std=('numeric_grade', 'std'),
+    numeric_grade_min=('numeric_grade', 'min'),
+    numeric_grade_max=('numeric_grade', 'max'),
+    numeric_grade_count=('numeric_grade', 'count'),
+    sample_size_mean=('sample_size', 'mean'),
+    sample_size_std=('sample_size', 'std'),
+    sample_size_min=('sample_size', 'min'),
+    sample_size_max=('sample_size', 'max'),
+    sample_size_count=('sample_size', 'count')
+).reset_index()
+
+# Reshape the summary table to long format
+summary_long = pd.melt(
+    summary_stats,
+    id_vars='state',
+    value_vars=[
+        'numeric_grade_mean', 'numeric_grade_std', 'numeric_grade_min', 'numeric_grade_max', 'numeric_grade_count',
+        'sample_size_mean', 'sample_size_std', 'sample_size_min', 'sample_size_max', 'sample_size_count'
+    ],
+    var_name='variable_stat', value_name='value'
+)
+
+# Split 'variable_stat' into 'variable' and 'stat'
+summary_long[['variable', 'stat']] = summary_long['variable_stat'].str.rsplit('_', n=1, expand=True)
+
+# Drop the original column
+summary_long.drop('variable_stat', axis=1, inplace=True)
+
+# Pivot the table to get desired output
+summary_pivot = summary_long.pivot_table(
+    index=['state', 'variable'], columns='stat', values='value', aggfunc='first'
+).reset_index()
+
+# Sort for better readability
+summary_pivot = summary_pivot.sort_values(by=['state', 'variable'])
+
+summary_pivot[['mean', 'std', 'min', 'max']] = summary_pivot[['mean', 'std', 'min', 'max']].round(1)
+
+
+# Create a list of rows for tabulate (merging state rows visually)
+rows = []
+last_state = None
+for _, row in summary_pivot.iterrows():
+    state = row['state']
+    variable = row['variable']
+    mean, std, min_, max_, count = row['mean'], row['std'], row['min'], row['max'], row['count']
+    
+    # Only show state name on the first row of each group
+    if state == last_state:
+        state = ''
+    else:
+        last_state = state
+
+    rows.append([state, variable, mean, std, min_, max_, count])
+
+# Print the table using tabulate
+print(tabulate(rows, headers=['State', 'Variable', 'Mean', 'Std', 'Min', 'Max', 'Count'], tablefmt='fancy_grid'))
+```
 
 
  # 2.2 Variables of Interest
+In our logistic regression model predicting the 2024 U.S. Presidential Election outcome, the primary variables of interest are derived from aggregated state-level polling data. The percentage of respondant favouring a candidate become the key variables for prediction. Within the collection of polls in our sample the independent variable `trump_pct` represents the percentage of respondents who indicate support for Donald Trump , and `harris_pct` respectively.
+Polls ar taking towards the build up of an election and thus ar taken by repondants at different times. Graph  x shows how the sample of polls are distributed over time in which it is clear that we have a collection of polls from a wide range of periods. Because sentiment changes over time we will adjust the weight that we place on polls that are closer to the election as these will be more indicative of how respondants will be voting on the day.
+```{python}
+#| echo: false
+
+# Load your data (replace with your actual data file path)
+data = pd.read_parquet('../data/02-analysis_data/merged_swing_state_data.parquet')
+
+# Ensure date column is in datetime format
+data['end_date'] = pd.to_datetime(data['end_date'])
+
+# Plot the histogram of poll quantity by end date
+plt.figure(figsize=(12, 6))
+plt.hist(data['end_date'], bins=20, edgecolor='black', alpha=0.7)
+
+# Adding labels and title
+plt.xlabel('End Date of Poll')
+plt.ylabel('Number of Polls')
+plt.title('Histogram of Poll Quantity by End Date')
+plt.xticks(rotation=45)
+
+# Show the plot
+plt.tight_layout()
+plt.show()
+
+
+```
+
+Another aspects of the polls we wish to consider is the population size of each. Larger polls result in a stronger reduction in randomness in the response. The larger the sample size the more the response reflects the true population of the state, this is known as the law of large numbers. In table x we can see the variety within the states polls.
+For use in the model the percentages in these polls is weighted for recenecy and size of the population.
+
 
  # 3 Model {#sec-model}
 
@@ -165,7 +269,7 @@ It would also be valuable to study the interaction between polling data and bett
 Ultimately, while our model offers a strong foundation for predicting the 2024 U.S. Presidential Election, there is still much to learn. By refining the model and incorporating additional data, we can move closer to producing predictions that more accurately reflect voter behavior and election outcomes.
 
 # Apendix
-
+(include some detail on how we are getting rid of biass. and focus on how we are spcfically uing stratifid and clustr sampling. how we will reach ou. how we will gt rsponce.)
 
 
 Appendix: Idealized Methodology and Survey for Forecasting the US Presidential Election with Incentivized Betting
@@ -247,6 +351,13 @@ This methodology uses a novel approach to incentivize accurate predictions by al
 
 The survey can be found here:
 https://docs.google.com/forms/d/e/1FAIpQLSc5LYCAd0OmiIc-LHRFUVgVGuSMKzayVWZB7VOrsrDOe5742w/viewform?vc=0&c=0&w=1&flr=0
+
+
+# appndix B 
+say what kind of ampling. 
+reference rsearch on wha the sampling mthod is 
+
+
 # References
 
 
