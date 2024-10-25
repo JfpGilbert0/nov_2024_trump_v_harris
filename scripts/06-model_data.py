@@ -1,12 +1,13 @@
 #### Preamble ####
-# Purpose: Models... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates election polling data
+# Author: Alexander Guarasci & Jacob Gilbert
+# Date: November 4, 2024
+# Contact: alexander.guarasci@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
-
+# Pre-requisites: 
+  # - `pandas` must be installed (pip install polars)
+  # - `numpy` must be installed (pip install numpy)
+  # - `sklearn` must be installed (pip install sklearn)
 
 #### Workspace setup ####
 import pandas as pd
