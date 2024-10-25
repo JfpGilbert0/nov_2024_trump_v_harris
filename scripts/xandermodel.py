@@ -36,9 +36,19 @@ logistic_model.fit(X, y)
 # Predict probabilities of Trump winning
 state_average['predicted_win_prob'] = logistic_model.predict_proba(X)[:, 1]
 
+
 # Output the results
 final_results = state_average[['state', 'trump_pct', 'harris_pct', 'predicted_win_prob']].copy()
 final_results['predicted_win_prob'] = final_results['predicted_win_prob'] * 100  # Convert to percentage
 final_results.columns = ['State', 'Trump %', 'Harris %', 'Percentage Chance of Trump Winning']
 
 print(final_results)
+
+
+
+
+
+
+
+
+
