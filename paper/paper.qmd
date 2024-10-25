@@ -268,7 +268,7 @@ The dataset used in this model is sourced from Project 538, focusing on high-qua
 	•	trump_pct: The percentage of respondents supporting Trump.
 	•	harris_pct: The percentage of respondents supporting Harris.
 	•	sample_size: The size of each poll, which influences the weight of that poll in our analysis.
-	•	end_date: The date when the poll began, which is used to calculate recency.
+	•	start_date: The date when the poll began, which is used to calculate recency.
 
 Weight Calculation
 
@@ -276,13 +276,13 @@ To ensure that more recent and larger polls have a higher influence on the model
 
 Recency Weight:
 
-$\text{recency\_weight} = \max(\text{current\_date} - \text{start\_date}) - (\text{current\_date} - \text{start\_date})$
+$\text{recency weight} = \max(\text{current date} - \text{start date}) - (\text{current date} - \text{start date})$
 
 This transformation ensures that more recent polls receive a larger weight.
 
 Total Weight:
 
-$\text{weight} = \text{sample\_size} \times \text{recency\_weight}$
+$\text{weight} = \text{sample size} \times \text{recency weight}$
 
 
 The weighted polling percentages for Trump and Harris are then calculated for each state, allowing for a more nuanced aggregation of voter sentiment.

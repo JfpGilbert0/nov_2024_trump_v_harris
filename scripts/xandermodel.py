@@ -40,6 +40,7 @@ logistic_model.fit(X, y)
 # Predict probabilities of Trump winning
 state_average['predicted_win_prob'] = logistic_model.predict_proba(X)[:, 1]
 
+
 # Output the results
 final_results = state_average[['state', 'trump_pct_mean', 'trump_pct_sd', 
                                'harris_pct_mean', 'harris_pct_sd',
@@ -59,4 +60,13 @@ final_results = final_results.round(2)
 
 # Print the final table
 print(final_results)
+
+
+
+
+
+
+
+
+
 final_results.to_csv("final_results.csv")
