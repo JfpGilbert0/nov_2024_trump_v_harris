@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
 # Load the cleaned polling data
-clean_poll_data = pd.read_csv("data/02-analysis_data/merged_swing_state_data.parquet")
+clean_poll_data = pd.read_csv("data/02-analysis_data/merged_swing_state_data.csv")
 
 # Create a weight for each poll based on recency and sample size
 # For simplicity, let's assume that the weight is based on the sample size directly
