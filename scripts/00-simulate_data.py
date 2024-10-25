@@ -71,6 +71,4 @@ df = pd.DataFrame(data, columns=[
 print(df.head())
 
 # Save the simulated dataset to a CSV file
-df.to_csv("simulated_polling_data.csv", index=False)
-# Save the simulated dataset to a CSV file
 df.to_csv("data/00-simulated_data/simulated_data.csv", index=False)

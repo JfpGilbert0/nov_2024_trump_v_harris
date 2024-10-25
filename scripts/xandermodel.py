@@ -59,3 +59,4 @@ final_results = final_results.round(2)
 
 # Print the final table
 print(final_results)
+final_results.to_csv("final_results.csv")
