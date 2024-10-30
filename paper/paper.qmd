@@ -35,7 +35,7 @@ The structure of the paper is as follows
 
 # Data {#sec-data}
 
-The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages...
+The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], Sklearn [@Sklearn]...
 
 # 2.1 Measurement
 
@@ -45,10 +45,10 @@ The voter support data used in this analysis comes from raw polling information 
 The polling data is collected through carefully structured survey questions, designed to elicit clear responses regarding voter preferences. By aggregating these individual responses, we are able to derive state-level sentiment for both candidates. This transformation of general voter sentiment into specific data points enables us to analyse the competitive landscape between Trump and Harris across swing states, providing a clearer understanding of electoral dynamics as they relate to the upcoming election.
 
 
-# 2.1 The Dataset
+# 2.2 The Dataset
 
 
-A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @538]. In figure 3 we see the ammount that each party hold according to those sources, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump recieve over 270th electoral votes.
+A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @FiveThirtyEight]. In figure 3 we see the ammount that each party hold according to those sources, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump recieve over 270th electoral votes.
 
 ```{python}
 import matplotlib.pyplot as plt
@@ -207,7 +207,7 @@ print(tabulate(rows, headers=['State', 'Variable', 'Mean', 'Std', 'Min', 'Max', 
 ```
 
 
- # 2.2 Variables of Interest
+# 2.3 Variables of Interest
 In our logistic regression model predicting the 2024 U.S. Presidential Election outcome, the primary variables of interest are derived from aggregated state-level polling data. The percentage of respondant favouring a candidate become the key variables for prediction. Within the collection of polls in our sample the independent variable `trump_pct` represents the percentage of respondents who indicate support for Donald Trump , and `harris_pct` respectively.
 Polls ar taking towards the build up of an election and thus ar taken by repondants at different times. Graph  x shows how the sample of polls are distributed over time in which it is clear that we have a collection of polls from a wide range of periods. Because sentiment changes over time we will adjust the weight that we place on polls that are closer to the election as these will be more indicative of how respondants will be voting on the day.
 ```{python}
@@ -240,12 +240,12 @@ Another aspects of the polls we wish to consider is the population size of each.
 For use in the model the percentages in these polls is weighted for recenecy and size of the population.
 
 
- # 3 Model {#sec-model}
+# 3 Model {#sec-model}
 
  
 This paper develops a logistic regression model to predict the likelihood of Donald Trump winning various states in the upcoming 2024 U.S. Presidential Election based on aggregated polling data. The model leverages polling percentages, recency of the polls, and sample sizes to provide a robust probability estimate of Trump’s chances against Kamala Harris.
 
-Model Overview
+## Model Overview
 
 The model can be expressed mathematically using the logistic function:
 
@@ -255,43 +255,43 @@ $P(Y=1 | X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}$
 
 Where:
 
-•	 $P(Y=1 | X)$  represents the probability of Trump winning (i.e.,  Y=1 ).
-•	 $\beta_0$  is the intercept term.
-•	 $\beta_1$  and  $\beta_2$  are the coefficients for the predictor variables, which include:
-•	 X_1 : The average polling percentage for Trump ( \text{trump\_pct} ).
-•	 X_2 : The average polling percentage for Harris ( \text{harris\_pct} ).
+•	 $P(Y=1 | X)$  represents the probability of Trump winning (i.e.,  Y=1 ). \newline
+•	 $\beta_0$  is the intercept term. \newline
+\newline $\beta_1$  and  $\beta_2$  are the coefficients for the predictor variables, which include: \newline
+•	 X_1 : The average polling percentage for Trump ( \text{trump\_pct} ). \newline
+•	 X_2 : The average polling percentage for Harris ( \text{harris\_pct} ). \newline
 
-Data and Features
+## Data and Features
 
 The dataset used in this model is sourced from Project 538, focusing on high-quality polling data. Key features include:
 
-	•	trump_pct: The percentage of respondents supporting Trump.
-	•	harris_pct: The percentage of respondents supporting Harris.
-	•	sample_size: The size of each poll, which influences the weight of that poll in our analysis.
-	•	start_date: The date when the poll began, which is used to calculate recency.
+•	trump_pct: The percentage of respondents supporting Trump. \newline
+•	harris_pct: The percentage of respondents supporting Harris. \newline
+•	sample_size: The size of each poll, which influences the weight of that poll in our analysis. \newline
+•	start_date: The date when the poll began, which is used to calculate recency. 
 
-Weight Calculation
+## Weight Calculation
 
 To ensure that more recent and larger polls have a higher influence on the model, we calculate a weight for each poll as follows:
 
-Recency Weight:
+### Recency Weight:
 
 $\text{recency weight} = \max(\text{current date} - \text{start date}) - (\text{current date} - \text{start date})$
 
 This transformation ensures that more recent polls receive a larger weight.
 
-Total Weight:
+### Total Weight:
 
 $\text{weight} = \text{sample size} \times \text{recency weight}$
 
 
 The weighted polling percentages for Trump and Harris are then calculated for each state, allowing for a more nuanced aggregation of voter sentiment.
 
-Logistic Regression Implementation
+### Logistic Regression Implementation
 
-The logistic regression model is implemented using the LogisticRegression class from the sklearn library. The predictor variables are defined as:
+The logistic regression model is implemented using the LogisticRegression class from the sklearn library. The predictor variables are defined as: \newline
 
-	•	 X  = [trump_pct, harris_pct]
+•	 X  = [trump_pct, harris_pct]
 
 The binary outcome variable is defined as follows:
 
@@ -302,23 +302,22 @@ Model Validation and Assumptions
 
 The assumptions underlying this model include:
 
-	•	Linearity: The log-odds of the outcome variable are linearly related to the predictor variables.
-	•	Independence: Observations are independent of one another.
+•	Linearity: The log-odds of the outcome variable are linearly related to the predictor variables. \newline
+•	Independence: Observations are independent of one another.
 
-Limitations
+### Limitations
 
-	1.	Polling Bias: The model is contingent upon the quality of the polling data. Polls with lower numeric grades or transparency scores are excluded, potentially introducing bias if high-quality polls are not representative of the entire electorate.
-	2.	Dynamic Voter Sentiment: Voter preferences can change rapidly, particularly in the lead-up to the election, and the model may not fully capture these shifts if not updated frequently.
+1.	Polling Bias: The model is contingent upon the quality of the polling data. Polls with lower numeric grades or transparency scores are excluded, potentially introducing bias if high-quality polls are not representative of the entire electorate. \newline 
+2.	Dynamic Voter Sentiment: Voter preferences can change rapidly, particularly in the lead-up to the election, and the model may not fully capture these shifts if not updated frequently.
 
-Alternative Models Considered
+### Alternative Models Considered
 
-Alternative models, such as Bayesian logistic regression, were considered. While Bayesian models allow for the incorporation of prior distributions and might provide additional insights through credible intervals, they require more complex implementation and careful selection of priors. Given the nature of the data and the objective of clear interpretability, the logistic regression model was chosen for its straightforward application and interpretability.
+Alternative models, such as Bayesian logistic regression, were considered. While Bayesian models allow for the incorporation of prior distributions and might provide additional insights through credible intervals, they require more complex implementation and careful selection of priors. Given the nature of the data and the objective of clear interpretability, the logistic regression model was chosen for its straightforward application and interpretability.\newline
 
-Conclusion
 
-The logistic regression model provides a structured approach to predict the likelihood of Trump winning in various states, based on recent and high-quality polling data. By focusing on key features such as polling percentages and sample sizes, the model captures the competitive dynamics between candidates and offers valuable insights into potential election outcomes. Future iterations of this model can incorporate real-time data updates to enhance predictive accuracy as the election approaches.
+Ultimately the logistic regression model provides a structured approach to predict the likelihood of Trump winning in various states, based on recent and high-quality polling data. By focusing on key features such as polling percentages and sample sizes, the model captures the competitive dynamics between candidates and offers valuable insights into potential election outcomes. Future iterations of this model can incorporate real-time data updates to enhance predictive accuracy as the election approaches.
 
- # 4 Results {#sec-results}
+# 4 Results {#sec-results}
 The results of our analysis are as follows. We have Donald Trump predicted to win Arizona, Georgia and Michigan for a total of 42 of the 93 swing state votes. While Kamala Harris is projected to win Nevada, North Carolina, Pennsylvania and Wisconsin for the remaining 51 swing state votes. This results in a win for the democrats and the first female US president!
 
 
@@ -401,7 +400,7 @@ The proposed $100,000 budget will be distributed as follows:
 ## 6. Question Design and Goal Allignment
 The goal of our survey is to predict who will win the election, this is the research question that guides our survey. In order to achieve this, our questions will be isolate the relevant variables by asking only one thing at a time (ceteris paribus). We will also use item specific scales over agree-disagree formats to avoid acquiescence bias. Furthermore, we will randomize response options in order to mitigate response order bias, and emphasize the surveys anonymity to minimize social desireablity bias. 
 
-This approach, inspired by [@Stantcheva’s guide on survey creation](https://docs.google.com/forms/d/e/1FAIpQLSc5LYCAd0OmiIc-LHRFUVgVGuSMKzayVWZB7VOrsrDOe5742w/viewform?vc=0&c=0&w=1&flr=0), leverages financial incentives to align respondent predictions with their genuine expectations. By combining innovative sampling, incentivized engagement, and rigorous data validation, this methodology aims to bridge the gap between traditional polling and betting market predictions, ultimately enhancing the accuracy of our election forecast.
+This approach, inspired by Stantcheva’s guide on survey creation [@Stantcheva], leverages financial incentives to align respondent predictions with their genuine expectations. By combining innovative sampling, incentivized engagement, and rigorous data validation, this methodology aims to bridge the gap between traditional polling and betting market predictions, ultimately enhancing the accuracy of our election forecast.
 
 # appndix B 
 say what kind of ampling. 
