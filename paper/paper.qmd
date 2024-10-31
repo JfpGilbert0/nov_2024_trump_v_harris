@@ -38,6 +38,7 @@ The structure of the paper is as follows: Section 2 describes the data collectio
 # Data {#sec-data}
 
 The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], Sklearn [@Sklearn]...
+The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], Sklearn [@Sklearn]...
 
 # 2.1 Measurement
 
@@ -380,12 +381,7 @@ It would also be valuable to study the interaction between polling data and bett
 
 Ultimately, while our model offers a strong foundation for predicting the 2024 U.S. Presidential Election, there is still much to learn. By refining the model and incorporating additional data, we can move closer to producing predictions that more accurately reflect voter behavior and election outcomes.
 
-# Apendix
-(include some detail on how we are getting rid of biass. and focus on how we are spcfically uing stratifid and clustr sampling. how we will reach ou. how we will gt rsponce.)
-
-## 1. Sampling Approach
-
-To ensure that our sample represents the diversity of the US electorate and minimizes potential biases, we employ stratified and cluster sampling techniques. With a budget of $100,000, our goal is to gather data from 5,000 respondents, focusing on key swing states while preserving national representativeness. The sample will be stratified by:
+# Appendix A: Idealized Methodology and Survey for Forecasting the US Presidential Election with Incentivized Betting
 
 ## 1. Sampling Approach
 
