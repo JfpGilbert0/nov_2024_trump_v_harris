@@ -432,9 +432,37 @@ The goal of our survey is to predict who will win the election, this is the rese
 
 This approach, inspired by Stantcheva’s guide on survey creation [@Stantcheva], leverages financial incentives to align respondent predictions with their genuine expectations. By combining innovative sampling, incentivized engagement, and rigorous data validation, this methodology aims to bridge the gap between traditional polling and betting market predictions, ultimately enhancing the accuracy of our election forecast.
 
-# appndix B 
-say what kind of ampling. 
-reference rsearch on wha the sampling mthod is 
+# Appendix B: Siena / New York Tims Pennsilvania poll
+
+
+This section will discuss a particular poll from the database of polls used in the above analysis, one made by sienna and the new york times. The New York Times partners with the Siena college in order to carry out political polls throughout the election period, these are often high quality polls according to their rating, likely because the nyt has been doing these polls for a long time. The NYT polls often emphasise a focus on the battleground states and poll then more than others making these very useful in this paper’s analysis. This action will focus on one poll done in Philadelphia, but those in other states follow the same methodology and patterns. This consistency is important for the NYT when they are reporting their results, as it makes comparison around the US viable and reliable. In going over the methodology this appendix aims to understand what about this pollster makes them high quality and what might they leave wanting.
+## Sampling method
+The poll employs a response rate-adjusted stratified sampling method using the L2 voter file, which contains detailed demographic information on registered voters. Initially the interviewee's are selected randomly from a national list of registered voters, response are then weighted. The stratification, often referred to as weighing, is applied to the random sample collected in order to properly reflect the entire demographic. The stratification accounts for:
+- Statehouse district
+- Political party affiliation
+- Race
+- Gender
+- Marital status
+- Household size
+- Turnout history
+- Age
+- Home ownership
+The sampling is conducted in order to address telephone coverage around the state as well as nonresponse rates. Records are selected by state and sampling is separated for Pennsylvania as a whole and its major city Phyladelphia,. The voter file is then ratified and weights are based on historically modelled response ra and coverage.
+
+
+## Collection
+Times/ Siena polls are conducted by telephone, using live interviews. About 96% of interviews were contacted by cellphone, and interviews were conducted in both English and spanish. In the Philadelphia polls occurring between September 11th and 16th, 240,000 calls were made to nearly 118,000 likely voters (https://www.nytimes.com/interactive/2024/09/19/us/politics/times-siena-inquirer-poll-pennsylvania-likely-electorate.html). This high call volume is key to maximising response from all groups. In a further effort to get a good sample additional effort is made to constant under-represented groups, for example people with lower education levels.
+
+## Questionnaire design
+The questions themselves included more than just the information on who a participant would vote on. Followup questions were given either because or regardless of what their previous answers were. One example would be follow up questions for those who answer as “don’t know/ refused” in order to understand some reasoning behind this answer. Those who did select an option also were asked questions to get a clear image of their sentiment or reasoning. The benefit of these additional questions is to bring context to the initial binary question.
+
+## Methodology pros and cons
+The Random contact method in which people are contacted does not provide random sampling, as non-response has made this method on it's own more redundant. (https://hdsr.mitpress.mit.edu/pub/ejk5yhgv#n0xinrk8s1g). This is clearly a factor here as the response rate was below 2%. The inclusion of response rate adjustments accounts for the likelihood that certain groups are more or less likely to respond to surveys, and is an efficient way to counter these issues [@Brick2013Nonresponse]. The stratification also allows for a more representative expectation from the poll ensuring all significant groups are accurately represented in the sample as they are in the population. Making the means generate more accurate. 
+With such low response rates the possibility for risk, in spite of the effort made by the pollster, is that non-response and choice are correlated, this is known as non-response bias. It is not uncommon to assume that non-response should occur at random, especially as this poll documents repeatedly calling each likely voter, however in the case of elections there is previous evidence of a bias. Research into the previous two elections, and the polls proceeding then showed a high probability that non-responders were more likely to vote for Donald Trump, who was the Republican candidate in both 2016 and 2020 [Clinton t al (2021) kennedy et al (2018)]. With Trump running again in 2024, his popularity being underestimated is a distinct possibility, as is mentioned in the Discussion section.
+The benefit of how the survey was taken is the detail added from the additional questions asked, some key questions allow for further stratification based on the answers. For example, survey information is gathered on self-reported likelihood to vote, and obviously this gives respondents answers far more weight if they are. One documented phenomenon worth mentioning is social desirability bias, that people do tend to choose to answer {definition] (cite). This could occur throughout the questionnaire, however it is very likely that respondents overestimate their likelihood to vote (). The pollster’s use of both modelled turnout probabilities based on historical data and self-reporting improves the accuracy of predicting who is likely to vote dramatically. The poll’s use of likely voters still brings some uncertainty to its results, as the results may be impacted by non-voters, however siena/NYT took a methodology that aims to negate this as much as possible. Another benefit of live interviews is that clarification of answers is possible and the additional depth of the data that this provides. Qualitative insights to voters' choices or indecision creates a more robust and significant dataset. By comparison this is far more valuable than a singular binary choice quiz you may see online.
+
+In conclusion, while the pollster's methodology is robust and incorporates several best practices in survey research, inherent challenges such as low response rates and the possibility of nonresponse and social desirability biases must be acknowledged. This poll’s methodology makes great efforts to mitigate these biases through its weighting methods, yet these factors could affect the accuracy of the poll results. Nonetheless, The poll provides valuable insights and remains a useful resource for analysing voter preferences, especially due to its aforementioned weighting strategy. The poll's transparency in methodology makes it an even more reliable resource and enhances the credibility and comparability of the findings. 
+
 
 
 ## what is included in the poll?
