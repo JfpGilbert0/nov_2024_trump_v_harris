@@ -15,7 +15,7 @@ summary_stats = df.groupby('state').agg(
 ).reset_index()
 
 # Round the values to 1 decimal place for neatness
-summary_stats = summary_stats.round(1)
+summary_stats = summary_stats.round(2)
 
 # Display the summary table
 from tabulate import tabulate
