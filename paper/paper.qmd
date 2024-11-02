@@ -54,7 +54,10 @@ The polling data is collected through carefully structured survey questions, des
 A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under his definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin [@nyt_swing, @FiveThirtyEight]. In figure 3 we see the ammount that each party hold according to those sources, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump recieve over 270th electoral votes.
 
 ```{python}
+#| ccho: false
+#| fig-cap: "This figure shows the cumulative total of electoral votes by state, grouped by current party affiliation, accordng to 538. The chart distinguishes between Democrat, Republican, and swing states, with a color-coded fill under each party’s cumulative curve. Key threshold of 270 electoral vote mark needed to secure a victory is diplayed. This visualization shows the democrats lead with 227 votes and the Republicans with 219 vot secured"
 # Define states and electoral votes, ensuring votes are listed in reverse for clarity in plot
+
 states = ["California", "Connecticut", "Delaware", "Hawaii", "Illinois", "Maine", 
           "Maryland", "Massachusetts", "Minnesota", "New Jersey", "New York", "Oregon", 
           "Rhode Island", "Vermont", "Washington", "District of Columbia", "New Mexico", 
@@ -81,13 +84,15 @@ plt.step(x_reversed, cumulative_votes_reversed, where='post', color='red', linew
 # Threshold for filling
 dem_threshold = np.argmax(cumulative_votes >= 227)
 plt.fill_between(x[:dem_threshold + 1], cumulative_votes[:dem_threshold + 1], step='post', color='blue', alpha=0.4)
+threshold_index = np.argmax(cumulative_votes >= 219)
+plt.fill_between(x_reversed[:threshold_index + 5], cumulative_votes_reversed[:threshold_index + 5], step='post', color='red', alpha=0.4)
 
 # Adding threshold line and markers
 plt.axhline(270, color='purple', linestyle='--', linewidth=2)
 plt.text(len(states) / 2, 275, '270 votes to win', horizontalalignment='center', color='purple', fontsize=12)
 plt.xlabel('Electoral College by State', fontsize=12)
 plt.ylabel('Total Votes', fontsize=12)
-plt.title('Cumulative Electoral Votes by State', fontsize=15)
+plt.title('Cumulative Electoral Votes by State', fontsize=25)
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.show()
@@ -101,8 +106,9 @@ We use this single measurement out of 3 to ensure the integrity of our analysis.
 In keeping with this aim, we focused our analysis on polls conducted after September. Early in the election cycle, polls can be significantly influenced by initial campaign events, such as the shocks from the first debates or unexpected changes in the candidate lineup, for example Biden dropping out as a candidate on July 21st. These factors can introduce biases and fluctuations that do not necessarily reflect the enduring preferences of the electorate. By selecting polls from after September, we capture data from a period when voter opinions are more stable and better represent the current state of the race.
 
 ```{python}
-#| echo: false
 
+#| echo: false
+#| fig-cap: "Summary statistics of key sample variabls by state. Shows high sampl size and numeric grade among all polls of swing states."
 # Load the data (replace with your CSV file path)
 df = pd.read_csv('../data/02-analysis_data/merged_swing_state_data.csv')
 
@@ -131,8 +137,9 @@ summary_long = pd.melt(
     var_name='variable_stat', value_name='value'
 )
 
-# Split 'variable_stat' into 'variable' and 'stat'
+# Rename elements
 summary_long[['variable', 'stat']] = summary_long['variable_stat'].str.rsplit('_', n=1, expand=True)
+summary_long['variable'] = summary_long['variable'].str.replace('_', ' ', regex=False).str.title()
 
 # Drop the original column
 summary_long.drop('variable_stat', axis=1, inplace=True)
@@ -165,15 +172,16 @@ for _, row in summary_pivot.iterrows():
     rows.append([state, variable, mean, std, min_, max_, count])
 
 # Print the table using tabulate
-print(tabulate(rows, headers=['State', 'Variable', 'Mean', 'Std', 'Min', 'Max', 'Count'], tablefmt='fancy_grid'))
+print(tabulate(rows, headers=['State', 'Variable', 'Mean', 'Std', 'Min', 'Max', 'Count'], tablefmt='simple_grid'))
 ```
-
+**Table 1: Summary statistics of key sample variabls by state. Shows high sampl size and numeric grade among all polls of swing states.**
 
 # 2.3 Variables of Interest
 In our logistic regression model predicting the 2024 U.S. Presidential Election outcome, the primary variables of interest are derived from aggregated state-level polling data. The percentage of respondant favouring a candidate become the key variables for prediction. Within the collection of polls in our sample the independent variable `trump_pct` represents the percentage of respondents who indicate support for Donald Trump , and `harris_pct` respectively.
 Polls ar taking towards the build up of an election and thus ar taken by repondants at different times. Graph  x shows how the sample of polls are distributed over time in which it is clear that we have a collection of polls from a wide range of periods. Because sentiment changes over time we will adjust the weight that we place on polls that are closer to the election as these will be more indicative of how respondants will be voting on the day.
 ```{python}
 #| echo: false
+#| fig-cap: "A histogram of the poll quantities, aggregated by the end date of each poll, shows the distribution of polling data over time. This chart reveals the frequency of polls leading up to the election and provides insight into polling activity trends, with potential spikes reflecting periods of increased public interest or campaign activity."
 
 # Load data (use an accurate path or dataset)
 data = pd.read_parquet('../data/02-analysis_data/merged_swing_state_data.parquet')
@@ -183,7 +191,7 @@ plt.figure(figsize=(12, 6))
 plt.hist(data['end_date'], bins=20, edgecolor='black', alpha=0.7)
 plt.xlabel('Poll End Date')
 plt.ylabel('Poll Count')
-plt.title('Poll Distribution Over Time')
+plt.title('Poll Distribution Over Time', fontsize=25)
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
@@ -273,45 +281,41 @@ Alternative models, such as Bayesian logistic regression, were considered. While
 
 Ultimately the logistic regression model provides a structured approach to predict the likelihood of Trump winning in various states, based on recent and high-quality polling data. By focusing on key features such as polling percentages and sample sizes, the model captures the competitive dynamics between candidates and offers valuable insights into potential election outcomes. Future iterations of this model can incorporate real-time data updates to enhance predictive accuracy as the election approaches.
 
- # 4 Results {#sec-results}
- ## Regression results
+# 4 Results {#sec-results}
+## Regression results
 
- ```{Python}
+```{python}
 #| echo: false
-
-import pandas as pd
-from tabulate import tabulate
-
 # Data setup
 data = {
     'State': ['Arizona', 'Georgia', 'Michigan', 'Nevada', 'North Carolina', 'Pennsylvania', 'Wisconsin'],
-    'Trump % (Mean)': [49.85, 49.39, 48.57, 47.9, 48.48, 47.68, 47.76],
-    'Trump % (SD)': [1.24, 1.78, 2.14, 1.5, 1.41, 1.81, 2.0],
-    'Harris % (Mean)': [47.04, 47.66, 47.72, 48.63, 48.58, 48.53, 48.92],
-    'Harris % (SD)': [2.17, 2.52, 2.12, 1.19, 1.55, 1.29, 1.72],
-    'Percentage Chance of Trump Winning': [86.85, 71.18, 53.09, 21.34, 32.31, 19.67, 15.52]
+    'Trump %': [49.85, 49.39, 48.57, 47.9, 48.48, 47.68, 47.76],
+    'Trump SD': [1.24, 1.78, 2.14, 1.5, 1.41, 1.81, 2.0],
+    'Harris %': [47.04, 47.66, 47.72, 48.63, 48.58, 48.53, 48.92],
+    'Harris SD': [2.17, 2.52, 2.12, 1.19, 1.55, 1.29, 1.72],
+    'Trump Winning %': [86.85, 71.18, 53.09, 21.34, 32.31, 19.67, 15.52]
 }
 
 # Create DataFrame
 df = pd.DataFrame(data)
 
 # Display as a professional table
-table_output = tabulate(
+print(tabulate(
     df, headers='keys', tablefmt='grid', showindex=False,
     floatfmt=(".2f", ".2f", ".2f", ".2f", ".2f", ".2f")
-)
-print(table_output)
+))
 
 ```
+**Table 2: Results table for the model describd above. Show support fo trump and Kamala at the stat level accordng to avalable polls. Small standard dviation show strong results, yet the rac is very close in many states. Percentages above 50% show the favoured candidate in each state.**
 
-in figure xx we cans see th results from the model described. 
+in figure xx we cans see the results from the model described. 
 
 In Arizona and Georgia, the model predicts the strongest likelihood of a Trump victory, with a mean polling percentage showing Trump over 2 percentage points ahead in Arizona. In Georgia, Trump's mean polling percentage is 49.39% against Harris's 47.66%.The data is thus resulting in an strong 86.85% and and 71.18% likelyhood in Trump winning in Arizona and Georgia respectively.
 Trump is also predicted to win in Michigan, alhough by smaller margins as shown in figure xx. As a rssult the model predicts trump winning with only a 53% chance. With Arizona, Georgia and Michigan Trump is predicted a total of 42 of the 93 swing state votes.
 
 ```{python}
 #| echo: false
-
+#| fig-cap: "A centered bar chart where each state has a bar reflecting Trump’s probability of winning. The bars extend to the right or left from the center line at 50%, with the distance representing the magnitude of deviation from an even chance. This chart visualizes Trump’s relative strength in each swing state and highlights that he s only favoured in Georgia and Arizona."
 # Data setup (can adjust based on model results)
 data = {
     'State': ['Arizona', 'Georgia', 'Michigan', 'Nevada', 'North Carolina', 'Pennsylvania', 'Wisconsin'],
@@ -330,7 +334,7 @@ colors = ['red' if x > 0 else 'blue' for x in df['Distance from 50%']]
 ax.barh(df['State'], df['Distance from 50%'], color=colors)
 ax.axvline(0, color='black')
 ax.set_xlabel('Distance from 50% (Trump Winning Probability)')
-ax.set_title('Probability of Trump Win, Centered from 50%')
+ax.set_title('Probability of Trump Win in swing states, Centered from 50%', fontsize=25)
 plt.tight_layout()
 plt.show()
 
@@ -367,11 +371,11 @@ Another important consideration is the possible biases in both polling and betti
 
 ## Weaknesses of the Model
 
-While our model provides a structured framework for predicting the election, it has several limitations. First, the model is based on polling data available far in advance of the election, meaning there is a high degree of uncertainty, and the model may not fully capture late shifts in public opinion or external shocks (e.g., economic downturns or scandals). Additionally, the use of linear modeling may oversimplify the complex dynamics of voter behavior, as elections often involve non-linear influences that are difficult to predict.
+While our model provides a structured framework for predicting the election, it has several limitations. First, the model is based on polling data available far in advance of the election, meaning there is a high degree of uncertainty, and the model may not fully capture late shifts in public opinion or external shocks (e.g., economic downturns or scandals). As polling results are based on public opinion, large shock events are likely and expected, moreover scheduled events such as debates and rallies can be expected to have large impacts on the election that cannot be modeled here. Additionally, the use of linear modeling may oversimplify the complex dynamics of voter behavior, as elections often involve nonlinear influences that are difficult to predict.
 
 Moreover, our focus on swing states limits the model’s applicability to the national picture. While swing states are crucial to the election outcome, non-swing states could offer additional insights into broader voter trends, and including them in future analyses could enhance the model’s robustness. Training the model on a more comprehensive dataset that includes these states and other predictive variables, such as demographic factors or economic indicators, could lead to a more accurate forecast.
 
-
+Candidate Trump’s low likelihood of winning shown by our results may under-represent his support, this claim is supported by the disparity with the betting markets. This could be a result of a common problem with polling data, response rate bias. In the previous two elections, where Donald Trump was also the republican candidate, his polling was far below the eventual results on election day. Post-mortems of both elections indicated evidence of those supporting Trump not participating in polls and thus under-presenting Republican support Clinton t al (2021) kennedy et al (2018)]. Should this trend continue, and be present in the polls used in this analysis, it may be expected that Trump could surprise the model and win some of these swing states. Another reason Trump could outperform the model is another bias often seen in surveys, one of social desirability. Trump is a unique candidate as, if elected, he would become the first president to be elected with federal crime conviction. This along with other negative publicity the former host of tv’s apprentice has garnered since the start of his political campaign could bias voters from publicly or privately showing their support. Even with the quality polls used in this analysis, where steps are taken to ensure representative results(see appendix B), we could be observing a skew in the results.
 
 ## How Should We Proceed in the Future?
 
