@@ -1,8 +1,8 @@
 import pandas as pd
 from tabulate import tabulate
 
-# Load the data (replace with your CSV file path)
-df = pd.read_csv('data/02-analysis_data/merged_swing_state_data.csv')
+# Load the data (replace with your parquet file path)
+df = pd.read_parquet('data/02-analysis_data/merged_swing_state_data.parquet')
 
 # Group by state and calculate summary statistics
 summary_stats = df.groupby('state').agg(

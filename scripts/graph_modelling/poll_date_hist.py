@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv("data/02-analysis_data/swing_state_polls.csv")  # Replace with your file path
+data = pd.read_parquet("data/02-analysis_data/swing_state_polls.parquet")  # Replace with your file path
 
 # Convert the end_date to datetime for plotting
 data['end_date'] = pd.to_datetime(data['end_date'])

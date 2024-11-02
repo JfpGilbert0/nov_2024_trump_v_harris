@@ -109,8 +109,8 @@ In keeping with this aim, we focused our analysis on polls conducted after Septe
 
 #| echo: false
 #| fig-cap: "Summary statistics of key sample variabls by state. Shows high sampl size and numeric grade among all polls of swing states."
-# Load the data (replace with your CSV file path)
-df = pd.read_csv('../data/02-analysis_data/merged_swing_state_data.csv')
+
+df = pd.read_parquet('../data/02-analysis_data/merged_swing_state_data.parquet')
 
 # Group by state and calculate summary statistics
 summary_stats = df.groupby('state').agg(

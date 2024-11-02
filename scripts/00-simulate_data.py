@@ -70,5 +70,5 @@ df = pd.DataFrame(data, columns=[
 # Display the first few rows of the simulated dataset
 print(df.head())
 
-# Save the simulated dataset to a CSV file
-df.to_csv("data/00-simulated_data/simulated_data.csv", index=False)
+# Save the simulated dataset to a parquet file
+df.to_parquet("data/00-simulated_data/simulated_data.parquet", index=False)

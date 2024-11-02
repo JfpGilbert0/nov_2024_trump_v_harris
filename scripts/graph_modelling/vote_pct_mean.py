@@ -1,8 +1,7 @@
 import pandas as pd
 
 # Assuming df is your DataFrame with the relevant data
-# Replace 'path_to_your_csv' with the actual path if reading from CSV
-# df = pd.read_csv('path_to_your_csv')
+
 
 df = pd.read_parquet('data/02-analysis_data/merged_swing_state_data.parquet')
 

@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the merged swing state polling data
-data_path = "data/02-analysis_data/merged_swing_state_data.csv"
-df = pd.read_csv(data_path)
+data_path = "data/02-analysis_data/merged_swing_state_data.parquet"
+df = pd.read_parquet(data_path)
 
 # Convert date columns to datetime format
 df['start_date'] = pd.to_datetime(df['start_date'])

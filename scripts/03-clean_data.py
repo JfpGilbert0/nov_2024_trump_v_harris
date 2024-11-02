@@ -63,7 +63,7 @@ print(df_swing['unique_id'].nunique())
 
 print(df_swing["numeric_grade"].min())
 # save raw swing stat data
-df_swing.to_parquet("data/02-analysis_data/swing_state_polls.csv")
+df_swing.to_parquet("data/02-analysis_data/swing_state_polls.parquet")
 
 #creating data to be analysed (grouping by )
 df_trump = df_swing[df_swing['candidate_name'] == "Donald Trump"]

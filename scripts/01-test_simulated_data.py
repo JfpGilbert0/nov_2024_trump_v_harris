@@ -12,7 +12,7 @@ import pandas as pd
 import unittest
 
 # Load the simulated dataset
-df = pd.read_csv("simulated_polling_data.csv")
+df = pd.read_parquet("simulated_polling_data.parquet")
 
 class TestSimulatedPollingData(unittest.TestCase):
 
