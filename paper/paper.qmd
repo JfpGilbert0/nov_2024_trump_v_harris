@@ -9,7 +9,7 @@ execute:
 format: pdf
 fig-pos: "H"
 abstract: |
- "This paper develops a predictive model for the 2024 U.S. Presidential Election, analyzing state-level polling data to forecast outcomes between Donald Trump and Kamala Harris. Using logistic regression, the model estimates the likelihood of Trump’s success in swing states by weighting polls based on recency and sample size. Findings indicate that Harris has a higher probability of winning in most swing states, though close margins suggest targeted campaign efforts could alter outcomes in pivotal areas. This analysis provides insight into electoral dynamics, highlighting how data-driven approaches can clarify potential election outcomes and inform strategic political decision-making."
+ This paper develops a predictive model for the 2024 U.S. Presidential Election, analyzing state-level polling data to forecast outcomes between Donald Trump and Kamala Harris. Using logistic regression, the model estimates the likelihood of Trump’s success in swing states by weighting polls based on recency and sample size. Findings indicate that Harris has a higher probability of winning in most swing states, though close margins suggest targeted campaign efforts could alter outcomes in pivotal areas. This analysis provides insight into electoral dynamics, highlighting how data-driven approaches can clarify potential election outcomes and inform strategic political decision-making.
 ---
 
 ```{python}
@@ -21,41 +21,34 @@ from tabulate import tabulate
 import numpy as np
 ```
 
-# 1 Introduction
+# Introduction
+This paper develops a predictive model for the 2024 US Presidential Election using state-level polling data to forecast the likely winner between Donald Trump and Kamala Harris, focusing on swing states that will likely decide the election result. By aggregating high-quality polls that account for recency and sample size, we create a logistic regression model that estimates the probability of a Trump victory in each state. This approach allows us to analyze voter support patterns across the states and predict election outcomes from polling data.
 
-This paper develops a predictive model for the 2024 US Presidential Election using state-level polling data to forecast the likely winner between Donald Trump and Kamala Harris, focusing on swing states that will likly decide th elections result. By aggregating high-quality polls that account for recency and sample size, we create a logistic regression model that estimates the probability of a Trump's victory in each state. This approach allows us to analyze voter support patterns across the states and predict election outcomes from polling data.
-
-The estimand in this study is the probability that Donald Trump wins a given state, derived from aggregated state-level polling averages. The binary outcome variable in our model indicates whether Trump (1) or Harris (0) is predicted to win in each state, with predictor variables comprising the weighted average polling percentages for both candidates. We assign greater importance to more recent polls and those with larger sample sizes, enhancing the reliability of our estimates.
+The estimand in this study is the probability that Donald Trump will win a given state, derived from aggregated state-level polling averages. The binary outcome variable in our model indicates whether Trump (1) or Harris (0) is predicted to win in each state, with predictor variables comprising the weighted average polling percentages for both candidates. We assign greater importance to more recent polls and those with larger sample sizes, enhancing the reliability of our estimates.
 
 Our model employs a logistic regression framework to predict election outcomes based on these weighted averages. The results reveal the geographic distribution of support for each candidate. We have focused our analysis on the swing states where polling percentages are closely contested and could significantly influence the final election result.
-
 Accurate election predictions provide valuable insights into voter dynamics, helping political analysts, campaigns, and the public anticipate electoral outcomes. By focusing on high-quality polling data and incorporating weights for recency and sample size, our model enhances prediction reliability and identifies key regions where voter sentiment may shift, ultimately impacting the election.
-
 
 The structure of the paper is as follows: Section 2 describes the data collection process, detailing the sources, variables of interest, and criteria for selecting high-quality polls. Section 3 introduces the logistic regression model used for prediction, explaining the variables, weights, and methodology applied to forecast the election outcome. In Section 4, we present and analyze the model’s predictions, highlighting the probabilities of candidate success across key states. Section 5 discusses the model’s implications, limitations, and the observed contrasts between polling data.
 
 # Data {#sec-data}
-
-The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], Sklearn [@Sklearn]...
-The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], Sklearn [@Sklearn]...
+The data used in this paper was gathered from FiveThirtyEight [@FiveThirtyEight] a website that aims to use "data and evidence to advance public knowledge". The programming language for data analysis, visualization and statistical investigation was Python [@Python] along with the packages Matplot [@Matplot], Seaborn [@Seaborn], Numpy [@Numpy], Pandas [@Pandas], Jupyter [@Jupyter], Tabulate [@Tabulate], and Sklearn [@Sklearn].
 
 # 2.1 Measurement
+The voter support data used in this analysis comes from raw polling information sourced from the Project 538 online database [@FiveThirtyEight]. This dataset provides predictions for candidate support for the 2024 U.S. Presidential Election by aggregating various polls that capture public sentiment toward candidates Donald Trump and Kamala Harris. Each entry in the dataset corresponds to a specific question about voting preference in a poll conducted by different polling organizations, which measures the percentage of respondents expressing their support for each candidate in their respective state. the surveys utilized one or multiple of the following methods for response gathering: Online Ad, Online Panel, Live Phone, text-to-web, mail-to-web, email, Probability panel, IVR. The diversity of the methods of collection supplies a colourful array of polls capturing all facets of voters.
 
-
-The voter support data used in this analysis comes from raw polling information sourced from the Project 538 online database [@FiveThirtyEight]. This dataset provides predictions for candidate support for the 2024 U.S. Presidential Election by aggregating various polls that capture public sentiment towards candidates Donald Trump and Kamala Harris. Each entry in the dataset corresponds to a specific question around voting preference in a poll conducted by different polling organisations, which measure the percentage of respondents expressing their support for each candidate in their respective state. the surveys utilized one or multiple of the following method for rsponse gathering: Online Ad, Online Panel, Live Phone, text-to-web, mail-to-web, email, Probability panel, IVR. The diversity of the methods of collection supplies for a colorful array of polls capturing all facets of voters.
- 
 The polling data is collected through carefully structured survey questions, designed to elicit clear responses regarding voter preferences. By aggregating these individual responses, we are able to derive state-level sentiment for both candidates. This transformation of general voter sentiment into specific data points enables us to analyze the competitive landscape between Trump and Harris across swing states, providing a clearer understanding of electoral dynamics as they relate to the upcoming election.
 
-
 # 2.2 The Dataset
+A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under this definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state-level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin; determined to be swing states in 2024 [@nyt_swing, @FiveThirtyEight]. In @Fig-1 we see the current distribution of electoral votes that each party hold according to those sources as of October 20th, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump receives over 270th electoral votes.
 
-
-A swing state in the context of a US election is defined as "a state where the number of Democratic and Republican voters is about the same, that has an important influence on the result of the election of the United States President". States that do not fall under this definition are not likely to "swing" to another party as we approach the election, and thus their outcome can be reasonably assumed. Thus the election result is normally decided by which party wins just a handful of states in the electoral college system. By concentrating on these swing states, we aim to capture the most critical and uncertain areas of the electoral map, where voter preferences are most likely to sway the final result. Thus our analysis restricts the datasets to state level polls in the following states: Arizona, Pennsylvania, North Carolina, Georgia, Nevada, Michigan, and Wisconsin; dtermined to be swing states in 2024 [@nyt_swing, @FiveThirtyEight]. In figure 1 we see the current distribution of electoral votes that each party hold according to those sources as of October 20th, with the remaining swing states, seen in the middle of this graph set to determine if either Harris or Trump recieve over 270th electoral votes. 
 
 ```{python}
 #| ccho: false
+#| label: Fig-1
 #| fig-cap: "This figure shows the cumulative total of electoral votes by state, grouped by current party affiliation, accordng to 538. The chart distinguishes between Democrat, Republican, and swing states, with a color-coded fill under each party’s cumulative curve. Key threshold of 270 electoral vote mark needed to secure a victory is diplayed. This visualization shows the democrats lead with 227 votes and the Republicans with 219 vot secured"
 # Define states and electoral votes, ensuring votes are listed in reverse for clarity in plot
+
 
 states = ["California", "Connecticut", "Delaware", "Hawaii", "Illinois", "Maine", 
           "Maryland", "Massachusetts", "Minnesota", "New Jersey", "New York", "Oregon", 
@@ -100,14 +93,17 @@ plt.show()
 ```
 
 
-It’s important to note that each pollster employs unique sampling techniques and methodologies that influence their Pollscore and Transparency Score. Pollscore is a measure of a pollster's historical accuracy, reflecting the quality of their sampling methods and data collection. a good score reflecting low propensity to be impacted by errors and biases that can occur in survey sampling. It also accounts for impacts that might bias a survey's score, such as adjustmenting for the differing difficulty of polling certain political races or elements of luck in samples by resampling polls. Transparency Score, on the other hand, measures how openly a pollster shares methodological details like question wording, sampling methods, and weighting procedures. By combining these two metrics into a single star rating, we achieve an excellent overall assessment of a pollster's quality, capturing both their empirical accuracy and their commitment to methodological transparency.
-We use this single measurement out of 3 to ensure the integrity of our analysis. Selecting only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher.  This approach is used so that the data reflects a robust and credible representation of voter preferences.
+It is important to note that each pollster employs unique sampling techniques and methodologies that influence their Pollscore and Transparency Score. Pollscore is a measure of a pollster's historical accuracy, reflecting the quality of their sampling methods and data collection. A good score reflects low propensity to be impacted by errors and biases in survey sampling. It also accounts for impacts that might bias a survey's score, such as adjustments for the differing difficulty of polling certain political races or elements of luck in samples by resampling polls. Transparency Score, on the other hand, measures how openly a pollster shares methodological details like question-wording, sampling methods, and weighting procedures. By combining these two metrics into a rating, we achieve an excellent overall assessment of a pollster's quality, capturing both their empirical accuracy and their commitment to methodological transparency.
 
-In keeping with this aim, we focused our analysis on polls conducted after September. Early in the election cycle, polls can be significantly influenced by initial campaign events, such as the shocks from the first debates or unexpected changes in the candidate lineup, for example Biden dropping out as a candidate on July 21st. These factors can introduce biases and fluctuations that do not necessarily reflect the enduring preferences of the electorate. By selecting polls from after September, we capture data from a period when voter opinions are more stable and better represent the current state of the race.
+We use this single measurement out of 3 to ensure the integrity of our analysis. Selecting only those polls that originate from reputable pollsters, specifically targeting those with a numeric grade of 2.5 or higher. This approach is used so that the data reflects a robust and credible representation of voter preferences.
+
+In keeping with this aim, we focused our analysis on polls conducted after September. Early in the election cycle, polls can be significantly influenced by initial campaign events, such as the shocks from the first debates or unexpected changes in the candidate lineup. For example, Joe Biden dropping out as a candidate on July 21st severely impacted the odds of a Kamala Harris victory. These factors can introduce biases and fluctuations that do not necessarily reflect the enduring preferences of the electorate. By selecting polls from after September, we capture data from a period when voter opinions are more stable and better represent the current state of the race.
+
 
 ```{python}
 
 #| echo: false
+#| label: Fig-2
 #| fig-cap: "Summary statistics of key sample variabls by state. Shows high sampl size and numeric grade among all polls of swing states."
 
 df = pd.read_parquet('../data/02-analysis_data/merged_swing_state_data.parquet')
@@ -177,10 +173,13 @@ print(tabulate(rows, headers=['State', 'Variable', 'Mean', 'Std', 'Min', 'Max', 
 **Table 1: Summary statistics of key sample variabls by state. Shows high sampl size and numeric grade among all polls of swing states.**
 
 # 2.3 Variables of Interest
-In our logistic regression model predicting the 2024 U.S. Presidential Election outcome, the primary variables of interest are derived from aggregated state-level polling data. The percentage of respondant favouring a candidate become the key variables for prediction. Within the collection of polls in our sample the independent variable `trump_pct` represents the percentage of respondents who indicate support for Donald Trump , and `harris_pct` respectively.
-Polls ar taking towards the build up of an election and thus ar taken by repondants at different times. Figur 2 shows how the sample of polls are distributed over time in which it is clear that we have a collection of polls from a wide range of periods. Because sentiment changes over time we will adjust the weight that we place on polls that are closer to the election as these will be more indicative of how respondants will be voting on the day.
+In our logistic regression model predicting the 2024 U.S. Presidential Election outcome, the primary variables of interest are derived from aggregated state-level polling data. The percentage of respondents favouring a candidate is the key variable used for prediction. Within the collection of polls in our sample, the independent variable `trump_pct` represents the percentage of respondents who indicate support for Donald Trump, and `harris_pct` respectively.
+
+Polls are taken towards the build-up of an election and thus are taken by respondents at different times. @Fig-2 shows how the sample of polls are distributed over time in which it is clear that we have a collection of polls from a wide range of periods. Because sentiment changes over time we adjust the weight that we place on polls that are closer to the election as these are more indicative of how respondents will be voting on the day.
+
 ```{python}
 #| echo: false
+#| label: Fig-3
 #| fig-cap: "A histogram of the poll quantities, aggregated by the end date of each poll, shows the distribution of polling data over time. This chart reveals the frequency of polls leading up to the election and provides insight into polling activity trends, with potential spikes reflecting periods of increased public interest or campaign activity."
 
 # Load data (use an accurate path or dataset)
@@ -285,6 +284,7 @@ Ultimately the logistic regression model provides a structured approach to predi
 
 ```{python}
 #| echo: false
+#| label: Fig-4
 # Data setup
 data = {
     'State': ['Arizona', 'Georgia', 'Michigan', 'Nevada', 'North Carolina', 'Pennsylvania', 'Wisconsin'],
@@ -313,6 +313,7 @@ Trump is also predicted to win in Michigan, although by smaller margins as shown
 
 ```{python}
 #| echo: false
+#| label: Fig-5
 #| fig-cap: "A centered bar chart where each state has a bar reflecting Trump’s probability of winning. The bars extend to the right or left from the center line at 50%, with the distance representing the magnitude of deviation from an even chance. This chart visualizes Trump’s relative strength in each swing state and highlights that he s only favoured in Georgia and Arizona."
 # Data setup (can adjust based on model results)
 data = {
