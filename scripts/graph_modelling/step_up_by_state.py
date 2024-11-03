@@ -59,7 +59,6 @@ plt.axhline(270, color='purple', linestyle='--', linewidth=2)
 plt.text(len(states) / 2, 275, '270 votes to win', horizontalalignment='center', color='purple', fontsize=12)
 
 # Add lines for current Democratic and Republican thresholds
-plt.axhline(225, color='blue', linestyle='--', linewidth=1.5)
 plt.text(210, 220, '225 votes', horizontalalignment='center', color='blue', fontsize=12)
 
 # Add Labels and Title
