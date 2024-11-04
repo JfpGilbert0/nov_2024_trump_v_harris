@@ -1,5 +1,6 @@
 ---
-title: "Election 2024"
+title: "Predicting the 2024 U.S. Presidential Election: A Data-Driven Analysis of Swing State Outcomes"
+subtitle: "Forecast Model Suggests Harris as the Probable Winner of the majority of swing states"
 author: "Alexander Guarasci & Jacob Gilbert"
 date: today
 date-format: long
@@ -475,7 +476,7 @@ The questions themselves included more than just the information on who a partic
 
 ## Methodology pros and cons
 
-The Random contact method in which people are contacted does not provide random sampling, as non-response has made this method on its own more redundant. (@bailey2023new). This is clearly a factor here as the response rate was below 2%. The inclusion of response rate adjustments accounts for the likelihood that certain groups are more or less likely to respond to surveys, and is an efficient way to counter these issues (@Brick2013Nonresponse). The stratification also allows for a more representative expectation from the poll ensuring all significant groups are accurately represented in the sample as they are in the population (@Kish1965Survey), Making the means generated more accurate.
+The Random contact method in which people are contacted does not provide random sampling, as non-response has made this method on its own more redundant. (@bailey2023new). This is clearly a factor here as the response rate was below 2%. The inclusion of response rate adjustments accounts for the likelihood that certain groups are more or less likely to respond to surveys, and is an efficient way to counter these issues (@brick2013Nonresponse). The stratification also allows for a more representative expectation from the poll ensuring all significant groups are accurately represented in the sample as they are in the population (@Kish1965Survey), Making the means generated more accurate.
 
 With such low response rates the possibility for risk, in spite of the effort made by the pollster, is that non-response and choice are correlated, this is known as non-response bias. It is not uncommon to assume that non-response should occur at random, especially as this poll documents repeatedly calling each likely voter, however in the case of elections there is previous evidence of a bias. Research into the previous two elections and the polls proceeding then showed a high probability that non-responders were more likely to vote for Donald Trump, who was the Republican candidate in both 2016 and 2020 (@clinton2021task, @kennedy2018evaluation). With Trump running again in 2024, his popularity being underestimated is a distinct possibility, as is mentioned in the discussion section.
 
