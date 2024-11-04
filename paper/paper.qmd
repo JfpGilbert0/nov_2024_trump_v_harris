@@ -606,6 +606,7 @@ The goal of our survey is to predict who will win the election, this is the rese
 
 This approach, inspired by Stantcheva’s guide on survey creation [@Stantcheva], leverages financial incentives to align respondent predictions with their genuine expectations. By combining innovative sampling, incentivized engagement, and rigorous data validation, this methodology aims to bridge the gap between traditional polling and betting market predictions, ultimately enhancing the accuracy of our election forecast.
 
+This survey can be found at: https://docs.google.com/forms/d/e/1FAIpQLSc5LYCAd0OmiIc-LHRFUVgVGuSMKzayVWZB7VOrsrDOe5742w/viewform?vc=0&c=0&w=1&flr=0
 
 \newpage
 
