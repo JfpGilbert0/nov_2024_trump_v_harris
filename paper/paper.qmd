@@ -343,7 +343,7 @@ plt.show()
 
 ```
 
-Kamala is predicted to win the remaining states and is given fairly high chances of locking these up. despite only winning Nevada, North Carolina and Pennsylvania by under a percentage point in the model Kamala's probability of winning those electoral votes is very high. This is due to the small standard deviations shown in @Tab-2 making the predicted outcome of a victory more secure.
+Kamala is predicted to win the remaining states and is given fairly high chances of locking these up. despite only winning Nevada, North Carolina and Pennsylvania by under a percentage point in the model Kamala's probability of winning those electoral votes is very high. This is due to the small standard deviations shown in @Fig-5 making the predicted outcome of a victory more secure.
 
 Wisconsin is shown to be her strongest and most likely victory of the swing states, with Trump only having a 15% chance here.
 
@@ -389,7 +389,7 @@ Ultimately, while our model offers a strong foundation for predicting the 2024 U
 
 # Appendix A: Idealized Methodology and Survey for Forecasting the US Presidential Election with Incentivized Betting
 
-## 1. Sampling Approach
+## Sampling Approach
 
 To ensure that our sample represents the diversity of the US electorate and minimizes potential biases, we employ stratified and cluster sampling techniques. With a budget of $100,000, our goal is to gather data from 5,000 respondents, focusing on key swing states while preserving national representativeness. The sample will be stratified by:
 
@@ -401,7 +401,7 @@ To ensure that our sample represents the diversity of the US electorate and mini
 
 To address geographic and political biases, cluster sampling will target diverse regions within each state (urban, suburban, and rural areas), capturing the variation in political leanings. Additionally, we will soft-launch the survey in order to catch potential issues.
 
-## 2. Recruitment of Respondents
+## Recruitment of Respondents
 
 Respondents will be recruited through a multi-channel outreach strategy that combines online and telephone efforts to ensure a representative sample:
 
@@ -413,7 +413,7 @@ Respondents will be recruited through a multi-channel outreach strategy that com
 
 A betting pool is a central part of this methodology, with $50,000 allocated as rewards for respondents who accurately predict the election outcome. Each participant will receive a $10 allowance to bet on their predicted winner (Trump or Harris), with payouts based on live odds, creating a direct incentive for respondents to make thoughtful, informed predictions. The purpose of this is twofold, it aims to minimize the attrition of the respondents, so that more people complete the survey, and it also will provide us insight into who people think will win rather than just who people want to win. Ideally, the purpose of this is so that people take into consideration who their friends, family, and their community, are expecting to win.
 
-## 3. Data Validation and Bias Reduction
+## Data Validation and Bias Reduction
 
 To further reduce biases, several measures will be implemented for data validation and weighting:
 
@@ -421,7 +421,7 @@ To further reduce biases, several measures will be implemented for data validati
 
 - **Weighting**: Data will be weighted to reflect broader population demographics, adjusting for any imbalances in representation across age, race, gender, and geographic factors. This ensures that the results better mirror the entire electorate.
 
-## 4. Poll Aggregation
+## Poll Aggregation
 
 Data collected through this survey will be aggregated with other national and state-level surveys to improve accuracy. The aggregation process will account for:
 
@@ -429,7 +429,7 @@ Data collected through this survey will be aggregated with other national and st
 
 - **Pollster Reliability**: Historical poll accuracy and transparency scores will further inform the weight of each poll.
 
-## 5. Budget Allocation
+## Budget Allocation
 
 The proposed $100,000 budget will be distributed as follows:
 
@@ -443,7 +443,7 @@ The proposed $100,000 budget will be distributed as follows:
 
 - **Modeling**: $10,000 for analyzing and forecasting based on aggregated data.
 
-## 6. Question Design and Goal Alignment
+## Question Design and Goal Alignment
 The goal of our survey is to predict who will win the election, this is the research question that guides our survey. In order to achieve this, our questions will isolate the relevant variables by asking only one thing at a time (ceteris paribus). We will also use item-specific scales over agree-disagree formats to avoid acquiescence bias. Furthermore, we will randomize response options in order to mitigate response order bias and emphasize the survey's anonymity to minimize social desirability bias.
 
 This approach, inspired by Stantcheva’s guide on survey creation [@Stantcheva], leverages financial incentives to align respondent predictions with their genuine expectations. By combining innovative sampling, incentivized engagement, and rigorous data validation, this methodology aims to bridge the gap between traditional polling and betting market predictions, ultimately enhancing the accuracy of our election forecast.
